@@ -1,0 +1,6 @@
+[submodule "doxygen-awesome-css"]
+	path = doxygen-awesome-css
+	url = https://github.com/jothepro/doxygen-awesome-css.git
+[submodule "CommonLibSSE"]
+	path = CommonLibSSE
+	url = https://github.com/Exit-9B/CommonLibSSE.git
