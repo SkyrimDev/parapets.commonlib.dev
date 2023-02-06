@@ -1,6 +1,6 @@
-## CommonLibSSE
+## CommonLibSSE (Parapets)
 
-This API documentation for [Parapet](https://github.com/Exit-9B)'s fork of `CommonLibSSE`:
+This API documentation for [Parapets](https://github.com/Exit-9B)'s fork of `CommonLibSSE`:
 
 https://github.com/Exit-9B/CommonLibSSE
 
