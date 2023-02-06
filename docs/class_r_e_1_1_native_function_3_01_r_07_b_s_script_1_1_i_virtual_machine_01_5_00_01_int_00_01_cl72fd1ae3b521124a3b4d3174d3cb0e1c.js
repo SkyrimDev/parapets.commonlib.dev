@@ -1,0 +1,6 @@
+var class_r_e_1_1_native_function_3_01_r_07_b_s_script_1_1_i_virtual_machine_01_5_00_01_int_00_01_cl72fd1ae3b521124a3b4d3174d3cb0e1c =
+[
+    [ "base_type", "class_r_e_1_1_native_function_3_01_r_07_b_s_script_1_1_i_virtual_machine_01_5_00_01_int_00_01_cl72fd1ae3b521124a3b4d3174d3cb0e1c.html#a7a6db303981b9b46d7dd60fe381ee999", null ],
+    [ "function_type", "class_r_e_1_1_native_function_3_01_r_07_b_s_script_1_1_i_virtual_machine_01_5_00_01_int_00_01_cl72fd1ae3b521124a3b4d3174d3cb0e1c.html#a987abb238ec27ffd4804a2ec116b8cc8", null ],
+    [ "result_type", "class_r_e_1_1_native_function_3_01_r_07_b_s_script_1_1_i_virtual_machine_01_5_00_01_int_00_01_cl72fd1ae3b521124a3b4d3174d3cb0e1c.html#a8390264afbe3a58e5f138adef7c69cd6", null ]
+];
