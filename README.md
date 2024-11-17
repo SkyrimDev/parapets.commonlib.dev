@@ -4,6 +4,10 @@ This API documentation for [Parapets](https://github.com/Exit-9B)'s fork of `Com
 
 https://github.com/Exit-9B/CommonLibSSE
 
+> Last Updated: TIMESTAMP_PLACEHOLDER
+>
+> Git revision: https://github.com/Exit-9B/CommonLibSSE/commit/COMMIT_SHA_PLACEHOLDER
+
 # Parapets
 
 **GitHub**: https://github.com/Exit-9B/CommonLibSSE
@@ -78,5 +82,5 @@ Created by [Mrowr Purr](https://github.com/mrowrpurr/) `<3`
 > Do you have a version of CommonLibSSE which other developers use?
 >
 > Do you want a generated website like this one? _Feel free to reach out!_
-> 
+>
 > **THANK YOU TO ALL CommonLibSSE CONTRIBUTORS IN THE COMMUNITY 🎈**
