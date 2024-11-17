@@ -1,34 +1,103 @@
 var dir_163e3353a784cefd6b0d1d610a083e73 =
 [
-    [ "Calendar.h", "_calendar_8h.html", "_calendar_8h" ],
-    [ "CFilter.h", "_c_filter_8h.html", "_c_filter_8h" ],
-    [ "Character.h", "_character_8h.html", "_character_8h" ],
-    [ "ChestsLooted.h", "_chests_looted_8h.html", "_chests_looted_8h" ],
-    [ "Clouds.h", "_clouds_8h.html", "_clouds_8h" ],
-    [ "CodeTasklet.h", "_code_tasklet_8h.html", "_code_tasklet_8h" ],
-    [ "CollisionLayers.h", "_collision_layers_8h.html", "_collision_layers_8h" ],
-    [ "Color.h", "_color_8h.html", "_color_8h" ],
-    [ "CombatGroupDetectionListener.h", "_combat_group_detection_listener_8h.html", "_combat_group_detection_listener_8h" ],
-    [ "CommandTable.h", "_command_table_8h.html", "_command_table_8h" ],
-    [ "CommonTypeTraits.h", "_common_type_traits_8h.html", "_common_type_traits_8h" ],
-    [ "CompactingStore.h", "_compacting_store_8h.html", "_compacting_store_8h" ],
-    [ "CompiledScriptLoader.h", "_compiled_script_loader_8h.html", "_compiled_script_loader_8h" ],
-    [ "ConcreteFormFactory.h", "_concrete_form_factory_8h.html", "_concrete_form_factory_8h" ],
-    [ "ConcreteObjectFormFactory.h", "_concrete_object_form_factory_8h.html", "_concrete_object_form_factory_8h" ],
-    [ "ConeProjectile.h", "_cone_projectile_8h.html", "_cone_projectile_8h" ],
-    [ "Console.h", "_console_8h.html", "_console_8h" ],
-    [ "ConsoleData.h", "_console_data_8h.html", "_console_data_8h" ],
-    [ "ConsoleLog.h", "_console_log_8h.html", "_console_log_8h" ],
-    [ "ConsoleNativeUIMenu.h", "_console_native_u_i_menu_8h.html", "_console_native_u_i_menu_8h" ],
-    [ "ConstructibleObjectMenu.h", "_constructible_object_menu_8h.html", "_constructible_object_menu_8h" ],
-    [ "ContainerItemExtra.h", "_container_item_extra_8h.html", "_container_item_extra_8h" ],
-    [ "ContainerMenu.h", "_container_menu_8h.html", "_container_menu_8h" ],
-    [ "ControlMap.h", "_control_map_8h.html", "_control_map_8h" ],
-    [ "CraftingMenu.h", "_crafting_menu_8h.html", "_crafting_menu_8h" ],
-    [ "CraftingSubMenu.h", "_crafting_sub_menu_8h.html", "_crafting_sub_menu_8h" ],
-    [ "CRC.h", "_c_r_c_8h.html", "_c_r_c_8h" ],
-    [ "CreationClubMenu.h", "_creation_club_menu_8h.html", "_creation_club_menu_8h" ],
-    [ "CreditsMenu.h", "_credits_menu_8h.html", "_credits_menu_8h" ],
-    [ "Crime.h", "_crime_8h.html", "_crime_8h" ],
-    [ "CursorMenu.h", "_cursor_menu_8h.html", "_cursor_menu_8h" ]
+    [ "Calendar.h", "Calendar_8h.html", [
+      [ "Calendar", "classRE_1_1Calendar.html", "classRE_1_1Calendar" ],
+      [ "Days", "structRE_1_1Calendar_1_1Days.html", "structRE_1_1Calendar_1_1Days" ],
+      [ "Months", "structRE_1_1Calendar_1_1Months.html", "structRE_1_1Calendar_1_1Months" ]
+    ] ],
+    [ "CCallback.h", "CCallback_8h.html", "CCallback_8h" ],
+    [ "CFilter.h", "CFilter_8h.html", "CFilter_8h" ],
+    [ "Character.h", "Character_8h.html", [
+      [ "Character", "classRE_1_1Character.html", "classRE_1_1Character" ],
+      [ "RecordFlags", "structRE_1_1Character_1_1RecordFlags.html", "structRE_1_1Character_1_1RecordFlags" ]
+    ] ],
+    [ "CharEvent.h", "CharEvent_8h.html", [
+      [ "CharEvent", "classRE_1_1CharEvent.html", "classRE_1_1CharEvent" ]
+    ] ],
+    [ "ChestsLooted.h", "ChestsLooted_8h.html", [
+      [ "ChestsLooted", "structRE_1_1ChestsLooted.html", "structRE_1_1ChestsLooted" ],
+      [ "Event", "structRE_1_1ChestsLooted_1_1Event.html", null ]
+    ] ],
+    [ "Clouds.h", "Clouds_8h.html", [
+      [ "Clouds", "classRE_1_1Clouds.html", "classRE_1_1Clouds" ]
+    ] ],
+    [ "CodeTasklet.h", "CodeTasklet_8h.html", [
+      [ "CodeTasklet", "classRE_1_1BSScript_1_1Internal_1_1CodeTasklet.html", "classRE_1_1BSScript_1_1Internal_1_1CodeTasklet" ]
+    ] ],
+    [ "CollisionLayers.h", "CollisionLayers_8h.html", "CollisionLayers_8h" ],
+    [ "Color.h", "Color_8h.html", [
+      [ "Color", "structRE_1_1Color.html", "structRE_1_1Color" ]
+    ] ],
+    [ "CombatGroupDetectionListener.h", "CombatGroupDetectionListener_8h.html", [
+      [ "CombatGroupDetectionListener", "classRE_1_1CombatGroupDetectionListener.html", "classRE_1_1CombatGroupDetectionListener" ]
+    ] ],
+    [ "CombatUtilities.h", "CombatUtilities_8h.html", "CombatUtilities_8h" ],
+    [ "CommandEffect.h", "CommandEffect_8h.html", [
+      [ "CommandEffect", "classRE_1_1CommandEffect.html", "classRE_1_1CommandEffect" ]
+    ] ],
+    [ "CommandTable.h", "CommandTable_8h.html", "CommandTable_8h" ],
+    [ "CommonTypeTraits.h", "CommonTypeTraits_8h.html", "CommonTypeTraits_8h" ],
+    [ "CompactingStore.h", "CompactingStore_8h.html", [
+      [ "Store", "classRE_1_1CompactingStore_1_1Store.html", "classRE_1_1CompactingStore_1_1Store" ]
+    ] ],
+    [ "CompiledScriptLoader.h", "CompiledScriptLoader_8h.html", [
+      [ "CompiledScriptLoader", "classRE_1_1BSScript_1_1CompiledScriptLoader.html", "classRE_1_1BSScript_1_1CompiledScriptLoader" ]
+    ] ],
+    [ "ConcreteFormFactory.h", "ConcreteFormFactory_8h.html", [
+      [ "ConcreteFormFactory", "classRE_1_1ConcreteFormFactory.html", "classRE_1_1ConcreteFormFactory" ]
+    ] ],
+    [ "ConcreteObjectFormFactory.h", "ConcreteObjectFormFactory_8h.html", [
+      [ "ConcreteObjectFormFactory", "classRE_1_1ConcreteObjectFormFactory.html", "classRE_1_1ConcreteObjectFormFactory" ]
+    ] ],
+    [ "ConeProjectile.h", "ConeProjectile_8h.html", [
+      [ "ConeProjectile", "classRE_1_1ConeProjectile.html", "classRE_1_1ConeProjectile" ],
+      [ "RecordFlags", "structRE_1_1ConeProjectile_1_1RecordFlags.html", "structRE_1_1ConeProjectile_1_1RecordFlags" ]
+    ] ],
+    [ "Console.h", "Console_8h.html", [
+      [ "Console", "classRE_1_1Console.html", "classRE_1_1Console" ]
+    ] ],
+    [ "ConsoleData.h", "ConsoleData_8h.html", [
+      [ "ConsoleData", "classRE_1_1ConsoleData.html", "classRE_1_1ConsoleData" ]
+    ] ],
+    [ "ConsoleLog.h", "ConsoleLog_8h.html", [
+      [ "ConsoleLog", "classRE_1_1ConsoleLog.html", "classRE_1_1ConsoleLog" ]
+    ] ],
+    [ "ConsoleNativeUIMenu.h", "ConsoleNativeUIMenu_8h.html", [
+      [ "ConsoleNativeUIMenu", "classRE_1_1ConsoleNativeUIMenu.html", "classRE_1_1ConsoleNativeUIMenu" ]
+    ] ],
+    [ "ConstructibleObjectMenu.h", "ConstructibleObjectMenu_8h.html", [
+      [ "ConstructibleObjectMenu", "classRE_1_1CraftingSubMenus_1_1ConstructibleObjectMenu.html", "classRE_1_1CraftingSubMenus_1_1ConstructibleObjectMenu" ],
+      [ "CreationConfirmCallback", "classRE_1_1CraftingSubMenus_1_1ConstructibleObjectMenu_1_1CreationConfirmCallback.html", "classRE_1_1CraftingSubMenus_1_1ConstructibleObjectMenu_1_1CreationConfirmCallback" ],
+      [ "ItemEntry", "structRE_1_1CraftingSubMenus_1_1ConstructibleObjectMenu_1_1ItemEntry.html", "structRE_1_1CraftingSubMenus_1_1ConstructibleObjectMenu_1_1ItemEntry" ]
+    ] ],
+    [ "ContainerItemExtra.h", "ContainerItemExtra_8h.html", [
+      [ "ContainerItemExtra", "structRE_1_1ContainerItemExtra.html", "structRE_1_1ContainerItemExtra" ],
+      [ "Conditional", "unionRE_1_1ContainerItemExtra_1_1Conditional.html", "unionRE_1_1ContainerItemExtra_1_1Conditional" ]
+    ] ],
+    [ "ContainerMenu.h", "ContainerMenu_8h.html", [
+      [ "ContainerMenu", "classRE_1_1ContainerMenu.html", "classRE_1_1ContainerMenu" ]
+    ] ],
+    [ "ControlMap.h", "ControlMap_8h.html", [
+      [ "ControlMap", "classRE_1_1ControlMap.html", "classRE_1_1ControlMap" ],
+      [ "UserEventMapping", "structRE_1_1ControlMap_1_1UserEventMapping.html", "structRE_1_1ControlMap_1_1UserEventMapping" ],
+      [ "InputContext", "structRE_1_1ControlMap_1_1InputContext.html", "structRE_1_1ControlMap_1_1InputContext" ],
+      [ "LinkedMapping", "structRE_1_1ControlMap_1_1LinkedMapping.html", "structRE_1_1ControlMap_1_1LinkedMapping" ]
+    ] ],
+    [ "CraftingMenu.h", "CraftingMenu_8h.html", [
+      [ "CraftingMenu", "classRE_1_1CraftingMenu.html", "classRE_1_1CraftingMenu" ]
+    ] ],
+    [ "CraftingSubMenu.h", "CraftingSubMenu_8h.html", [
+      [ "CraftingSubMenu", "classRE_1_1CraftingSubMenus_1_1CraftingSubMenu.html", "classRE_1_1CraftingSubMenus_1_1CraftingSubMenu" ]
+    ] ],
+    [ "CRC.h", "CRC_8h.html", "CRC_8h" ],
+    [ "CreationClubMenu.h", "CreationClubMenu_8h.html", [
+      [ "CreationClubMenu", "classRE_1_1CreationClubMenu.html", "classRE_1_1CreationClubMenu" ]
+    ] ],
+    [ "CreditsMenu.h", "CreditsMenu_8h.html", [
+      [ "CreditsMenu", "classRE_1_1CreditsMenu.html", "classRE_1_1CreditsMenu" ]
+    ] ],
+    [ "Crime.h", "Crime_8h.html", "Crime_8h" ],
+    [ "CursorMenu.h", "CursorMenu_8h.html", [
+      [ "CursorMenu", "classRE_1_1CursorMenu.html", "classRE_1_1CursorMenu" ]
+    ] ]
 ];

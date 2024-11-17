@@ -1,20 +1,63 @@
 var dir_592b998d9fbdd9026960e7a8c924e625 =
 [
-    [ "LevelUpMenu.h", "_level_up_menu_8h.html", "_level_up_menu_8h" ],
-    [ "LinkerProcessor.h", "_linker_processor_8h.html", "_linker_processor_8h" ],
-    [ "LoadingMenu.h", "_loading_menu_8h.html", "_loading_menu_8h" ],
-    [ "LoadWaitSpinner.h", "_load_wait_spinner_8h.html", "_load_wait_spinner_8h" ],
-    [ "LocalMapCamera.h", "_local_map_camera_8h.html", "_local_map_camera_8h" ],
-    [ "LocalMapMenu.h", "_local_map_menu_8h.html", "_local_map_menu_8h" ],
-    [ "Location.h", "_location_8h.html", "_location_8h" ],
-    [ "LocationTraverser.h", "_location_traverser_8h.html", "_location_traverser_8h" ],
-    [ "LocationTree.h", "_location_tree_8h.html", "_location_tree_8h" ],
-    [ "LockpickingMenu.h", "_lockpicking_menu_8h.html", "_lockpicking_menu_8h" ],
-    [ "LogEvent.h", "_log_event_8h.html", "_log_event_8h" ],
-    [ "Logger.h", "_r_e_2_l_2_logger_8h.html", "_r_e_2_l_2_logger_8h" ],
-    [ "LoggingDisabler.h", "_logging_disabler_8h.html", null ],
-    [ "LookHandler.h", "_look_handler_8h.html", "_look_handler_8h" ],
-    [ "LooseFileLocation.h", "_loose_file_location_8h.html", "_loose_file_location_8h" ],
-    [ "LooseFileStream.h", "_loose_file_stream_8h.html", "_loose_file_stream_8h" ],
-    [ "LooseFileStreamBase.h", "_loose_file_stream_base_8h.html", "_loose_file_stream_base_8h" ]
+    [ "LegendarySkillResetConfirmCallback.h", "LegendarySkillResetConfirmCallback_8h.html", [
+      [ "LegendarySkillResetConfirmCallback", "classRE_1_1LegendarySkillResetConfirmCallback.html", "classRE_1_1LegendarySkillResetConfirmCallback" ]
+    ] ],
+    [ "LevelUpMenu.h", "LevelUpMenu_8h.html", [
+      [ "LevelUpMenu", "classRE_1_1LevelUpMenu.html", "classRE_1_1LevelUpMenu" ]
+    ] ],
+    [ "LinkerProcessor.h", "LinkerProcessor_8h.html", [
+      [ "LinkerProcessor", "classRE_1_1BSScript_1_1LinkerProcessor.html", "classRE_1_1BSScript_1_1LinkerProcessor" ]
+    ] ],
+    [ "LoadedAreaBound.h", "LoadedAreaBound_8h.html", [
+      [ "LoadedAreaBound", "classRE_1_1LoadedAreaBound.html", "classRE_1_1LoadedAreaBound" ]
+    ] ],
+    [ "LoadingMenu.h", "LoadingMenu_8h.html", [
+      [ "LoadingMenu", "classRE_1_1LoadingMenu.html", "classRE_1_1LoadingMenu" ]
+    ] ],
+    [ "LoadWaitSpinner.h", "LoadWaitSpinner_8h.html", [
+      [ "LoadWaitSpinner", "classRE_1_1LoadWaitSpinner.html", "classRE_1_1LoadWaitSpinner" ]
+    ] ],
+    [ "LocalMapCamera.h", "LocalMapCamera_8h.html", [
+      [ "LocalMapCamera", "classRE_1_1LocalMapCamera.html", "classRE_1_1LocalMapCamera" ],
+      [ "DefaultState", "classRE_1_1LocalMapCamera_1_1DefaultState.html", "classRE_1_1LocalMapCamera_1_1DefaultState" ]
+    ] ],
+    [ "LocalMapMenu.h", "LocalMapMenu_8h.html", [
+      [ "LocalMapMenu", "structRE_1_1LocalMapMenu.html", "structRE_1_1LocalMapMenu" ],
+      [ "LocalMapCullingProcess", "structRE_1_1LocalMapMenu_1_1LocalMapCullingProcess.html", "structRE_1_1LocalMapMenu_1_1LocalMapCullingProcess" ],
+      [ "Data", "structRE_1_1LocalMapMenu_1_1LocalMapCullingProcess_1_1Data.html", "structRE_1_1LocalMapMenu_1_1LocalMapCullingProcess_1_1Data" ],
+      [ "InputHandler", "classRE_1_1LocalMapMenu_1_1InputHandler.html", "classRE_1_1LocalMapMenu_1_1InputHandler" ]
+    ] ],
+    [ "Location.h", "Location_8h.html", [
+      [ "Location", "classRE_1_1BSResource_1_1Location.html", "classRE_1_1BSResource_1_1Location" ]
+    ] ],
+    [ "LocationTraverser.h", "LocationTraverser_8h.html", [
+      [ "LocationTraverser", "classRE_1_1BSResource_1_1LocationTraverser.html", "classRE_1_1BSResource_1_1LocationTraverser" ]
+    ] ],
+    [ "LocationTree.h", "LocationTree_8h.html", [
+      [ "LocationTree", "classRE_1_1BSResource_1_1LocationTree.html", "classRE_1_1BSResource_1_1LocationTree" ]
+    ] ],
+    [ "LockpickingMenu.h", "LockpickingMenu_8h.html", [
+      [ "LockpickingMenu", "classRE_1_1LockpickingMenu.html", "classRE_1_1LockpickingMenu" ]
+    ] ],
+    [ "LogEvent.h", "LogEvent_8h.html", [
+      [ "LogEvent", "structRE_1_1BSScript_1_1LogEvent.html", "structRE_1_1BSScript_1_1LogEvent" ]
+    ] ],
+    [ "Logger.h", "RE_2L_2Logger_8h.html", [
+      [ "Logger", "classRE_1_1SkyrimScript_1_1Logger.html", "classRE_1_1SkyrimScript_1_1Logger" ]
+    ] ],
+    [ "LoggingDisabler.h", "LoggingDisabler_8h.html", null ],
+    [ "LookHandler.h", "LookHandler_8h.html", [
+      [ "LookHandler", "structRE_1_1LookHandler.html", "structRE_1_1LookHandler" ]
+    ] ],
+    [ "LooseFileLocation.h", "LooseFileLocation_8h.html", [
+      [ "BSSystemDir", "structRE_1_1BSResource_1_1BSSystemDir.html", "structRE_1_1BSResource_1_1BSSystemDir" ],
+      [ "LooseFileLocation", "classRE_1_1BSResource_1_1LooseFileLocation.html", "classRE_1_1BSResource_1_1LooseFileLocation" ]
+    ] ],
+    [ "LooseFileStream.h", "LooseFileStream_8h.html", [
+      [ "LooseFileStream", "classRE_1_1BSResource_1_1LooseFileStream.html", "classRE_1_1BSResource_1_1LooseFileStream" ]
+    ] ],
+    [ "LooseFileStreamBase.h", "LooseFileStreamBase_8h.html", [
+      [ "LooseFileStreamBase", "structRE_1_1BSResource_1_1LooseFileStreamBase.html", "structRE_1_1BSResource_1_1LooseFileStreamBase" ]
+    ] ]
 ];

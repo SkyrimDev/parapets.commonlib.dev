@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['xmfloat4x4_0',['XMFLOAT4X4',['../struct_r_e_1_1_direct_x_1_1_x_m_f_l_o_a_t4_x4.html',1,'RE::DirectX']]]
+  ['xinput_5fgamepad_33112',['XINPUT_GAMEPAD',['../structRE_1_1XInput_1_1XINPUT__GAMEPAD.html',1,'RE::XInput']]],
+  ['xinput_5fstate_33113',['XINPUT_STATE',['../structRE_1_1XInput_1_1XINPUT__STATE.html',1,'RE::XInput']]],
+  ['xinput_5fvibration_33114',['XINPUT_VIBRATION',['../structRE_1_1XInput_1_1XINPUT__VIBRATION.html',1,'RE::XInput']]],
+  ['xmfloat4x4_33115',['XMFLOAT4X4',['../structRE_1_1DirectX_1_1XMFLOAT4X4.html',1,'RE::DirectX']]]
 ];

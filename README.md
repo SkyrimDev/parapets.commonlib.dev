@@ -4,9 +4,9 @@ This API documentation for [Parapets](https://github.com/Exit-9B)'s fork of `Com
 
 https://github.com/Exit-9B/CommonLibSSE
 
-> Last Updated: TIMESTAMP_PLACEHOLDER
+> Last Updated: 2024-11-17 06:50:24 UTC
 >
-> Git revision: https://github.com/Exit-9B/CommonLibSSE/commit/COMMIT_SHA_PLACEHOLDER
+> Git revision: https://github.com/Exit-9B/CommonLibSSE/commit/28b2fb0
 
 # Parapets
 

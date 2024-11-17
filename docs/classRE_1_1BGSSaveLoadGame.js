@@ -1,0 +1,35 @@
+var classRE_1_1BGSSaveLoadGame =
+[
+    [ "GlobalFlags", "classRE_1_1BGSSaveLoadGame.html#a82c62e24330637ebc120f7db953625d6", [
+      [ "kAllowChanges", "classRE_1_1BGSSaveLoadGame.html#a82c62e24330637ebc120f7db953625d6a7d768e9c6ec755e05d39845e2e240a06", null ],
+      [ "kSaveGameLoading", "classRE_1_1BGSSaveLoadGame.html#a82c62e24330637ebc120f7db953625d6acb17d02014efc2c485072d46625a09e9", null ],
+      [ "kSaveGameSaving", "classRE_1_1BGSSaveLoadGame.html#a82c62e24330637ebc120f7db953625d6a2bef86e844805bb16f7836b0cb05ad4c", null ],
+      [ "kInitingForms", "classRE_1_1BGSSaveLoadGame.html#a82c62e24330637ebc120f7db953625d6ab984bb4b0bbadc5ed8ee76a2e1493ea6", null ],
+      [ "kDeferInitForms", "classRE_1_1BGSSaveLoadGame.html#a82c62e24330637ebc120f7db953625d6aab0010135fdb2e38f23621b619042958", null ],
+      [ "kPositioningPlayerCharacter", "classRE_1_1BGSSaveLoadGame.html#a82c62e24330637ebc120f7db953625d6a413017179422e3426fbf08024e508201", null ],
+      [ "kPlayerLocationInvalid", "classRE_1_1BGSSaveLoadGame.html#a82c62e24330637ebc120f7db953625d6ac7481e9b05484ca16ee91b347d9087bf", null ]
+    ] ],
+    [ "GetDeferInitForms", "classRE_1_1BGSSaveLoadGame.html#a978dd170249ec8ef6d53a698be6be80c", null ],
+    [ "GetGlobalAllowChanges", "classRE_1_1BGSSaveLoadGame.html#ae6d394a4ed08600c325a506d032fe733", null ],
+    [ "GetInitingForms", "classRE_1_1BGSSaveLoadGame.html#a68e5e9a5b1a7a95de7d89504ddc87b16", null ],
+    [ "GetPositioningPlayerCharacter", "classRE_1_1BGSSaveLoadGame.html#a1a4e67d3851bd72e6082c65139c3a8b1", null ],
+    [ "GetSaveGameLoading", "classRE_1_1BGSSaveLoadGame.html#a6821a8c4224abbd55b2f7c2455a2de17", null ],
+    [ "GetSaveGameSaving", "classRE_1_1BGSSaveLoadGame.html#aa1931232e03bf0e688994bd68d6c9aed", null ],
+    [ "GetSingleton", "classRE_1_1BGSSaveLoadGame.html#a81e861696831cd93daa0bd310fef15a1", null ],
+    [ "changedFormIDs", "classRE_1_1BGSSaveLoadGame.html#a94b9a2d14def09e22283875359177a85", null ],
+    [ "changesMap", "classRE_1_1BGSSaveLoadGame.html#a084a2834bcbf7ac60da59ea4204278c3", null ],
+    [ "currentMinorVersion", "classRE_1_1BGSSaveLoadGame.html#af70273d971eb61cbcf641d9ff8ae86c1", null ],
+    [ "files", "classRE_1_1BGSSaveLoadGame.html#a6e93c4db4fdb04db919fb6f1bdcb491a", null ],
+    [ "formIDMap", "classRE_1_1BGSSaveLoadGame.html#af3e4e82632bc5460c936913014c5f89f", null ],
+    [ "globalFlags", "classRE_1_1BGSSaveLoadGame.html#a1d686957a5008c9f46bc3fe24bbe40d8", null ],
+    [ "history", "classRE_1_1BGSSaveLoadGame.html#a79a58ee25f648a8366c8d75264169034", null ],
+    [ "loadFormData", "classRE_1_1BGSSaveLoadGame.html#a07a6f4b04831c744b4acd4e7b2d51340", null ],
+    [ "oldChangesMap", "classRE_1_1BGSSaveLoadGame.html#aa9eb2507c6daeff2b1daccfc00e4c257", null ],
+    [ "pad345", "classRE_1_1BGSSaveLoadGame.html#afa1812bdef8aad2a3ba78ff70d7f3aae", null ],
+    [ "pad346", "classRE_1_1BGSSaveLoadGame.html#ab8ccd7886fc9a4ee63002481b742887b", null ],
+    [ "queuedInitPackageLocations", "classRE_1_1BGSSaveLoadGame.html#adb9af94083df9b50bcdcda0d4827efd5", null ],
+    [ "queuedSubBuffers", "classRE_1_1BGSSaveLoadGame.html#a27f999791d59890f4674ec33fffa6f80", null ],
+    [ "reconstructFormsMap", "classRE_1_1BGSSaveLoadGame.html#a018eb7a35672f54d8c9115fe85d7830b", null ],
+    [ "references", "classRE_1_1BGSSaveLoadGame.html#a80a04a3ca24705346dbe7bad0bedade1", null ],
+    [ "worldspaceFormIDMap", "classRE_1_1BGSSaveLoadGame.html#a005491aba8764f3121599a01d91ad135", null ]
+];

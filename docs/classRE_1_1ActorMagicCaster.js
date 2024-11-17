@@ -1,0 +1,26 @@
+var classRE_1_1ActorMagicCaster =
+[
+    [ "~ActorMagicCaster", "classRE_1_1ActorMagicCaster.html#a25ef788bbbe92b845c35d0d5a26e2cf9", null ],
+    [ "Update", "classRE_1_1ActorMagicCaster.html#aae4d219dce8489c2c6857a1f3dcf0d3d", null ],
+    [ "actorCasterType", "classRE_1_1ActorMagicCaster.html#ad969b35c567bb94a098bebba76efcfb8", null ],
+    [ "casterRace", "classRE_1_1ActorMagicCaster.html#ad588b257109d2e633966059dc8d8582f", null ],
+    [ "effectController", "classRE_1_1ActorMagicCaster.html#ab4113b234bf241328344e527d1dea93d", null ],
+    [ "effectLight", "classRE_1_1ActorMagicCaster.html#abb7ed4c09c9f6034a14de5bc567dc685", null ],
+    [ "effectNode", "classRE_1_1ActorMagicCaster.html#aa3b3a38d358376efb607d6b93db5aeaa", null ],
+    [ "fireNode", "classRE_1_1ActorMagicCaster.html#ae794370ec5e390acc109dc870eaf68aa", null ],
+    [ "havokWorld", "classRE_1_1ActorMagicCaster.html#ad7c0995b4bfc91b2448a21ed7b8ee0aa", null ],
+    [ "owner", "classRE_1_1ActorMagicCaster.html#a3727ec483cd62720b16ac9bc85fb2163", null ],
+    [ "RTTI", "classRE_1_1ActorMagicCaster.html#a0726b68ff90b19e894292dc3700f18b5", null ],
+    [ "unk68", "classRE_1_1ActorMagicCaster.html#a481eff88ba84378546a85a78d8e931e2", null ],
+    [ "unk70", "classRE_1_1ActorMagicCaster.html#ad328cd60533b2be5b181e10de268ef6f", null ],
+    [ "unk80", "classRE_1_1ActorMagicCaster.html#a0a5b7ae4edcf13b28639cea0c9aeee9a", null ],
+    [ "unk88", "classRE_1_1ActorMagicCaster.html#ab38a63bf78819bf7ee0a2bdc47b0265b", null ],
+    [ "unkA0", "classRE_1_1ActorMagicCaster.html#a3bd794a4b454083f28172247bd060307", null ],
+    [ "unkA8", "classRE_1_1ActorMagicCaster.html#a6ffe3e022231c6f50b2194f6230c85e1", null ],
+    [ "unkB0", "classRE_1_1ActorMagicCaster.html#ace759e8758290d583040bd5e104e51c0", null ],
+    [ "unkD0", "classRE_1_1ActorMagicCaster.html#a55af1e883f9e200714f4dfc64647892b", null ],
+    [ "unkD8", "classRE_1_1ActorMagicCaster.html#a1b009519f816f960ed89d0c8bdb2984a", null ],
+    [ "unkE0", "classRE_1_1ActorMagicCaster.html#a9565fcf198b49bcde7671aef5181062f", null ],
+    [ "unkF0", "classRE_1_1ActorMagicCaster.html#a9fb76de600fbc5002b83d602ddba3751", null ],
+    [ "unkF8", "classRE_1_1ActorMagicCaster.html#aa58bb5def7d2d4aa877007476e201035", null ]
+];
