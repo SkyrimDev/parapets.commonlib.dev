@@ -194,12 +194,20 @@ var namespaceRE_1_1Offset =
       [ "TargetReference", "namespaceRE_1_1Offset_1_1BookMenu.html#ac8178aee4328f421c4a53da8894c0df7", null ]
     ] ],
     [ "BSAudioManager", "namespaceRE_1_1Offset_1_1BSAudioManager.html", [
-      [ "BuildSoundDataFromDescriptor", "namespaceRE_1_1Offset_1_1BSAudioManager.html#a0242ac856d521df2af70d6a3e5e54bbc", null ],
-      [ "BuildSoundDataFromDescriptor", "namespaceRE_1_1Offset_1_1BSAudioManager.html#a88aa0fec0b7fe508a9afa71ba67dc65c", null ],
-      [ "GetSingleton", "namespaceRE_1_1Offset_1_1BSAudioManager.html#a5e5eae99dba6ccabdbdcb2275a9194a9", null ],
-      [ "GetSingleton", "namespaceRE_1_1Offset_1_1BSAudioManager.html#a260bc94e810ab8343af113b10962318d", null ],
+      [ "CacheSpinLock", "namespaceRE_1_1Offset_1_1BSAudioManager.html#ab9f51e9b86822b6a753a64cf235deb67", null ],
+      [ "CacheSpinLock", "namespaceRE_1_1Offset_1_1BSAudioManager.html#a1a4c0e0d7339f6834582e0f68f1ed24d", null ],
+      [ "ComposeMessage", "namespaceRE_1_1Offset_1_1BSAudioManager.html#a2829e0a5af8602f595a459d61d1020c3", null ],
+      [ "ComposeMessage", "namespaceRE_1_1Offset_1_1BSAudioManager.html#aedca3f4eeb1c6060b9b1fcd5709724d3", null ],
+      [ "GetSoundHandle", "namespaceRE_1_1Offset_1_1BSAudioManager.html#aeda1f585da16b352ea3ee994141c39f1", null ],
+      [ "GetSoundHandle", "namespaceRE_1_1Offset_1_1BSAudioManager.html#ab9964f3ef981cd42bcfbcd07d867f813", null ],
+      [ "KillAll", "namespaceRE_1_1Offset_1_1BSAudioManager.html#ae3aef00ea894d3e394b1fb50773b8a39", null ],
+      [ "KillAll", "namespaceRE_1_1Offset_1_1BSAudioManager.html#ac92208ef55c5d76e6dfc58f435c34801", null ],
       [ "PrecacheDescriptor", "namespaceRE_1_1Offset_1_1BSAudioManager.html#acd7b0484122fa0809e6bcaf1c1400abe", null ],
-      [ "PrecacheDescriptor", "namespaceRE_1_1Offset_1_1BSAudioManager.html#a1679680a3a7ddbf21c2f88dd872ac7ba", null ]
+      [ "PrecacheDescriptor", "namespaceRE_1_1Offset_1_1BSAudioManager.html#a1679680a3a7ddbf21c2f88dd872ac7ba", null ],
+      [ "QInstance", "namespaceRE_1_1Offset_1_1BSAudioManager.html#ab3a6e7155b664d5b243692e98a950094", null ],
+      [ "QInstance", "namespaceRE_1_1Offset_1_1BSAudioManager.html#ac2f382f7f0fbad7cf5293cf114aaf2a1", null ],
+      [ "QPlatformInstance", "namespaceRE_1_1Offset_1_1BSAudioManager.html#abf98787cebd33970e9b41200d65c6338", null ],
+      [ "QPlatformInstance", "namespaceRE_1_1Offset_1_1BSAudioManager.html#ae698fadc1b0f75efd6b44b94c6d9e6bf", null ]
     ] ],
     [ "BSFaceGenAnimationData", "namespaceRE_1_1Offset_1_1BSFaceGenAnimationData.html", [
       [ "Reset", "namespaceRE_1_1Offset_1_1BSFaceGenAnimationData.html#a6ae08070ea413e968b90b616f7b36c87", null ],
@@ -341,6 +349,12 @@ var namespaceRE_1_1Offset =
     [ "BSWin32SystemUtility", "namespaceRE_1_1Offset_1_1BSWin32SystemUtility.html", [
       [ "GetSingleton", "namespaceRE_1_1Offset_1_1BSWin32SystemUtility.html#a34124d3d62d3c013f9ebaf89e4b062d3", null ],
       [ "GetSingleton", "namespaceRE_1_1Offset_1_1BSWin32SystemUtility.html#a1b037cf2eba376c37c3606fe494e24d6", null ]
+    ] ],
+    [ "BSXAudio2GameSound", "namespaceRE_1_1Offset_1_1BSXAudio2GameSound.html", [
+      [ "pAudioImplementation", "namespaceRE_1_1Offset_1_1BSXAudio2GameSound.html#a9ab6f1af5bbb61f2750fb159bdb64fd4", null ],
+      [ "pAudioImplementation", "namespaceRE_1_1Offset_1_1BSXAudio2GameSound.html#ae23edda5936ab9393229dca3fb5880c8", null ],
+      [ "pXAudioListener", "namespaceRE_1_1Offset_1_1BSXAudio2GameSound.html#adc0d0bbbf0aa483469798de29bba82ee", null ],
+      [ "pXAudioListener", "namespaceRE_1_1Offset_1_1BSXAudio2GameSound.html#aefc6337880348b7c7934e07dab4d56bb", null ]
     ] ],
     [ "BucketTable", "namespaceRE_1_1Offset_1_1BucketTable.html", [
       [ "GetSingleton", "namespaceRE_1_1Offset_1_1BucketTable.html#a4af09c7bed641554528fbdd5eb1e7f44", null ],

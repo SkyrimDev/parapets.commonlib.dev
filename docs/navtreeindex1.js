@@ -1,5 +1,8 @@
 var NAVTREEINDEX1 =
 {
+"BGSDecalGroup_8h.html":[3,0,0,0,0,1,32],
+"BGSDecalGroup_8h_source.html":[3,0,0,0,0,1,32],
+"BGSDefaultObjectManager_8h.html":[3,0,0,0,0,1,33],
 "BGSDefaultObjectManager_8h.html#a66e9796c8efd572c93a0ee1252c6bc76":[3,0,0,0,0,1,33,5],
 "BGSDefaultObjectManager_8h.html#a66e9796c8efd572c93a0ee1252c6bc76a0341bbea96817efed905d3b7be8c2822":[3,0,0,0,0,1,33,5,2],
 "BGSDefaultObjectManager_8h.html#a66e9796c8efd572c93a0ee1252c6bc76a2b9241fd08e13e7fec4686eb295e6638":[3,0,0,0,0,1,33,5,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX1 =
 "BSArchiveHeader_8h.html":[3,0,0,0,0,1,177],
 "BSArchiveHeader_8h_source.html":[3,0,0,0,0,1,177],
 "BSArchive_8h.html":[3,0,0,0,0,1,176],
-"BSArchive_8h_source.html":[3,0,0,0,0,1,176],
-"BSAtomic_8h.html":[3,0,0,0,0,1,178],
-"BSAtomic_8h_source.html":[3,0,0,0,0,1,178],
-"BSAudioManagerThread_8h.html":[3,0,0,0,0,1,180]
+"BSArchive_8h_source.html":[3,0,0,0,0,1,176]
 };

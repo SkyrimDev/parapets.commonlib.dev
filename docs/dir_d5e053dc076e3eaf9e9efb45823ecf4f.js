@@ -106,6 +106,12 @@ var dir_d5e053dc076e3eaf9e9efb45823ecf4f =
     ] ],
     [ "SoulLevels.h", "SoulLevels_8h.html", "SoulLevels_8h" ],
     [ "SoundLevels.h", "SoundLevels_8h.html", "SoundLevels_8h" ],
+    [ "SoundMessageList.h", "SoundMessageList_8h.html", [
+      [ "SoundMessageList", "classRE_1_1SoundMessageList.html", "classRE_1_1SoundMessageList" ]
+    ] ],
+    [ "SoundMessageStack.h", "SoundMessageStack_8h.html", [
+      [ "SoundMessageStack", "classRE_1_1SoundMessageStack.html", "classRE_1_1SoundMessageStack" ]
+    ] ],
     [ "SpellItem.h", "SpellItem_8h.html", [
       [ "SpellItem", "classRE_1_1SpellItem.html", "classRE_1_1SpellItem" ],
       [ "RecordFlags", "structRE_1_1SpellItem_1_1RecordFlags.html", "structRE_1_1SpellItem_1_1RecordFlags" ],

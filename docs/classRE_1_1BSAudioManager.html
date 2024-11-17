@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('classRE_1_1BSAudioManager.html',''); i
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
@@ -95,94 +96,256 @@ $(document).ready(function(){initNavTree('classRE_1_1BSAudioManager.html',''); i
 
 <p><code>#include &lt;<a class="el" href="BSAudioManager_8h_source.html">BSAudioManager.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a6faa281496e0b11ca31eca070a66bbd0"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a6faa281496e0b11ca31eca070a66bbd0">Flags</a> : std::uint32_t { <br />
+&#160;&#160;<a class="el" href="classRE_1_1BSAudioManager.html#a6faa281496e0b11ca31eca070a66bbd0adc30a05cf2800cc5b92c2933f5cf2fb2">ManagerInitialized</a> = 0x1
+, <a class="el" href="classRE_1_1BSAudioManager.html#a6faa281496e0b11ca31eca070a66bbd0a5c34ca42f487cd9f0f982fde2df516ad">PlatformInitialized</a> = 0x2
+, <a class="el" href="classRE_1_1BSAudioManager.html#a6faa281496e0b11ca31eca070a66bbd0a805904f3be065cea1bdeb47f0f28d8eb">PlatformInitFailed</a> = 0x4
+, <a class="el" href="classRE_1_1BSAudioManager.html#a6faa281496e0b11ca31eca070a66bbd0a4715e4bfea672a0f9cdc804012544c25">CacheEnabled</a> = 0x8
+, <br />
+&#160;&#160;<a class="el" href="classRE_1_1BSAudioManager.html#a6faa281496e0b11ca31eca070a66bbd0a075d9c9ae8c8f1c79c1a1965cd8c5a42">ShuttingDown</a> = 0x10
+, <a class="el" href="classRE_1_1BSAudioManager.html#a6faa281496e0b11ca31eca070a66bbd0a480942b56e067aa19d16a5617e2e331b">RunDisabled</a> = 0x20
+<br />
+ }</td></tr>
+<tr class="separator:a6faa281496e0b11ca31eca070a66bbd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a7475f3a170da91b07a2a05bd8d2b62a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a7475f3a170da91b07a2a05bd8d2b62a6">ClearCache</a> ()</td></tr>
+<tr class="separator:a7475f3a170da91b07a2a05bd8d2b62a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e0f72abe21393370cc73ca39b606f5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a7e0f72abe21393370cc73ca39b606f5a">ComposeMessage</a> (<a class="el" href="namespaceRE.html#a1090097cf3c94376b41deb975ec97022">SOUND_MSG</a> a_message, std::uint32_t a_id=0, std::int32_t a_iData=0, void *a_pData=nullptr, <a class="el" href="classRE_1_1NiPointer.html">NiPointer</a>&lt; <a class="el" href="classRE_1_1NiAVObject.html">NiAVObject</a> &gt; a_spData=nullptr, const <a class="el" href="classRE_1_1NiPoint3.html">NiPoint3</a> &amp;a_vector3={})</td></tr>
+<tr class="separator:a7e0f72abe21393370cc73ca39b606f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3210a87f4ca18d5c18633e3e6cd4ce0d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a3210a87f4ca18d5c18633e3e6cd4ce0d">GetSoundHandle</a> (<a class="el" href="structRE_1_1BSSoundHandle.html">BSSoundHandle</a> &amp;a_soundHandle, <a class="el" href="classRE_1_1BSISoundDescriptor.html">BSISoundDescriptor</a> *a_descriptor, std::uint32_t a_flags=0x1A)</td></tr>
+<tr class="separator:a3210a87f4ca18d5c18633e3e6cd4ce0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e915fcf4845b537951e8220a0ed4ec6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a4e915fcf4845b537951e8220a0ed4ec6">KillAll</a> (bool a_waitForCompletion=false, std::uint32_t a_waitTicks=1000)</td></tr>
+<tr class="separator:a4e915fcf4845b537951e8220a0ed4ec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b9a2144e3e7e3c2466b388048a84a28"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a3b9a2144e3e7e3c2466b388048a84a28">Play</a> (<a class="el" href="namespaceRE.html#a7ee9100247d126ad8181da1fb234fb3d">FormID</a> a_soundFormID)</td></tr>
 <tr class="separator:a3b9a2144e3e7e3c2466b388048a84a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2612de2e8a44a2a3a7be0efee317cc7a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a2612de2e8a44a2a3a7be0efee317cc7a">Play</a> (<a class="el" href="classRE_1_1BSISoundDescriptor.html">BSISoundDescriptor</a> *a_descriptor)</td></tr>
 <tr class="separator:a2612de2e8a44a2a3a7be0efee317cc7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae889b0d3817773b7e3f3de865f454f8f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#ae889b0d3817773b7e3f3de865f454f8f">BuildSoundDataFromDescriptor</a> (<a class="el" href="structRE_1_1BSSoundHandle.html">BSSoundHandle</a> &amp;a_soundHandle, <a class="el" href="classRE_1_1BSISoundDescriptor.html">BSISoundDescriptor</a> *a_descriptor, std::uint32_t a_flags=0x1A)</td></tr>
-<tr class="separator:ae889b0d3817773b7e3f3de865f454f8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a712361e675d75553a8f9853463abe05e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a712361e675d75553a8f9853463abe05e">PrecacheDescriptor</a> (const <a class="el" href="classRE_1_1BSISoundDescriptor.html">BSISoundDescriptor</a> *a_descriptor, std::uint32_t a_flags)</td></tr>
 <tr class="separator:a712361e675d75553a8f9853463abe05e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b7f79ed104cc0795caf7fb40fb64e82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a3b7f79ed104cc0795caf7fb40fb64e82">SetCacheEnabled</a> (bool a_enabled)</td></tr>
+<tr class="separator:a3b7f79ed104cc0795caf7fb40fb64e82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56b466600b13f73cb10e8f3b54973ea0"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a56b466600b13f73cb10e8f3b54973ea0">GetCacheEnabled</a> () const noexcept</td></tr>
+<tr class="separator:a56b466600b13f73cb10e8f3b54973ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab560b30f59dcd96b7842a3dfebd5d7bf"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classRE_1_1BSAudioManager.html">BSAudioManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#ab560b30f59dcd96b7842a3dfebd5d7bf">GetSingleton</a> ()</td></tr>
 <tr class="separator:ab560b30f59dcd96b7842a3dfebd5d7bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae859a37a024df1a427bfabd91ee49b7d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classRE_1_1BSAudio.html">BSAudio</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#ae859a37a024df1a427bfabd91ee49b7d">QPlatformInstance</a> ()</td></tr>
+<tr class="separator:ae859a37a024df1a427bfabd91ee49b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ac24deac6d61aee0d7ab0d765aa2fdfc3"><td class="memItemLeft" align="right" valign="top">std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#ac24deac6d61aee0d7ab0d765aa2fdfc3">unk000</a></td></tr>
-<tr class="separator:ac24deac6d61aee0d7ab0d765aa2fdfc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33635e41d74c2a50ce6c3ca0140eda1e"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a33635e41d74c2a50ce6c3ca0140eda1e">unk008</a></td></tr>
-<tr class="separator:a33635e41d74c2a50ce6c3ca0140eda1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3011f5c3f20e64a5dcd6d2f6c82c060f"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a3011f5c3f20e64a5dcd6d2f6c82c060f">unk010</a></td></tr>
-<tr class="separator:a3011f5c3f20e64a5dcd6d2f6c82c060f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0b918f6731cf6fa10ee28e081b74ba0"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#ae0b918f6731cf6fa10ee28e081b74ba0">unk018</a></td></tr>
-<tr class="separator:ae0b918f6731cf6fa10ee28e081b74ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a977f46d12b7fe474019baa56ed5a2e46"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a977f46d12b7fe474019baa56ed5a2e46">unk020</a></td></tr>
-<tr class="separator:a977f46d12b7fe474019baa56ed5a2e46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea74bf1256d73b9bf052da0f1db6721a"><td class="memItemLeft" align="right" valign="top">std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#aea74bf1256d73b9bf052da0f1db6721a">unk028</a></td></tr>
-<tr class="separator:aea74bf1256d73b9bf052da0f1db6721a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d7d90066b04dcb00c8b752509d2dbf1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceRE.html#a4044a8689d728a63ab3c4faf41b91bc6">BSTHashMap</a>&lt; std::uint32_t, <a class="el" href="classRE_1_1BSXAudio2GameSound.html">BSXAudio2GameSound</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a5d7d90066b04dcb00c8b752509d2dbf1">unk030</a></td></tr>
-<tr class="separator:a5d7d90066b04dcb00c8b752509d2dbf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad657e2818aa1a5ee083e9dcda650e53a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceRE.html#a4044a8689d728a63ab3c4faf41b91bc6">BSTHashMap</a>&lt; <a class="el" href="namespaceRE.html#ace41af5edcd04e1d7ed4ae1ca83097db">UnkKey</a>, <a class="el" href="namespaceRE.html#a1a2b37e6707e2e6e25f9407794421816">UnkValue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#ad657e2818aa1a5ee083e9dcda650e53a">unk060</a></td></tr>
-<tr class="separator:ad657e2818aa1a5ee083e9dcda650e53a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8efdc77ebdf82d5acc496403f26ec08d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceRE.html#a4044a8689d728a63ab3c4faf41b91bc6">BSTHashMap</a>&lt; <a class="el" href="namespaceRE.html#ace41af5edcd04e1d7ed4ae1ca83097db">UnkKey</a>, <a class="el" href="namespaceRE.html#a1a2b37e6707e2e6e25f9407794421816">UnkValue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a8efdc77ebdf82d5acc496403f26ec08d">unk090</a></td></tr>
-<tr class="separator:a8efdc77ebdf82d5acc496403f26ec08d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3aecd75412fd07f061ccf8a5a9bb3feb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceRE.html#a4044a8689d728a63ab3c4faf41b91bc6">BSTHashMap</a>&lt; <a class="el" href="namespaceRE.html#ace41af5edcd04e1d7ed4ae1ca83097db">UnkKey</a>, <a class="el" href="namespaceRE.html#a1a2b37e6707e2e6e25f9407794421816">UnkValue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a3aecd75412fd07f061ccf8a5a9bb3feb">unk0C0</a></td></tr>
-<tr class="separator:a3aecd75412fd07f061ccf8a5a9bb3feb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abff8acf09e98c41dd8e63ab46f582b3c"><td class="memItemLeft" align="right" valign="top">std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#abff8acf09e98c41dd8e63ab46f582b3c">unk0F0</a></td></tr>
-<tr class="separator:abff8acf09e98c41dd8e63ab46f582b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8f382977207296454d20a2b67c13f17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRE_1_1BSAudioManagerThread.html">BSAudioManagerThread</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#af8f382977207296454d20a2b67c13f17">unk0F8</a></td></tr>
-<tr class="separator:af8f382977207296454d20a2b67c13f17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a990ab1ebd50520a183d7afadef270c34"><td class="memItemLeft" align="right" valign="top">std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a990ab1ebd50520a183d7afadef270c34">unk100</a></td></tr>
-<tr class="separator:a990ab1ebd50520a183d7afadef270c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f38a93b13a16212f2eeede350275978"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceRE.html#ac706a4190d712d7b768d266e98c2a589">BSFixedString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a7f38a93b13a16212f2eeede350275978">unk108</a></td></tr>
-<tr class="separator:a7f38a93b13a16212f2eeede350275978"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25f0bad4628a25561a01ce001f7bf536"><td class="memItemLeft" align="right" valign="top">std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a25f0bad4628a25561a01ce001f7bf536">unk110</a></td></tr>
-<tr class="separator:a25f0bad4628a25561a01ce001f7bf536"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6af30c786b2d162b0f8f975b0c71c75b"><td class="memItemLeft" align="right" valign="top">std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a6af30c786b2d162b0f8f975b0c71c75b">unk118</a></td></tr>
-<tr class="separator:a6af30c786b2d162b0f8f975b0c71c75b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3674a96d0f017efa41151f054fca310"><td class="memItemLeft" align="right" valign="top">std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#ac3674a96d0f017efa41151f054fca310">unk120</a></td></tr>
-<tr class="separator:ac3674a96d0f017efa41151f054fca310"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1f96d8fc977a9d7ff2580b6fc826c63"><td class="memItemLeft" align="right" valign="top">std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#ab1f96d8fc977a9d7ff2580b6fc826c63">unk128</a></td></tr>
-<tr class="separator:ab1f96d8fc977a9d7ff2580b6fc826c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3d4f709b53d374bd2dc3f88ab28d2b5"><td class="memItemLeft" align="right" valign="top">std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#aa3d4f709b53d374bd2dc3f88ab28d2b5">unk130</a></td></tr>
-<tr class="separator:aa3d4f709b53d374bd2dc3f88ab28d2b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafb4ab21604de6ba631abcd5c541aeb7"><td class="memItemLeft" align="right" valign="top">std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#aafb4ab21604de6ba631abcd5c541aeb7">unk138</a></td></tr>
-<tr class="separator:aafb4ab21604de6ba631abcd5c541aeb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22b4cc359db72b8d4977d2930f9bc68a"><td class="memItemLeft" align="right" valign="top">std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a22b4cc359db72b8d4977d2930f9bc68a">unk140</a></td></tr>
-<tr class="separator:a22b4cc359db72b8d4977d2930f9bc68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae16bdefb8bf04461f6605b4da1a4298"><td class="memItemLeft" align="right" valign="top">std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#aae16bdefb8bf04461f6605b4da1a4298">unk148</a></td></tr>
-<tr class="separator:aae16bdefb8bf04461f6605b4da1a4298"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c69aa5a26d81cbdce089fc6c7f7857c"><td class="memItemLeft" align="right" valign="top">std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a4c69aa5a26d81cbdce089fc6c7f7857c">unk150</a></td></tr>
-<tr class="separator:a4c69aa5a26d81cbdce089fc6c7f7857c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9f918b8df816a923ea73db44ffbdef1"><td class="memItemLeft" align="right" valign="top">std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#ae9f918b8df816a923ea73db44ffbdef1">unk158</a></td></tr>
-<tr class="separator:ae9f918b8df816a923ea73db44ffbdef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae318931b1863409843c554c0dd8fbf9f"><td class="memItemLeft" align="right" valign="top">std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#ae318931b1863409843c554c0dd8fbf9f">unk160</a></td></tr>
-<tr class="separator:ae318931b1863409843c554c0dd8fbf9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2915cd5218e33c0a68041c218a8e91e"><td class="memItemLeft" align="right" valign="top">std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#aa2915cd5218e33c0a68041c218a8e91e">unk168</a></td></tr>
-<tr class="separator:aa2915cd5218e33c0a68041c218a8e91e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fbf5bae2436c2aac2a7570be0ab4397"><td class="memItemLeft" align="right" valign="top">std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a8fbf5bae2436c2aac2a7570be0ab4397">unk170</a></td></tr>
-<tr class="separator:a8fbf5bae2436c2aac2a7570be0ab4397"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d19a665efd4b59f1cf1b577b08178c9"><td class="memItemLeft" align="right" valign="top">std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a0d19a665efd4b59f1cf1b577b08178c9">unk178</a></td></tr>
-<tr class="separator:a0d19a665efd4b59f1cf1b577b08178c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a62538df1d8b621e04f9ad1e282a3e8"><td class="memItemLeft" align="right" valign="top">std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a4a62538df1d8b621e04f9ad1e282a3e8">unk180</a></td></tr>
-<tr class="separator:a4a62538df1d8b621e04f9ad1e282a3e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a919df397d4d806640e97f8ce1d1834b6"><td class="memItemLeft" align="right" valign="top">std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a919df397d4d806640e97f8ce1d1834b6">unk188</a></td></tr>
-<tr class="separator:a919df397d4d806640e97f8ce1d1834b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26791ca619f157fc940c896b414b7ea5"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a26791ca619f157fc940c896b414b7ea5">frontQueue</a></td></tr>
+<tr class="separator:a26791ca619f157fc940c896b414b7ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a767aadde5daa9c00fbcf59ced709b678"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a767aadde5daa9c00fbcf59ced709b678">backQueue</a></td></tr>
+<tr class="separator:a767aadde5daa9c00fbcf59ced709b678"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18741716245a0abd73f323ae77411e74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRE_1_1SoundMessageList.html">SoundMessageList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a18741716245a0abd73f323ae77411e74">messageQueues</a> [2]</td></tr>
+<tr class="separator:a18741716245a0abd73f323ae77411e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8f4feb94d5076da75f8e3ef1bfc899c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRE_1_1SoundMessageStack.html">SoundMessageStack</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#ab8f4feb94d5076da75f8e3ef1bfc899c">freeMessages</a></td></tr>
+<tr class="separator:ab8f4feb94d5076da75f8e3ef1bfc899c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0823fecadf5a538fe3b11392aeba91b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRE_1_1SoundMessageStack.html">SoundMessageStack</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a0823fecadf5a538fe3b11392aeba91b2">processedMessages</a></td></tr>
+<tr class="separator:a0823fecadf5a538fe3b11392aeba91b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0684dfc5164e1a1355e2664d114712b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceRE.html#a4044a8689d728a63ab3c4faf41b91bc6">BSTHashMap</a>&lt; std::uint32_t, <a class="el" href="classRE_1_1BSGameSound.html">BSGameSound</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a0684dfc5164e1a1355e2664d114712b6">activeSounds</a></td></tr>
+<tr class="separator:a0684dfc5164e1a1355e2664d114712b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8aadfcdd079f0632c533ea2ee56eae8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceRE.html#a4044a8689d728a63ab3c4faf41b91bc6">BSTHashMap</a>&lt; std::uint32_t, <a class="el" href="classRE_1_1BSSoundInfo.html">BSSoundInfo</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a8aadfcdd079f0632c533ea2ee56eae8a">stateMap</a></td></tr>
+<tr class="separator:a8aadfcdd079f0632c533ea2ee56eae8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe90fa3748291ac0d1706bdcdad5c642"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceRE.html#a4044a8689d728a63ab3c4faf41b91bc6">BSTHashMap</a>&lt; std::uint32_t, <a class="el" href="classRE_1_1NiPointer.html">NiPointer</a>&lt; <a class="el" href="classRE_1_1NiAVObject.html">NiAVObject</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#abe90fa3748291ac0d1706bdcdad5c642">movingSounds</a></td></tr>
+<tr class="separator:abe90fa3748291ac0d1706bdcdad5c642"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac30a9c4fd0a7f791d5e63b712be3bdfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceRE.html#a4044a8689d728a63ab3c4faf41b91bc6">BSTHashMap</a>&lt; const <a class="el" href="classRE_1_1NiAVObject.html">NiAVObject</a> *, const <a class="el" href="classRE_1_1BSISoundOutputModel.html">BSISoundOutputModel</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#ac30a9c4fd0a7f791d5e63b712be3bdfa">objectOutputOverrides</a></td></tr>
+<tr class="separator:ac30a9c4fd0a7f791d5e63b712be3bdfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace27cef8b5a6ee8c52b5d786b51cdf71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRE_1_1BSTList.html">BSTList</a>&lt; <a class="el" href="classRE_1_1BSGameSound.html">BSGameSound</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#ace27cef8b5a6ee8c52b5d786b51cdf71">audioCache</a></td></tr>
+<tr class="separator:ace27cef8b5a6ee8c52b5d786b51cdf71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdd72ef7d146bd886cc52ef7c71e51c0"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#acdd72ef7d146bd886cc52ef7c71e51c0">audioCacheSize</a></td></tr>
+<tr class="separator:acdd72ef7d146bd886cc52ef7c71e51c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5a44482a8fe3c2c89973cc4fb259cf9"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#ae5a44482a8fe3c2c89973cc4fb259cf9">ownerThreadID</a></td></tr>
+<tr class="separator:ae5a44482a8fe3c2c89973cc4fb259cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dbd84009b68390e4aa71b69c4c8c888"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRE_1_1BSAudioManagerThread.html">BSAudioManagerThread</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a0dbd84009b68390e4aa71b69c4c8c888">ownerThread</a></td></tr>
+<tr class="separator:a0dbd84009b68390e4aa71b69c4c8c888"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a946613f077ef3d3ddb8d8c4da1bb460e"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a946613f077ef3d3ddb8d8c4da1bb460e">unk100</a></td></tr>
+<tr class="separator:a946613f077ef3d3ddb8d8c4da1bb460e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a343f94dbac91a00f70b387dd9334f5a4"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a343f94dbac91a00f70b387dd9334f5a4">audioHWThread</a></td></tr>
+<tr class="separator:a343f94dbac91a00f70b387dd9334f5a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19d0440d091a20b1747165b2bb634aee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structRE_1_1BSAudioInit.html">BSAudioInit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a19d0440d091a20b1747165b2bb634aee">initSettings</a></td></tr>
+<tr class="separator:a19d0440d091a20b1747165b2bb634aee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89994cb10a7c7e1d39b602e0dc06c101"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a89994cb10a7c7e1d39b602e0dc06c101">maxCacheSize</a></td></tr>
+<tr class="separator:a89994cb10a7c7e1d39b602e0dc06c101"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae4eaa3b801dcb1790c8660b8e919c36"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#aae4eaa3b801dcb1790c8660b8e919c36">maxAudioCacheSize</a></td></tr>
+<tr class="separator:aae4eaa3b801dcb1790c8660b8e919c36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f46c19a0f00ff2641c8f7669cdb920b"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a4f46c19a0f00ff2641c8f7669cdb920b">maxSizeForCachedSound</a></td></tr>
+<tr class="separator:a4f46c19a0f00ff2641c8f7669cdb920b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70e8875e67944f4ea9bd7aff95e4b939"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSKSE_1_1stl_1_1enumeration.html">stl::enumeration</a>&lt; <a class="el" href="classRE_1_1BSAudioManager.html#a6faa281496e0b11ca31eca070a66bbd0">Flags</a>, std::uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a70e8875e67944f4ea9bd7aff95e4b939">flags</a></td></tr>
+<tr class="separator:a70e8875e67944f4ea9bd7aff95e4b939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aee90f326bf9f1090fd7d49abfbb9a4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a0aee90f326bf9f1090fd7d49abfbb9a4">masterVolume</a></td></tr>
+<tr class="separator:a0aee90f326bf9f1090fd7d49abfbb9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a234d4d24d66aa4fbbbc1bc36e2d58fd0"><td class="memItemLeft" align="right" valign="top">std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a234d4d24d66aa4fbbbc1bc36e2d58fd0">asyncReadPriorityThreshold</a></td></tr>
+<tr class="separator:a234d4d24d66aa4fbbbc1bc36e2d58fd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11e9d930cec1526ed916b528ee836b48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structRE_1_1BSAudioCallbacks.html">BSAudioCallbacks</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRE_1_1BSAudioManager.html#a11e9d930cec1526ed916b528ee836b48">audioCallbacks</a></td></tr>
+<tr class="separator:a11e9d930cec1526ed916b528ee836b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a6faa281496e0b11ca31eca070a66bbd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6faa281496e0b11ca31eca070a66bbd0">&#9670;&nbsp;</a></span>Flags</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classRE_1_1BSAudioManager.html#a6faa281496e0b11ca31eca070a66bbd0">RE::BSAudioManager::Flags</a> : std::uint32_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6faa281496e0b11ca31eca070a66bbd0adc30a05cf2800cc5b92c2933f5cf2fb2"></a>ManagerInitialized&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6faa281496e0b11ca31eca070a66bbd0a5c34ca42f487cd9f0f982fde2df516ad"></a>PlatformInitialized&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6faa281496e0b11ca31eca070a66bbd0a805904f3be065cea1bdeb47f0f28d8eb"></a>PlatformInitFailed&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6faa281496e0b11ca31eca070a66bbd0a4715e4bfea672a0f9cdc804012544c25"></a>CacheEnabled&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6faa281496e0b11ca31eca070a66bbd0a075d9c9ae8c8f1c79c1a1965cd8c5a42"></a>ShuttingDown&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6faa281496e0b11ca31eca070a66bbd0a480942b56e067aa19d16a5617e2e331b"></a>RunDisabled&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae889b0d3817773b7e3f3de865f454f8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae889b0d3817773b7e3f3de865f454f8f">&#9670;&nbsp;</a></span>BuildSoundDataFromDescriptor()</h2>
+<a id="a7475f3a170da91b07a2a05bd8d2b62a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7475f3a170da91b07a2a05bd8d2b62a6">&#9670;&nbsp;</a></span>ClearCache()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool RE::BSAudioManager::BuildSoundDataFromDescriptor </td>
+          <td class="memname">void RE::BSAudioManager::ClearCache </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7e0f72abe21393370cc73ca39b606f5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e0f72abe21393370cc73ca39b606f5a">&#9670;&nbsp;</a></span>ComposeMessage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RE::BSAudioManager::ComposeMessage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceRE.html#a1090097cf3c94376b41deb975ec97022">SOUND_MSG</a>&#160;</td>
+          <td class="paramname"><em>a_message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::uint32_t&#160;</td>
+          <td class="paramname"><em>a_id</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::int32_t&#160;</td>
+          <td class="paramname"><em>a_iData</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>a_pData</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classRE_1_1NiPointer.html">NiPointer</a>&lt; <a class="el" href="classRE_1_1NiAVObject.html">NiAVObject</a> &gt;&#160;</td>
+          <td class="paramname"><em>a_spData</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classRE_1_1NiPoint3.html">NiPoint3</a> &amp;&#160;</td>
+          <td class="paramname"><em>a_vector3</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56b466600b13f73cb10e8f3b54973ea0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56b466600b13f73cb10e8f3b54973ea0">&#9670;&nbsp;</a></span>GetCacheEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool RE::BSAudioManager::GetCacheEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab560b30f59dcd96b7842a3dfebd5d7bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab560b30f59dcd96b7842a3dfebd5d7bf">&#9670;&nbsp;</a></span>GetSingleton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classRE_1_1BSAudioManager.html">BSAudioManager</a>* RE::BSAudioManager::GetSingleton </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3210a87f4ca18d5c18633e3e6cd4ce0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3210a87f4ca18d5c18633e3e6cd4ce0d">&#9670;&nbsp;</a></span>GetSoundHandle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool RE::BSAudioManager::GetSoundHandle </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structRE_1_1BSSoundHandle.html">BSSoundHandle</a> &amp;&#160;</td>
           <td class="paramname"><em>a_soundHandle</em>, </td>
@@ -209,27 +372,30 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab560b30f59dcd96b7842a3dfebd5d7bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab560b30f59dcd96b7842a3dfebd5d7bf">&#9670;&nbsp;</a></span>GetSingleton()</h2>
+<a id="a4e915fcf4845b537951e8220a0ed4ec6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e915fcf4845b537951e8220a0ed4ec6">&#9670;&nbsp;</a></span>KillAll()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classRE_1_1BSAudioManager.html">BSAudioManager</a>* RE::BSAudioManager::GetSingleton </td>
+          <td class="memname">void RE::BSAudioManager::KillAll </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>a_waitForCompletion</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::uint32_t&#160;</td>
+          <td class="paramname"><em>a_waitTicks</em> = <code>1000</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -298,421 +464,366 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae859a37a024df1a427bfabd91ee49b7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae859a37a024df1a427bfabd91ee49b7d">&#9670;&nbsp;</a></span>QPlatformInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classRE_1_1BSAudio.html">BSAudio</a>* RE::BSAudioManager::QPlatformInstance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3b7f79ed104cc0795caf7fb40fb64e82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b7f79ed104cc0795caf7fb40fb64e82">&#9670;&nbsp;</a></span>SetCacheEnabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void RE::BSAudioManager::SetCacheEnabled </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>a_enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ac24deac6d61aee0d7ab0d765aa2fdfc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac24deac6d61aee0d7ab0d765aa2fdfc3">&#9670;&nbsp;</a></span>unk000</h2>
+<a id="a0684dfc5164e1a1355e2664d114712b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0684dfc5164e1a1355e2664d114712b6">&#9670;&nbsp;</a></span>activeSounds</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::uint64_t RE::BSAudioManager::unk000</td>
+          <td class="memname"><a class="el" href="namespaceRE.html#a4044a8689d728a63ab3c4faf41b91bc6">BSTHashMap</a>&lt;std::uint32_t, <a class="el" href="classRE_1_1BSGameSound.html">BSGameSound</a>*&gt; RE::BSAudioManager::activeSounds</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a33635e41d74c2a50ce6c3ca0140eda1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33635e41d74c2a50ce6c3ca0140eda1e">&#9670;&nbsp;</a></span>unk008</h2>
+<a id="a234d4d24d66aa4fbbbc1bc36e2d58fd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a234d4d24d66aa4fbbbc1bc36e2d58fd0">&#9670;&nbsp;</a></span>asyncReadPriorityThreshold</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void* RE::BSAudioManager::unk008</td>
+          <td class="memname">std::uint32_t RE::BSAudioManager::asyncReadPriorityThreshold</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a3011f5c3f20e64a5dcd6d2f6c82c060f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3011f5c3f20e64a5dcd6d2f6c82c060f">&#9670;&nbsp;</a></span>unk010</h2>
+<a id="ace27cef8b5a6ee8c52b5d786b51cdf71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace27cef8b5a6ee8c52b5d786b51cdf71">&#9670;&nbsp;</a></span>audioCache</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void* RE::BSAudioManager::unk010</td>
+          <td class="memname"><a class="el" href="classRE_1_1BSTList.html">BSTList</a>&lt;<a class="el" href="classRE_1_1BSGameSound.html">BSGameSound</a>*&gt; RE::BSAudioManager::audioCache</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ae0b918f6731cf6fa10ee28e081b74ba0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0b918f6731cf6fa10ee28e081b74ba0">&#9670;&nbsp;</a></span>unk018</h2>
+<a id="acdd72ef7d146bd886cc52ef7c71e51c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdd72ef7d146bd886cc52ef7c71e51c0">&#9670;&nbsp;</a></span>audioCacheSize</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void* RE::BSAudioManager::unk018</td>
+          <td class="memname">std::uint32_t RE::BSAudioManager::audioCacheSize</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a977f46d12b7fe474019baa56ed5a2e46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a977f46d12b7fe474019baa56ed5a2e46">&#9670;&nbsp;</a></span>unk020</h2>
+<a id="a11e9d930cec1526ed916b528ee836b48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11e9d930cec1526ed916b528ee836b48">&#9670;&nbsp;</a></span>audioCallbacks</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void* RE::BSAudioManager::unk020</td>
+          <td class="memname"><a class="el" href="structRE_1_1BSAudioCallbacks.html">BSAudioCallbacks</a> RE::BSAudioManager::audioCallbacks</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aea74bf1256d73b9bf052da0f1db6721a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea74bf1256d73b9bf052da0f1db6721a">&#9670;&nbsp;</a></span>unk028</h2>
+<a id="a343f94dbac91a00f70b387dd9334f5a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a343f94dbac91a00f70b387dd9334f5a4">&#9670;&nbsp;</a></span>audioHWThread</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::uint64_t RE::BSAudioManager::unk028</td>
+          <td class="memname">std::uint32_t RE::BSAudioManager::audioHWThread</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a5d7d90066b04dcb00c8b752509d2dbf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d7d90066b04dcb00c8b752509d2dbf1">&#9670;&nbsp;</a></span>unk030</h2>
+<a id="a767aadde5daa9c00fbcf59ced709b678"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a767aadde5daa9c00fbcf59ced709b678">&#9670;&nbsp;</a></span>backQueue</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceRE.html#a4044a8689d728a63ab3c4faf41b91bc6">BSTHashMap</a>&lt;std::uint32_t, <a class="el" href="classRE_1_1BSXAudio2GameSound.html">BSXAudio2GameSound</a>*&gt; RE::BSAudioManager::unk030</td>
+          <td class="memname">std::uint32_t RE::BSAudioManager::backQueue</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ad657e2818aa1a5ee083e9dcda650e53a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad657e2818aa1a5ee083e9dcda650e53a">&#9670;&nbsp;</a></span>unk060</h2>
+<a id="a70e8875e67944f4ea9bd7aff95e4b939"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70e8875e67944f4ea9bd7aff95e4b939">&#9670;&nbsp;</a></span>flags</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceRE.html#a4044a8689d728a63ab3c4faf41b91bc6">BSTHashMap</a>&lt;<a class="el" href="namespaceRE.html#ace41af5edcd04e1d7ed4ae1ca83097db">UnkKey</a>, <a class="el" href="namespaceRE.html#a1a2b37e6707e2e6e25f9407794421816">UnkValue</a>&gt; RE::BSAudioManager::unk060</td>
+          <td class="memname"><a class="el" href="classSKSE_1_1stl_1_1enumeration.html">stl::enumeration</a>&lt;<a class="el" href="classRE_1_1BSAudioManager.html#a6faa281496e0b11ca31eca070a66bbd0">Flags</a>, std::uint32_t&gt; RE::BSAudioManager::flags</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a8efdc77ebdf82d5acc496403f26ec08d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8efdc77ebdf82d5acc496403f26ec08d">&#9670;&nbsp;</a></span>unk090</h2>
+<a id="ab8f4feb94d5076da75f8e3ef1bfc899c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8f4feb94d5076da75f8e3ef1bfc899c">&#9670;&nbsp;</a></span>freeMessages</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceRE.html#a4044a8689d728a63ab3c4faf41b91bc6">BSTHashMap</a>&lt;<a class="el" href="namespaceRE.html#ace41af5edcd04e1d7ed4ae1ca83097db">UnkKey</a>, <a class="el" href="namespaceRE.html#a1a2b37e6707e2e6e25f9407794421816">UnkValue</a>&gt; RE::BSAudioManager::unk090</td>
+          <td class="memname"><a class="el" href="classRE_1_1SoundMessageStack.html">SoundMessageStack</a>* RE::BSAudioManager::freeMessages</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a3aecd75412fd07f061ccf8a5a9bb3feb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3aecd75412fd07f061ccf8a5a9bb3feb">&#9670;&nbsp;</a></span>unk0C0</h2>
+<a id="a26791ca619f157fc940c896b414b7ea5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26791ca619f157fc940c896b414b7ea5">&#9670;&nbsp;</a></span>frontQueue</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceRE.html#a4044a8689d728a63ab3c4faf41b91bc6">BSTHashMap</a>&lt;<a class="el" href="namespaceRE.html#ace41af5edcd04e1d7ed4ae1ca83097db">UnkKey</a>, <a class="el" href="namespaceRE.html#a1a2b37e6707e2e6e25f9407794421816">UnkValue</a>&gt; RE::BSAudioManager::unk0C0</td>
+          <td class="memname">std::uint32_t RE::BSAudioManager::frontQueue</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="abff8acf09e98c41dd8e63ab46f582b3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abff8acf09e98c41dd8e63ab46f582b3c">&#9670;&nbsp;</a></span>unk0F0</h2>
+<a id="a19d0440d091a20b1747165b2bb634aee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19d0440d091a20b1747165b2bb634aee">&#9670;&nbsp;</a></span>initSettings</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::uint64_t RE::BSAudioManager::unk0F0</td>
+          <td class="memname"><a class="el" href="structRE_1_1BSAudioInit.html">BSAudioInit</a> RE::BSAudioManager::initSettings</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="af8f382977207296454d20a2b67c13f17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8f382977207296454d20a2b67c13f17">&#9670;&nbsp;</a></span>unk0F8</h2>
+<a id="a0aee90f326bf9f1090fd7d49abfbb9a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0aee90f326bf9f1090fd7d49abfbb9a4">&#9670;&nbsp;</a></span>masterVolume</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classRE_1_1BSAudioManagerThread.html">BSAudioManagerThread</a>* RE::BSAudioManager::unk0F8</td>
+          <td class="memname">float RE::BSAudioManager::masterVolume</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a990ab1ebd50520a183d7afadef270c34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a990ab1ebd50520a183d7afadef270c34">&#9670;&nbsp;</a></span>unk100</h2>
+<a id="aae4eaa3b801dcb1790c8660b8e919c36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae4eaa3b801dcb1790c8660b8e919c36">&#9670;&nbsp;</a></span>maxAudioCacheSize</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::uint64_t RE::BSAudioManager::unk100</td>
+          <td class="memname">std::uint32_t RE::BSAudioManager::maxAudioCacheSize</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a7f38a93b13a16212f2eeede350275978"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f38a93b13a16212f2eeede350275978">&#9670;&nbsp;</a></span>unk108</h2>
+<a id="a89994cb10a7c7e1d39b602e0dc06c101"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89994cb10a7c7e1d39b602e0dc06c101">&#9670;&nbsp;</a></span>maxCacheSize</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceRE.html#ac706a4190d712d7b768d266e98c2a589">BSFixedString</a> RE::BSAudioManager::unk108</td>
+          <td class="memname">std::uint32_t RE::BSAudioManager::maxCacheSize</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a25f0bad4628a25561a01ce001f7bf536"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25f0bad4628a25561a01ce001f7bf536">&#9670;&nbsp;</a></span>unk110</h2>
+<a id="a4f46c19a0f00ff2641c8f7669cdb920b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f46c19a0f00ff2641c8f7669cdb920b">&#9670;&nbsp;</a></span>maxSizeForCachedSound</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::uint64_t RE::BSAudioManager::unk110</td>
+          <td class="memname">std::uint32_t RE::BSAudioManager::maxSizeForCachedSound</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a6af30c786b2d162b0f8f975b0c71c75b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6af30c786b2d162b0f8f975b0c71c75b">&#9670;&nbsp;</a></span>unk118</h2>
+<a id="a18741716245a0abd73f323ae77411e74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18741716245a0abd73f323ae77411e74">&#9670;&nbsp;</a></span>messageQueues</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::uint64_t RE::BSAudioManager::unk118</td>
+          <td class="memname"><a class="el" href="classRE_1_1SoundMessageList.html">SoundMessageList</a>* RE::BSAudioManager::messageQueues[2]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ac3674a96d0f017efa41151f054fca310"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3674a96d0f017efa41151f054fca310">&#9670;&nbsp;</a></span>unk120</h2>
+<a id="abe90fa3748291ac0d1706bdcdad5c642"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe90fa3748291ac0d1706bdcdad5c642">&#9670;&nbsp;</a></span>movingSounds</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::uint64_t RE::BSAudioManager::unk120</td>
+          <td class="memname"><a class="el" href="namespaceRE.html#a4044a8689d728a63ab3c4faf41b91bc6">BSTHashMap</a>&lt;std::uint32_t, <a class="el" href="classRE_1_1NiPointer.html">NiPointer</a>&lt;<a class="el" href="classRE_1_1NiAVObject.html">NiAVObject</a>&gt; &gt; RE::BSAudioManager::movingSounds</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ab1f96d8fc977a9d7ff2580b6fc826c63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1f96d8fc977a9d7ff2580b6fc826c63">&#9670;&nbsp;</a></span>unk128</h2>
+<a id="ac30a9c4fd0a7f791d5e63b712be3bdfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac30a9c4fd0a7f791d5e63b712be3bdfa">&#9670;&nbsp;</a></span>objectOutputOverrides</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::uint64_t RE::BSAudioManager::unk128</td>
+          <td class="memname"><a class="el" href="namespaceRE.html#a4044a8689d728a63ab3c4faf41b91bc6">BSTHashMap</a>&lt;const <a class="el" href="classRE_1_1NiAVObject.html">NiAVObject</a>*, const <a class="el" href="classRE_1_1BSISoundOutputModel.html">BSISoundOutputModel</a>*&gt; RE::BSAudioManager::objectOutputOverrides</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aa3d4f709b53d374bd2dc3f88ab28d2b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3d4f709b53d374bd2dc3f88ab28d2b5">&#9670;&nbsp;</a></span>unk130</h2>
+<a id="a0dbd84009b68390e4aa71b69c4c8c888"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dbd84009b68390e4aa71b69c4c8c888">&#9670;&nbsp;</a></span>ownerThread</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::uint64_t RE::BSAudioManager::unk130</td>
+          <td class="memname"><a class="el" href="classRE_1_1BSAudioManagerThread.html">BSAudioManagerThread</a>* RE::BSAudioManager::ownerThread</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aafb4ab21604de6ba631abcd5c541aeb7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafb4ab21604de6ba631abcd5c541aeb7">&#9670;&nbsp;</a></span>unk138</h2>
+<a id="ae5a44482a8fe3c2c89973cc4fb259cf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5a44482a8fe3c2c89973cc4fb259cf9">&#9670;&nbsp;</a></span>ownerThreadID</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::uint64_t RE::BSAudioManager::unk138</td>
+          <td class="memname">std::uint32_t RE::BSAudioManager::ownerThreadID</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a22b4cc359db72b8d4977d2930f9bc68a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22b4cc359db72b8d4977d2930f9bc68a">&#9670;&nbsp;</a></span>unk140</h2>
+<a id="a0823fecadf5a538fe3b11392aeba91b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0823fecadf5a538fe3b11392aeba91b2">&#9670;&nbsp;</a></span>processedMessages</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::uint64_t RE::BSAudioManager::unk140</td>
+          <td class="memname"><a class="el" href="classRE_1_1SoundMessageStack.html">SoundMessageStack</a>* RE::BSAudioManager::processedMessages</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aae16bdefb8bf04461f6605b4da1a4298"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae16bdefb8bf04461f6605b4da1a4298">&#9670;&nbsp;</a></span>unk148</h2>
+<a id="a8aadfcdd079f0632c533ea2ee56eae8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8aadfcdd079f0632c533ea2ee56eae8a">&#9670;&nbsp;</a></span>stateMap</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::uint64_t RE::BSAudioManager::unk148</td>
+          <td class="memname"><a class="el" href="namespaceRE.html#a4044a8689d728a63ab3c4faf41b91bc6">BSTHashMap</a>&lt;std::uint32_t, <a class="el" href="classRE_1_1BSSoundInfo.html">BSSoundInfo</a>*&gt; RE::BSAudioManager::stateMap</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a4c69aa5a26d81cbdce089fc6c7f7857c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c69aa5a26d81cbdce089fc6c7f7857c">&#9670;&nbsp;</a></span>unk150</h2>
+<a id="a946613f077ef3d3ddb8d8c4da1bb460e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a946613f077ef3d3ddb8d8c4da1bb460e">&#9670;&nbsp;</a></span>unk100</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::uint64_t RE::BSAudioManager::unk150</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae9f918b8df816a923ea73db44ffbdef1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9f918b8df816a923ea73db44ffbdef1">&#9670;&nbsp;</a></span>unk158</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::uint64_t RE::BSAudioManager::unk158</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae318931b1863409843c554c0dd8fbf9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae318931b1863409843c554c0dd8fbf9f">&#9670;&nbsp;</a></span>unk160</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::uint64_t RE::BSAudioManager::unk160</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa2915cd5218e33c0a68041c218a8e91e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2915cd5218e33c0a68041c218a8e91e">&#9670;&nbsp;</a></span>unk168</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::uint64_t RE::BSAudioManager::unk168</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8fbf5bae2436c2aac2a7570be0ab4397"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8fbf5bae2436c2aac2a7570be0ab4397">&#9670;&nbsp;</a></span>unk170</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::uint64_t RE::BSAudioManager::unk170</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0d19a665efd4b59f1cf1b577b08178c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d19a665efd4b59f1cf1b577b08178c9">&#9670;&nbsp;</a></span>unk178</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::uint64_t RE::BSAudioManager::unk178</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4a62538df1d8b621e04f9ad1e282a3e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a62538df1d8b621e04f9ad1e282a3e8">&#9670;&nbsp;</a></span>unk180</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::uint64_t RE::BSAudioManager::unk180</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a919df397d4d806640e97f8ce1d1834b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a919df397d4d806640e97f8ce1d1834b6">&#9670;&nbsp;</a></span>unk188</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::uint64_t RE::BSAudioManager::unk188</td>
+          <td class="memname">std::uint32_t RE::BSAudioManager::unk100</td>
         </tr>
       </table>
 </div><div class="memdoc">

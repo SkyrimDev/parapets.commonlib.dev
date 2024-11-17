@@ -95,6 +95,7 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 <li>tail
 : <a class="el" href="classRE_1_1BSTCommonLLMessageQueue.html#abe96b168e16785bd7775c69b53f07d01">RE::BSTCommonLLMessageQueue&lt; T &gt;</a>
 , <a class="el" href="classRE_1_1NiTListBase.html#afe539e393f46c225e7166a6091161cb5">RE::NiTListBase&lt; Allocator, T &gt;</a>
+, <a class="el" href="classRE_1_1SoundMessageList.html#a9ea2364f660dc27333209698dfc71c25">RE::SoundMessageList</a>
 </li>
 <li>takeAll
 : <a class="el" href="classRE_1_1UserEvents.html#a2cf9d3e6634699dad217a88d27fc3f16">RE::UserEvents</a>
@@ -331,7 +332,9 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 , <a class="el" href="classRE_1_1BaseFormComponent.html#a3dcadd5e6e33687e387028bdc300f9a1">RE::BaseFormComponent</a>
 , <a class="el" href="classRE_1_1BGSSkillPerkTreeNode.html#abe7fbdae16f45c09f63e591b2b626bd8">RE::BGSSkillPerkTreeNode</a>
 , <a class="el" href="structRE_1_1BottomBar.html#a73627ebf038ea48cec6cf0c598db2658">RE::BottomBar</a>
+, <a class="el" href="classRE_1_1BSAudioListener.html#a220891f49d3a1e8e8e33a456779560f5">RE::BSAudioListener</a>
 , <a class="el" href="classRE_1_1BSExtraData.html#a17513f07178b0472e41f1c6c6c9ce0f0">RE::BSExtraData</a>
+, <a class="el" href="classRE_1_1BSGameSound.html#abcce5ca95bfd23cc2a0fc68847bada26">RE::BSGameSound</a>
 , <a class="el" href="structRE_1_1BSIntrusiveRefCounted.html#af109ff85bd1e8c7d4a1c7458784232a7">RE::BSIntrusiveRefCounted</a>
 , <a class="el" href="classRE_1_1BSResource_1_1Location.html#a26ebff6d28489f9e838998e724c78844">RE::BSResource::Location</a>
 , <a class="el" href="classRE_1_1BSResource_1_1StreamBase.html#a48d94886f364a2e232ededdbd2bd27dd">RE::BSResource::StreamBase</a>
@@ -341,6 +344,8 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 , <a class="el" href="classRE_1_1BSScript_1_1Object.html#afa1d73a79596d7c159fd2e7c1d5f70a0">RE::BSScript::Object</a>
 , <a class="el" href="structRE_1_1BSSimpleList_1_1Node.html#a0f009e674e274b0e8c733eb4e0b6802d">RE::BSSimpleList&lt; T &gt;::Node</a>
 , <a class="el" href="classRE_1_1BSSimpleList.html#add46971d71a183f5211844382300c8b1">RE::BSSimpleList&lt; T &gt;</a>
+, <a class="el" href="classRE_1_1BSSoundInfo.html#a71dbe4d1f85fc76541fabd589068d699">RE::BSSoundInfo</a>
+, <a class="el" href="classRE_1_1BSSoundMessage.html#a82cf294ad374bc881000ddd73662cc1a">RE::BSSoundMessage</a>
 , <a class="el" href="classRE_1_1BSStringT.html#ab025b492e56d3ae7b146366c470ada2f">RE::BSStringT&lt; CharT, N, Allocator &gt;</a>
 , <a class="el" href="classRE_1_1BSTArray.html#a30345dd6d68c4538ae951accc53f92c8">RE::BSTArray&lt; T, Allocator &gt;</a>
 , <a class="el" href="classRE_1_1BSTArrayBase_1_1IAllocatorFunctor.html#afe649ce520b52669ff19ad6564254cfd">RE::BSTArrayBase::IAllocatorFunctor</a>
@@ -541,6 +546,11 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 <li>threadID
 : <a class="el" href="classRE_1_1Main.html#a4e38a68aec8d0ada0633a5d68def63c3">RE::Main</a>
 </li>
+<li>ThreadProc()
+: <a class="el" href="classRE_1_1BGSSaveLoadManager_1_1Thread.html#a3a28cd32804d23ac0708334ec6d8c1c8">RE::BGSSaveLoadManager::Thread</a>
+, <a class="el" href="classRE_1_1BSAudioManagerThread.html#ac2d2bc6d4b1c879e2953c18b2a776ce4">RE::BSAudioManagerThread</a>
+, <a class="el" href="classRE_1_1BSThread.html#ac78b4893be9499af04a0da68f40aa1b7">RE::BSThread</a>
+</li>
 <li>threadSafeFileMap
 : <a class="el" href="classRE_1_1TESFile.html#aa5c3ef85d74a97a70bcfdc8c4f5c34f9">RE::TESFile</a>
 </li>
@@ -730,9 +740,11 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 </li>
 <li>top
 : <a class="el" href="classRE_1_1BSScript_1_1Stack.html#a2b23d62fb5ea54a00ee4386c4c58cd1e">RE::BSScript::Stack</a>
+, <a class="el" href="structRE_1_1FreeSoundInfoStack.html#a14d64b1233de39b9908f899a17f50cae">RE::FreeSoundInfoStack</a>
 , <a class="el" href="classRE_1_1GRect.html#a3b4b3d46d08ed283af67d8638201bfc3">RE::GRect&lt; T &gt;</a>
 , <a class="el" href="classRE_1_1GViewport.html#ab846140968e868f45afe9b56ce410a01">RE::GViewport</a>
 , <a class="el" href="classRE_1_1NiRect.html#a4087b333a1df5f25c27327ea5f734438">RE::NiRect&lt; T &gt;</a>
+, <a class="el" href="classRE_1_1SoundMessageStack.html#a9cb976094210959924597f1170c21ca4">RE::SoundMessageStack</a>
 </li>
 <li>topFrame
 : <a class="el" href="classRE_1_1BSScript_1_1Internal_1_1CodeTasklet.html#a034cd14a6464445f2b003987aaf08a3e">RE::BSScript::Internal::CodeTasklet</a>
@@ -803,6 +815,9 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 , <a class="el" href="structRE_1_1BSSmallBlockAllocatorUtil_1_1Pool.html#a3d89c9a146c5d70fb583c13755025989">RE::BSSmallBlockAllocatorUtil::Pool</a>
 , <a class="el" href="structRE_1_1GFxMovieLoadInfo.html#a47acdf582c09504e4f6d5e3885caf1b2">RE::GFxMovieLoadInfo</a>
 </li>
+<li>TotalCyclesSinceLastQuery
+: <a class="el" href="structRE_1_1XAUDIO2__PERFORMANCE__DATA.html#a2d15d902089227b67971b8eca2d34547">RE::XAUDIO2_PERFORMANCE_DATA</a>
+</li>
 <li>totalDamage
 : <a class="el" href="classRE_1_1HitData.html#adeeb16b81568ff0d3836e35b953a98c6">RE::HitData</a>
 </li>
@@ -846,6 +861,9 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 <li>TotalSize()
 : <a class="el" href="classRE_1_1ZeroOverheadHeap.html#a50f9e2802c59ad32e951ebcc4028df1f">RE::ZeroOverheadHeap</a>
 </li>
+<li>TotalSourceVoiceCount
+: <a class="el" href="structRE_1_1XAUDIO2__PERFORMANCE__DATA.html#a416ad212867ad0dfba0c42f7fb5d9c7f">RE::XAUDIO2_PERFORMANCE_DATA</a>
+</li>
 <li>totalWeight
 : <a class="el" href="classRE_1_1InventoryChanges.html#a3d17fbb70548613640323a626a449f46">RE::InventoryChanges</a>
 </li>
@@ -854,6 +872,9 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 </li>
 <li>TraceForm()
 : <a class="el" href="classRE_1_1BSScript_1_1IVirtualMachine.html#a745d0bdbbd79906da585fb47bd180b01">RE::BSScript::IVirtualMachine</a>
+</li>
+<li>TraceMask
+: <a class="el" href="structRE_1_1XAUDIO2__DEBUG__CONFIGURATION.html#a406514538d57736d4cca5d3113c27cf2">RE::XAUDIO2_DEBUG_CONFIGURATION</a>
 </li>
 <li>tracerChance
 : <a class="el" href="structRE_1_1BGSProjectileData.html#a4406fac692e6f4ebef7f6b806963ea05">RE::BGSProjectileData</a>
@@ -1013,11 +1034,11 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 <li>treeType
 : <a class="el" href="structRE_1_1BGSDistantTreeBlock_1_1TreeGroup.html#afd17c89732dc04043f24c57d896927ec">RE::BGSDistantTreeBlock::TreeGroup</a>
 </li>
-<li>TreeUpdateType
-: <a class="el" href="classRE_1_1hkpWorldCinfo.html#ac235cf8ab7490c6d10e6e0e71bf0f266">RE::hkpWorldCinfo</a>
-</li>
 <li>treeUpdateType
 : <a class="el" href="classRE_1_1hkpWorldCinfo.html#a6a1f2dd4b8b8cdba6d67798dd6a25251">RE::hkpWorldCinfo</a>
+</li>
+<li>TreeUpdateType
+: <a class="el" href="classRE_1_1hkpWorldCinfo.html#ac235cf8ab7490c6d10e6e0e71bf0f266">RE::hkpWorldCinfo</a>
 </li>
 <li>trespassCrimeGold
 : <a class="el" href="structRE_1_1FACTION__CRIME__DATA__VALUES.html#a988e49b1b0ee0a82c5f52e26cb2d7497">RE::FACTION_CRIME_DATA_VALUES</a>
@@ -1140,22 +1161,20 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 , <a class="el" href="classRE_1_1BGSSceneActionPackage.html#a3706b1cfcc4e984076372ac5d7e24453">RE::BGSSceneActionPackage</a>
 , <a class="el" href="classRE_1_1BGSSceneActionTimer.html#a9b038bc6cebcf47db9225e9ce224a1f8">RE::BGSSceneActionTimer</a>
 </li>
-<li>type
-: <a class="el" href="classRE_1_1BGSSoundOutput.html#a74a320e1850bdc128bafed0e0442af9f">RE::BGSSoundOutput</a>
-</li>
 <li>Type
 : <a class="el" href="classRE_1_1BGSSoundOutput.html#a652fc0c80e8bff2c64d20874fa5b9c8e">RE::BGSSoundOutput</a>
 </li>
 <li>type
-: <a class="el" href="structRE_1_1BGSStoryEventMember.html#ab768d6db645550f68125c720928bb873">RE::BGSStoryEventMember</a>
+: <a class="el" href="classRE_1_1BGSSoundOutput.html#a74a320e1850bdc128bafed0e0442af9f">RE::BGSSoundOutput</a>
+, <a class="el" href="structRE_1_1BGSStoryEventMember.html#ab768d6db645550f68125c720928bb873">RE::BGSStoryEventMember</a>
 , <a class="el" href="classRE_1_1BSFaceGenKeyframe.html#aa642dfda808ed43e827b7d1aea52f138">RE::BSFaceGenKeyframe</a>
-, <a class="el" href="classRE_1_1BSGeometry.html#aa64e075aa47d8da4277cea4d7b8de699">RE::BSGeometry</a>
 </li>
 <li>Type
 : <a class="el" href="classRE_1_1BSGeometry.html#a0001e29fd430bebbb3102730c4eab5b2">RE::BSGeometry</a>
 </li>
 <li>type
-: <a class="el" href="structRE_1_1BSNavmeshEdgeExtraInfo.html#a71367bfaa6c15b7b2a9d690039e7ab83">RE::BSNavmeshEdgeExtraInfo</a>
+: <a class="el" href="classRE_1_1BSGeometry.html#aa64e075aa47d8da4277cea4d7b8de699">RE::BSGeometry</a>
+, <a class="el" href="structRE_1_1BSNavmeshEdgeExtraInfo.html#a71367bfaa6c15b7b2a9d690039e7ab83">RE::BSNavmeshEdgeExtraInfo</a>
 , <a class="el" href="structRE_1_1BSScript_1_1__unwrapped__type.html#a29cc12d528e372c385e7b04943531885">RE::BSScript::_unwrapped_type&lt; T, class &gt;</a>
 , <a class="el" href="structRE_1_1BSScript_1_1__unwrapped__type_3_01T_00_01std_1_1enable__if__t_3_01std_1_1disjunctionc46a6f07b7c0d5a0cb5b737f2135ccd8.html#ae842376c226273c88dae4561adff24fc">RE::BSScript::_unwrapped_type&lt; T, std::enable_if_t&lt; std::disjunction_v&lt; is_array&lt; T &gt;, is_reference_wrapper&lt; T &gt; &gt; &gt; &gt;</a>
 , <a class="el" href="classRE_1_1BSScript_1_1Array.html#af6bbd5fd0d0859f3c5fc2ef8d1900796">RE::BSScript::Array</a>
@@ -1171,7 +1190,12 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 </li>
 <li>Type
 : <a class="el" href="classRE_1_1BSShaderMaterial.html#a582c98f675d349d18bf514163ec04c68">RE::BSShaderMaterial</a>
-, <a class="el" href="structRE_1_1BSTSDMTraits.html#a48cbfc647bdeabbcda68160aceb92b93">RE::BSTSDMTraits&lt; T, Alloc &gt;</a>
+</li>
+<li>type
+: <a class="el" href="classRE_1_1BSSoundInfo.html#ae725d8e89b3af7541aec4d7a12269f69">RE::BSSoundInfo</a>
+</li>
+<li>Type
+: <a class="el" href="structRE_1_1BSTSDMTraits.html#a48cbfc647bdeabbcda68160aceb92b93">RE::BSTSDMTraits&lt; T, Alloc &gt;</a>
 , <a class="el" href="structRE_1_1BSTSingletonSDMBase.html#a032f7716d6c6dd1b74e5b7ea57e2de11">RE::BSTSingletonSDMBase&lt; Traits &gt;</a>
 </li>
 <li>type
@@ -1200,17 +1224,17 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 </li>
 <li>Type
 : <a class="el" href="classRE_1_1NiProperty.html#aadd8caf830e20d950e7ff2bd71ebecd1">RE::NiProperty</a>
-, <a class="el" href="structRE_1_1OBJ__BOOK.html#a98324d82792eb5f37f0a6b1b1b4c3524">RE::OBJ_BOOK</a>
 </li>
 <li>type
 : <a class="el" href="structRE_1_1OBJ__BOOK.html#a6ffb88792f7bf9d980ca7a043dcb0d6e">RE::OBJ_BOOK</a>
-, <a class="el" href="structRE_1_1PackageEventAction_1_1TopicData.html#a5bac05b8d3499b104e0b1ace3c650d96">RE::PackageEventAction::TopicData</a>
 </li>
 <li>Type
-: <a class="el" href="structRE_1_1PackageEventAction_1_1TopicData.html#ae492199685fd9fa906ff85925cce914f">RE::PackageEventAction::TopicData</a>
+: <a class="el" href="structRE_1_1OBJ__BOOK.html#a98324d82792eb5f37f0a6b1b1b4c3524">RE::OBJ_BOOK</a>
+, <a class="el" href="structRE_1_1PackageEventAction_1_1TopicData.html#ae492199685fd9fa906ff85925cce914f">RE::PackageEventAction::TopicData</a>
 </li>
 <li>type
-: <a class="el" href="classRE_1_1PackageEventAction.html#a501cc58a112010a872fa93396b66ea79">RE::PackageEventAction</a>
+: <a class="el" href="structRE_1_1PackageEventAction_1_1TopicData.html#a5bac05b8d3499b104e0b1ace3c650d96">RE::PackageEventAction::TopicData</a>
+, <a class="el" href="classRE_1_1PackageEventAction.html#a501cc58a112010a872fa93396b66ea79">RE::PackageEventAction</a>
 </li>
 <li>Type
 : <a class="el" href="classRE_1_1PackageLocation.html#a1b2b50401c22f6d376473d863c4d1cf8">RE::PackageLocation</a>
@@ -1247,17 +1271,18 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 <li>type
 : <a class="el" href="structRE_1_1TESWeather_1_1WeatherSound.html#a94acb78daf37941f58c374708cd65690">RE::TESWeather::WeatherSound</a>
 , <a class="el" href="classRE_1_1UIMessage.html#aedac49fa0facd3d7eac640701b2335c7">RE::UIMessage</a>
-, <a class="el" href="structSKSE_1_1ActionEvent.html#a1b8ae8faba59454e6ef137b39879a69c">SKSE::ActionEvent</a>
 </li>
 <li>Type
-: <a class="el" href="structSKSE_1_1ActionEvent.html#af39c9bd3f84c3428d7d33b65fcf1a570">SKSE::ActionEvent</a>
+: <a class="el" href="structRE_1_1XAUDIO2__FILTER__PARAMETERS.html#abd69500d71846282a66c8abcd42b8f13">RE::XAUDIO2_FILTER_PARAMETERS</a>
+, <a class="el" href="structSKSE_1_1ActionEvent.html#af39c9bd3f84c3428d7d33b65fcf1a570">SKSE::ActionEvent</a>
 </li>
 <li>type
-: <a class="el" href="structSKSE_1_1MessagingInterface_1_1Message.html#ab86ba45aa0f45b64a22151228828ca9a">SKSE::MessagingInterface::Message</a>
+: <a class="el" href="structSKSE_1_1ActionEvent.html#a1b8ae8faba59454e6ef137b39879a69c">SKSE::ActionEvent</a>
+, <a class="el" href="structSKSE_1_1MessagingInterface_1_1Message.html#ab86ba45aa0f45b64a22151228828ca9a">SKSE::MessagingInterface::Message</a>
 , <a class="el" href="structvr_1_1VREvent__Screenshot__t.html#a81a2daeaa0134bb12f314e22c80c5f3c">vr::VREvent_Screenshot_t</a>
 </li>
 <li>type_info()
-: <a class="el" href="classRE_1_1BSScript_1_1Array.html#a482f956dd6bc1861dbf98ae49edf32c1">RE::BSScript::Array</a>
+: <a class="el" href="classRE_1_1BSScript_1_1Array.html#ad58b54b3dba4af4b7d07d3c2fcd64034">RE::BSScript::Array</a>
 </li>
 <li>typeA
 : <a class="el" href="classRE_1_1hkpWorldLinearCaster.html#ad2aa7352e1f35fcbdc6bfb779dbe6ef5">RE::hkpWorldLinearCaster</a>
@@ -1274,7 +1299,7 @@ $(document).ready(function(){initNavTree('functions_t.html',''); initResizable()
 : <a class="el" href="classRE_1_1BSScript_1_1Internal_1_1VirtualMachine.html#a5d095cd8a7f8f6cbe6854209b2523a61">RE::BSScript::Internal::VirtualMachine</a>
 </li>
 <li>TypeInfo()
-: <a class="el" href="classRE_1_1BSScript_1_1TypeInfo.html#a186a491ddb4a18a10ba2c22b78faf091">RE::BSScript::TypeInfo</a>
+: <a class="el" href="classRE_1_1BSScript_1_1TypeInfo.html#a4c422cf1e2437fa7347e299d0c410f80">RE::BSScript::TypeInfo</a>
 </li>
 <li>typeInfoLock
 : <a class="el" href="classRE_1_1BSScript_1_1Internal_1_1VirtualMachine.html#a2c89f3af04c6f28b685a795ea0ea7dea">RE::BSScript::Internal::VirtualMachine</a>

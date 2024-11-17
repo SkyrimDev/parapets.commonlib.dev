@@ -14,6 +14,7 @@ var classSKSE_1_1Trampoline =
     [ "create", "classSKSE_1_1Trampoline.html#afa677e6f23924ae6173be5fae5a3c873", null ],
     [ "empty", "classSKSE_1_1Trampoline.html#af1843ed5aa840c11b889bae124ac4ca5", null ],
     [ "free_size", "classSKSE_1_1Trampoline.html#af8f337e9eb02cde823aab4c9114e2c45", null ],
+    [ "make_disp", "classSKSE_1_1Trampoline.html#a9dca67556d0f68305b8ca5f71aad953f", null ],
     [ "operator=", "classSKSE_1_1Trampoline.html#afea08077505f7b62f80c6fc79ec0ee75", null ],
     [ "operator=", "classSKSE_1_1Trampoline.html#a09d4294ae9116f5be369007aa8519133", null ],
     [ "set_trampoline", "classSKSE_1_1Trampoline.html#acdac8a14b59d3ae49e0ec96762e8e81f", null ],

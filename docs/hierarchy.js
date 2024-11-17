@@ -1,5 +1,8 @@
 var hierarchy =
 [
+    [ "2", null, [
+      [ "RE::BSTArray< RE::BSAudioMonitor::Request, 2 >", "classRE_1_1BSTArray.html", null ]
+    ] ],
     [ "3", null, [
       [ "RE::BSTArray< RE::BSScript::Stack::MemoryPageData, 3 >", "classRE_1_1BSTArray.html", null ]
     ] ],
@@ -10,7 +13,10 @@ var hierarchy =
     [ "7", null, [
       [ "RE::BSTArray< RE::LoadedInventoryModel, 7 >", "classRE_1_1BSTArray.html", null ]
     ] ],
+    [ "SKSE::WinAPI::_DEV_BROADCAST_DEVICEINTERFACE_A", "structSKSE_1_1WinAPI_1_1__DEV__BROADCAST__DEVICEINTERFACE__A.html", null ],
+    [ "SKSE::WinAPI::_DEV_BROADCAST_HDR", "structSKSE_1_1WinAPI_1_1__DEV__BROADCAST__HDR.html", null ],
     [ "SKSE::WinAPI::_FILETIME", "structSKSE_1_1WinAPI_1_1__FILETIME.html", null ],
+    [ "SKSE::WinAPI::_GUID", "structSKSE_1_1WinAPI_1_1__GUID.html", null ],
     [ "RE::BSScript::_unwrapped_type< T, class >", "structRE_1_1BSScript_1_1__unwrapped__type.html", null ],
     [ "RE::BSScript::_unwrapped_type< std::remove_cv_t< T > >", "structRE_1_1BSScript_1_1__unwrapped__type.html", [
       [ "RE::BSScript::unwrapped_type< T >", "structRE_1_1BSScript_1_1unwrapped__type.html", null ]
@@ -739,6 +745,14 @@ var hierarchy =
         [ "RE::Archive", "classRE_1_1Archive.html", null ]
       ] ]
     ] ],
+    [ "RE::BSAudio", "classRE_1_1BSAudio.html", [
+      [ "RE::BSXAudio2Audio", "classRE_1_1BSXAudio2Audio.html", null ]
+    ] ],
+    [ "RE::BSAudioCallbacks", "structRE_1_1BSAudioCallbacks.html", null ],
+    [ "RE::BSAudioInit", "structRE_1_1BSAudioInit.html", null ],
+    [ "RE::BSAudioListener", "classRE_1_1BSAudioListener.html", [
+      [ "RE::BSXAudio2AudioListener", "classRE_1_1BSXAudio2AudioListener.html", null ]
+    ] ],
     [ "RE::BSAudioManager", "classRE_1_1BSAudioManager.html", null ],
     [ "RE::BSBatchRenderer", "classRE_1_1BSBatchRenderer.html", null ],
     [ "RE::BSBitFieldHeapAllocator", "classRE_1_1BSBitFieldHeapAllocator.html", [
@@ -1229,6 +1243,8 @@ var hierarchy =
       [ "RE::TESWeather::WeatherSoundList", "structRE_1_1TESWeather_1_1WeatherSoundList.html", null ]
     ] ],
     [ "RE::BSSoundHandle", "structRE_1_1BSSoundHandle.html", null ],
+    [ "RE::BSSoundInfo", "classRE_1_1BSSoundInfo.html", null ],
+    [ "RE::BSSoundMessage", "classRE_1_1BSSoundMessage.html", null ],
     [ "RE::BSSpinLock", "classRE_1_1BSSpinLock.html", null ],
     [ "RE::BSSpinLockGuard", "classRE_1_1BSSpinLockGuard.html", null ],
     [ "RE::BSStaticArray< T >", "classRE_1_1BSStaticArray.html", null ],
@@ -1379,6 +1395,7 @@ var hierarchy =
       [ "RE::BSTArray< RE::Effect >", "classRE_1_1BSTArray.html", null ],
       [ "RE::BSTArray< RE::BSScript::Internal::VirtualMachine::QueuedUnbindRefs >", "classRE_1_1BSTArray.html", null ],
       [ "RE::BSTArray< RE::BSScript::Internal::CodeTasklet * >", "classRE_1_1BSTArray.html", null ],
+      [ "RE::BSTArray< RE::BSAudioMonitor::Request, 2 >", "classRE_1_1BSTArray.html", null ],
       [ "RE::BSTArray< RE::BGSStoryManagerTreeForm * >", "classRE_1_1BSTArray.html", null ],
       [ "RE::BSTArray< RE::BGSScenePhase * >", "classRE_1_1BSTArray.html", null ],
       [ "RE::BSTArray< RE::BGSStoryEventMember >", "classRE_1_1BSTArray.html", null ],
@@ -2068,6 +2085,11 @@ var hierarchy =
     ] ],
     [ "RE::BSThreadEvent", "structRE_1_1BSThreadEvent.html", null ],
     [ "RE::BSTimer", "classRE_1_1BSTimer.html", null ],
+    [ "RE::BSTList< T, Allocator >", "classRE_1_1BSTList.html", null ],
+    [ "RE::BSTList< RE::BSGameSound * >", "classRE_1_1BSTList.html", null ],
+    [ "RE::BSTListHeapAllocator< T >", "classRE_1_1BSTListHeapAllocator.html", null ],
+    [ "RE::BSTListNode< T >", "classRE_1_1BSTListNode.html", null ],
+    [ "RE::BSTListNode< RE::BSGameSound * >", "classRE_1_1BSTListNode.html", null ],
     [ "RE::BSTLocklessQueue", "structRE_1_1BSTLocklessQueue.html", null ],
     [ "RE::BSTMessageQueue< T >", "classRE_1_1BSTMessageQueue.html", [
       [ "RE::BSTCommonMessageQueue< T >", "classRE_1_1BSTCommonMessageQueue.html", [
@@ -2120,6 +2142,7 @@ var hierarchy =
     [ "RE::BSTScatterTable< BSPointerHandle< TESObjectREFR >, BSCurrent::Action * >", "classRE_1_1BSTScatterTable.html", null ],
     [ "RE::BSTScatterTable< const BSNavmeshInfo *, std::uint32_t >", "classRE_1_1BSTScatterTable.html", null ],
     [ "RE::BSTScatterTable< const RE::BGSMaterialType *, RE::BGSImpactData * >", "classRE_1_1BSTScatterTable.html", null ],
+    [ "RE::BSTScatterTable< const RE::NiAVObject *, const RE::BSISoundOutputModel * >", "classRE_1_1BSTScatterTable.html", null ],
     [ "RE::BSTScatterTable< const RE::TESFaction *, RE::CrimeGoldStruct >", "classRE_1_1BSTScatterTable.html", null ],
     [ "RE::BSTScatterTable< const RE::TESFaction *, RE::FriendshipFactionsStruct >", "classRE_1_1BSTScatterTable.html", null ],
     [ "RE::BSTScatterTable< const RE::TESFaction *, RE::StolenItemValueStruct >", "classRE_1_1BSTScatterTable.html", null ],
@@ -2149,12 +2172,14 @@ var hierarchy =
     [ "RE::BSTScatterTable< std::uint32_t, RE::BGSCellNumericIDArrayMap * >", "classRE_1_1BSTScatterTable.html", null ],
     [ "RE::BSTScatterTable< std::uint32_t, RE::BGSDistantTreeBlock::InstanceData * >", "classRE_1_1BSTScatterTable.html", null ],
     [ "RE::BSTScatterTable< std::uint32_t, RE::BGSDistantTreeBlock::TreeGroup * >", "classRE_1_1BSTScatterTable.html", null ],
+    [ "RE::BSTScatterTable< std::uint32_t, RE::BSGameSound * >", "classRE_1_1BSTScatterTable.html", null ],
     [ "RE::BSTScatterTable< std::uint32_t, RE::BSInputDevice::InputButton * >", "classRE_1_1BSTScatterTable.html", null ],
     [ "RE::BSTScatterTable< std::uint32_t, RE::BSScaleformImageLoader::TextureEntry >", "classRE_1_1BSTScatterTable.html", null ],
     [ "RE::BSTScatterTable< std::uint32_t, RE::BSScript::ErrorLogger::PerThreadErrorCounts >", "classRE_1_1BSTScatterTable.html", null ],
+    [ "RE::BSTScatterTable< std::uint32_t, RE::BSSoundInfo * >", "classRE_1_1BSTScatterTable.html", null ],
     [ "RE::BSTScatterTable< std::uint32_t, RE::BSTArray< RE::BSTTuple< std::uint32_t, std::uint32_t > > * >", "classRE_1_1BSTScatterTable.html", null ],
     [ "RE::BSTScatterTable< std::uint32_t, RE::BSTArray< RE::NiPointer< RE::TESObjectREFR > > >", "classRE_1_1BSTScatterTable.html", null ],
-    [ "RE::BSTScatterTable< std::uint32_t, RE::BSXAudio2GameSound * >", "classRE_1_1BSTScatterTable.html", null ],
+    [ "RE::BSTScatterTable< std::uint32_t, RE::NiPointer< RE::NiAVObject > >", "classRE_1_1BSTScatterTable.html", null ],
     [ "RE::BSTScatterTable< std::uint32_t, std::uint32_t >", "classRE_1_1BSTScatterTable.html", null ],
     [ "RE::BSTScatterTable< std::uint64_t, RE::BSTArray< BSNavmeshInfo * > * >", "classRE_1_1BSTScatterTable.html", null ],
     [ "RE::BSTScatterTable< Type, RE::BSTSmartPointer< RE::IHandlerFunctor > >", "classRE_1_1BSTScatterTable.html", null ],
@@ -2393,6 +2418,9 @@ var hierarchy =
       [ "REL::detail::is_x64_pod< T, std::enable_if_t< std::is_class_v< T > > >", "structREL_1_1detail_1_1is__x64__pod_3_01T_00_01std_1_1enable__if__t_3_01std_1_1is__class__v_3_01T_01_4_01_4_01_4.html", null ],
       [ "REL::detail::meets_function_req< T >", "structREL_1_1detail_1_1meets__function__req.html", null ]
     ] ],
+    [ "RE::BSTList< T, Allocator >::const_iterator", "structRE_1_1BSTList_1_1const__iterator.html", [
+      [ "RE::BSTList< T, Allocator >::iterator", "structRE_1_1BSTList_1_1iterator.html", null ]
+    ] ],
     [ "RE::GArrayBase< T >::const_iterator", "structRE_1_1GArrayBase_1_1const__iterator.html", null ],
     [ "RE::GHashSetBase< C, HashF, AltHashF, Allocator, Entry >::const_iterator", "structRE_1_1GHashSetBase_1_1const__iterator.html", [
       [ "RE::GHashSetBase< C, HashF, AltHashF, Allocator, Entry >::iterator", "structRE_1_1GHashSetBase_1_1iterator.html", null ]
@@ -2415,7 +2443,11 @@ var hierarchy =
     [ "RE::TESObjectWEAP::CriticalData", "structRE_1_1TESObjectWEAP_1_1CriticalData.html", null ],
     [ "SKSE::CrosshairRefEvent", "structSKSE_1_1CrosshairRefEvent.html", null ],
     [ "RE::BSVolumetricLightingRenderData::CustomColor", "structRE_1_1BSVolumetricLightingRenderData_1_1CustomColor.html", null ],
+    [ "CXAPOBase", null, [
+      [ "RE::MonitorAPO", "classRE_1_1MonitorAPO.html", null ]
+    ] ],
     [ "RE::GRenderer::Cxform", "classRE_1_1GRenderer_1_1Cxform.html", null ],
+    [ "RE::D3DVECTOR", "structRE_1_1D3DVECTOR.html", null ],
     [ "RE::AlchemyItem::Data", "classRE_1_1AlchemyItem_1_1Data.html", null ],
     [ "RE::BGSArtObject::Data", "structRE_1_1BGSArtObject_1_1Data.html", null ],
     [ "RE::BGSNamedPackageData< Parent >::Data", "unionRE_1_1BGSNamedPackageData_1_1Data.html", null ],
@@ -2469,6 +2501,8 @@ var hierarchy =
     [ "RE::DestructibleObjectData", "structRE_1_1DestructibleObjectData.html", null ],
     [ "RE::DestructibleObjectStage", "structRE_1_1DestructibleObjectStage.html", null ],
     [ "RE::DetectionEvent", "structRE_1_1DetectionEvent.html", null ],
+    [ "SKSE::WinAPI::DEVICE_NOTIFY", "structSKSE_1_1WinAPI_1_1DEVICE__NOTIFY.html", null ],
+    [ "SKSE::WinAPI::DeviceNotifyCloser", "structSKSE_1_1WinAPI_1_1DeviceNotifyCloser.html", null ],
     [ "RE::MenuTopicManager::Dialogue", "structRE_1_1MenuTopicManager_1_1Dialogue.html", null ],
     [ "RE::DIALOGUE_DATA", "structRE_1_1DIALOGUE__DATA.html", null ],
     [ "RE::DIALOGUE_TYPES", "structRE_1_1DIALOGUE__TYPES.html", null ],
@@ -2608,8 +2642,8 @@ var hierarchy =
     [ "SKSE::stl::enumeration< FilterFlag, std::uint32_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
     [ "SKSE::stl::enumeration< FilterType, std::uint8_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
     [ "SKSE::stl::enumeration< Flag, std::uint16_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
-    [ "SKSE::stl::enumeration< FLAG, std::uint32_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
     [ "SKSE::stl::enumeration< Flag, std::uint32_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
+    [ "SKSE::stl::enumeration< FLAG, std::uint32_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
     [ "SKSE::stl::enumeration< Flag, std::uint8_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
     [ "SKSE::stl::enumeration< Flag2, std::uint16_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
     [ "SKSE::stl::enumeration< Flag2, std::uint32_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
@@ -2617,8 +2651,8 @@ var hierarchy =
     [ "SKSE::stl::enumeration< FlagBDB, std::uint8_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
     [ "SKSE::stl::enumeration< FlagBDC, std::uint8_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
     [ "SKSE::stl::enumeration< FlagBDD, std::uint8_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
-    [ "SKSE::stl::enumeration< Flags, std::uint32_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
     [ "SKSE::stl::enumeration< FLAGS, std::uint32_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
+    [ "SKSE::stl::enumeration< Flags, std::uint32_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
     [ "SKSE::stl::enumeration< FormType, std::uint8_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
     [ "SKSE::stl::enumeration< FreezeState, std::uint32_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
     [ "SKSE::stl::enumeration< Function, std::uint8_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
@@ -2819,6 +2853,7 @@ var hierarchy =
     [ "RE::bhkThreadMemorySource::FreeBlock", "structRE_1_1bhkThreadMemorySource_1_1FreeBlock.html", null ],
     [ "RE::BSSmallBlockAllocatorUtil::FreeBlock", "structRE_1_1BSSmallBlockAllocatorUtil_1_1FreeBlock.html", null ],
     [ "RE::HeapBlock::FreeOrUsed", "unionRE_1_1HeapBlock_1_1FreeOrUsed.html", null ],
+    [ "RE::FreeSoundInfoStack", "structRE_1_1FreeSoundInfoStack.html", null ],
     [ "RE::FriendshipFactionsStruct", "structRE_1_1FriendshipFactionsStruct.html", null ],
     [ "RE::BGSRefAlias::FromAliasFillData", "structRE_1_1BGSRefAlias_1_1FromAliasFillData.html", null ],
     [ "RE::BGSRefAlias::FromEventFillData", "structRE_1_1BGSRefAlias_1_1FromEventFillData.html", null ],
@@ -3310,6 +3345,7 @@ var hierarchy =
     [ "RE::ExtraGuardedRefData::GuardInfo", "structRE_1_1ExtraGuardedRefData_1_1GuardInfo.html", null ],
     [ "RE::GViewport", "classRE_1_1GViewport.html", null ],
     [ "RE::GWaitCondition", "classRE_1_1GWaitCondition.html", null ],
+    [ "SKSE::WinAPI::HandleCloser", "structSKSE_1_1WinAPI_1_1HandleCloser.html", null ],
     [ "RE::HandlerCreationMissPolicy< T, Key >", "classRE_1_1HandlerCreationMissPolicy.html", [
       [ "RE::BSTObjectDictionary< BSTSmartPointer< AnimHandler >, BSFixedString, HandlerCreationMissPolicy, NoInitializationPolicy >", "classRE_1_1BSTObjectDictionary.html", null ]
     ] ],
@@ -3868,7 +3904,7 @@ var hierarchy =
       [ "RE::BSScript::Internal::VirtualMachine", "classRE_1_1BSScript_1_1Internal_1_1VirtualMachine.html", null ]
     ] ],
     [ "vr::IVROverlay", "classvr_1_1IVROverlay.html", null ],
-    [ "RE::IXAudio2VoiceCallback", "structRE_1_1IXAudio2VoiceCallback.html", [
+    [ "IXAudio2VoiceCallback", null, [
       [ "RE::BSXAudio2GameSound", "classRE_1_1BSXAudio2GameSound.html", null ]
     ] ],
     [ "RE::BSVirtualKeyboardDevice::kbInfo", "structRE_1_1BSVirtualKeyboardDevice_1_1kbInfo.html", null ],
@@ -4450,6 +4486,7 @@ var hierarchy =
     [ "RE::RagDollData", "structRE_1_1RagDollData.html", null ],
     [ "RE::TESObjectWEAP::RangedData", "structRE_1_1TESObjectWEAP_1_1RangedData.html", null ],
     [ "RE::RANK_DATA", "structRE_1_1RANK__DATA.html", null ],
+    [ "RE::BSAudioMonitor::Receiver", "classRE_1_1BSAudioMonitor_1_1Receiver.html", null ],
     [ "RE::Actor::RecordFlags", "structRE_1_1Actor_1_1RecordFlags.html", null ],
     [ "RE::ActorValueInfo::RecordFlags", "structRE_1_1ActorValueInfo_1_1RecordFlags.html", null ],
     [ "RE::AlchemyItem::RecordFlags", "structRE_1_1AlchemyItem_1_1RecordFlags.html", null ],
@@ -4603,9 +4640,11 @@ var hierarchy =
     [ "RE::BGSCameraPath::Relatives", "structRE_1_1BGSCameraPath_1_1Relatives.html", null ],
     [ "REL::Relocation< T >", "classREL_1_1Relocation.html", null ],
     [ "RE::GRenderer::RenderCaps", "structRE_1_1GRenderer_1_1RenderCaps.html", null ],
+    [ "RE::BSAudioMonitor::Request", "classRE_1_1BSAudioMonitor_1_1Request.html", null ],
     [ "RE::GFxWStringBuffer::ReserveHeader", "structRE_1_1GFxWStringBuffer_1_1ReserveHeader.html", [
       [ "RE::GFxWStringBuffer::Reserve< SIZE >", "structRE_1_1GFxWStringBuffer_1_1Reserve.html", null ]
     ] ],
+    [ "RE::BSISoundDescriptor::Resolution", "structRE_1_1BSISoundDescriptor_1_1Resolution.html", null ],
     [ "RE::GFxResourceWeakLib::ResourceNode", "structRE_1_1GFxResourceWeakLib_1_1ResourceNode.html", null ],
     [ "RE::GFxResourceSource::ResourceUnion", "unionRE_1_1GFxResourceSource_1_1ResourceUnion.html", null ],
     [ "RE::TESTopicInfo::ResponseData", "structRE_1_1TESTopicInfo_1_1ResponseData.html", null ],
@@ -4640,6 +4679,7 @@ var hierarchy =
     [ "RE::ScriptLocals", "classRE_1_1ScriptLocals.html", null ],
     [ "RE::ScriptVariable", "structRE_1_1ScriptVariable.html", null ],
     [ "RE::SEASON", "structRE_1_1SEASON.html", null ],
+    [ "SKSE::WinAPI::SECURITY_ATTRIBUTES", "structSKSE_1_1WinAPI_1_1SECURITY__ATTRIBUTES.html", null ],
     [ "REL::Segment", "classREL_1_1Segment.html", null ],
     [ "RE::CraftingSubMenus::EnchantConstructMenu::Selections", "structRE_1_1CraftingSubMenus_1_1EnchantConstructMenu_1_1Selections.html", null ],
     [ "RE::BSPackedTaskQueue::Semaphore", "structRE_1_1BSPackedTaskQueue_1_1Semaphore.html", null ],
@@ -4713,6 +4753,8 @@ var hierarchy =
     [ "RE::Actor::SlotTypes", "structRE_1_1Actor_1_1SlotTypes.html", null ],
     [ "RE::hkpEntity::SmallArraySerializeOverrideType", "classRE_1_1hkpEntity_1_1SmallArraySerializeOverrideType.html", null ],
     [ "RE::TESRegionDataSound::Sound", "structRE_1_1TESRegionDataSound_1_1Sound.html", null ],
+    [ "RE::SoundMessageList", "classRE_1_1SoundMessageList.html", null ],
+    [ "RE::SoundMessageStack", "classRE_1_1SoundMessageStack.html", null ],
     [ "RE::EffectSetting::SoundPair", "structRE_1_1EffectSetting_1_1SoundPair.html", null ],
     [ "RE::TESNPC::Sounds", "unionRE_1_1TESNPC_1_1Sounds.html", null ],
     [ "RE::BGSSoundOutput::SpeakerArrays", "structRE_1_1BGSSoundOutput_1_1SpeakerArrays.html", null ],
@@ -4857,6 +4899,7 @@ var hierarchy =
       [ "RE::detail::implements_rtti< T, std::void_t< decltype(remove_cvpr_t< T >::RTTI)> >", "structRE_1_1detail_1_1implements__rtti_3_01T_00_01std_1_1void__t_3_01decltype_07remove__cvpr__t_3_01T_01_4_1_1RTTI_08_4_01_4.html", null ],
       [ "REL::detail::is_x64_pod< T, class >", "structREL_1_1detail_1_1is__x64__pod.html", null ]
     ] ],
+    [ "RE::tWAVEFORMATEX", "structRE_1_1tWAVEFORMATEX.html", null ],
     [ "RE::Movement::TypeData", "structRE_1_1Movement_1_1TypeData.html", null ],
     [ "RE::BSScript::TypeInfo", "classRE_1_1BSScript_1_1TypeInfo.html", null ],
     [ "SKSE::detail::UIDelegate_v1", "classSKSE_1_1detail_1_1UIDelegate__v1.html", [
@@ -4927,6 +4970,7 @@ var hierarchy =
     [ "vr::VROverlayIntersectionResults_t", "structvr_1_1VROverlayIntersectionResults__t.html", null ],
     [ "vr::VRTextureBounds_t", "structvr_1_1VRTextureBounds__t.html", null ],
     [ "RE::WaterShaderData", "structRE_1_1WaterShaderData.html", null ],
+    [ "RE::WAVEFORMATEXTENSIBLE", "structRE_1_1WAVEFORMATEXTENSIBLE.html", null ],
     [ "RE::TESWeather::WeatherSound", "structRE_1_1TESWeather_1_1WeatherSound.html", null ],
     [ "RE::WeatherType", "structRE_1_1WeatherType.html", null ],
     [ "REL::detail::rules::Wildcard", "classREL_1_1detail_1_1rules_1_1Wildcard.html", null ],
@@ -4934,6 +4978,31 @@ var hierarchy =
     [ "RE::WORLD_LOCATION", "structRE_1_1WORLD__LOCATION.html", null ],
     [ "RE::WORLD_MAP_DATA", "structRE_1_1WORLD__MAP__DATA.html", null ],
     [ "RE::WORLD_MAP_OFFSET_DATA", "structRE_1_1WORLD__MAP__OFFSET__DATA.html", null ],
+    [ "RE::X3DAUDIO_CONE", "structRE_1_1X3DAUDIO__CONE.html", null ],
+    [ "RE::X3DAUDIO_DISTANCE_CURVE", "structRE_1_1X3DAUDIO__DISTANCE__CURVE.html", null ],
+    [ "RE::X3DAUDIO_DISTANCE_CURVE_POINT", "structRE_1_1X3DAUDIO__DISTANCE__CURVE__POINT.html", null ],
+    [ "RE::X3DAUDIO_DSP_SETTINGS", "structRE_1_1X3DAUDIO__DSP__SETTINGS.html", null ],
+    [ "RE::X3DAUDIO_EMITTER", "structRE_1_1X3DAUDIO__EMITTER.html", null ],
+    [ "RE::X3DAUDIO_LISTENER", "structRE_1_1X3DAUDIO__LISTENER.html", null ],
+    [ "RE::XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS", "structRE_1_1XAPO__LOCKFORPROCESS__BUFFER__PARAMETERS.html", null ],
+    [ "RE::XAPO_PROCESS_BUFFER_PARAMETERS", "structRE_1_1XAPO__PROCESS__BUFFER__PARAMETERS.html", null ],
+    [ "RE::XAPO_REGISTRATION_PROPERTIES", "structRE_1_1XAPO__REGISTRATION__PROPERTIES.html", null ],
+    [ "RE::XAUDIO2_BUFFER", "structRE_1_1XAUDIO2__BUFFER.html", null ],
+    [ "RE::XAUDIO2_BUFFER_WMA", "structRE_1_1XAUDIO2__BUFFER__WMA.html", null ],
+    [ "RE::XAUDIO2_DEBUG_CONFIGURATION", "structRE_1_1XAUDIO2__DEBUG__CONFIGURATION.html", null ],
+    [ "RE::XAUDIO2_DEVICE_DETAILS", "structRE_1_1XAUDIO2__DEVICE__DETAILS.html", null ],
+    [ "RE::XAUDIO2_DEVICE_ROLES", "structRE_1_1XAUDIO2__DEVICE__ROLES.html", null ],
+    [ "RE::XAUDIO2_EFFECT_CHAIN", "structRE_1_1XAUDIO2__EFFECT__CHAIN.html", null ],
+    [ "RE::XAUDIO2_EFFECT_DESCRIPTOR", "structRE_1_1XAUDIO2__EFFECT__DESCRIPTOR.html", null ],
+    [ "RE::XAUDIO2_FILTER_PARAMETERS", "structRE_1_1XAUDIO2__FILTER__PARAMETERS.html", null ],
+    [ "RE::XAUDIO2_FILTER_TYPES", "structRE_1_1XAUDIO2__FILTER__TYPES.html", null ],
+    [ "RE::XAUDIO2_PERFORMANCE_DATA", "structRE_1_1XAUDIO2__PERFORMANCE__DATA.html", null ],
+    [ "RE::XAUDIO2_PROCESSORS", "structRE_1_1XAUDIO2__PROCESSORS.html", null ],
+    [ "RE::XAUDIO2_SEND_DESCRIPTOR", "structRE_1_1XAUDIO2__SEND__DESCRIPTOR.html", null ],
+    [ "RE::XAUDIO2_VOICE_DETAILS", "structRE_1_1XAUDIO2__VOICE__DETAILS.html", null ],
+    [ "RE::XAUDIO2_VOICE_SENDS", "structRE_1_1XAUDIO2__VOICE__SENDS.html", null ],
+    [ "RE::XAUDIO2_VOICE_STATE", "structRE_1_1XAUDIO2__VOICE__STATE.html", null ],
+    [ "RE::XAudio2Monitor", "structRE_1_1XAudio2Monitor.html", null ],
     [ "RE::XInput::XINPUT_GAMEPAD", "structRE_1_1XInput_1_1XINPUT__GAMEPAD.html", null ],
     [ "RE::XInput::XINPUT_STATE", "structRE_1_1XInput_1_1XINPUT__STATE.html", null ],
     [ "RE::XInput::XINPUT_VIBRATION", "structRE_1_1XInput_1_1XINPUT__VIBRATION.html", null ],

@@ -688,11 +688,25 @@ var dir_6dd93d72cef20af32951c15928df247b =
       [ "BSReadLockGuard", "classRE_1_1BSReadLockGuard.html", "classRE_1_1BSReadLockGuard" ],
       [ "BSWriteLockGuard", "classRE_1_1BSWriteLockGuard.html", "classRE_1_1BSWriteLockGuard" ]
     ] ],
+    [ "BSAudio.h", "BSAudio_8h.html", [
+      [ "BSAudio", "classRE_1_1BSAudio.html", "classRE_1_1BSAudio" ]
+    ] ],
+    [ "BSAudioInit.h", "BSAudioInit_8h.html", [
+      [ "BSAudioCallbacks", "structRE_1_1BSAudioCallbacks.html", "structRE_1_1BSAudioCallbacks" ],
+      [ "BSAudioInit", "structRE_1_1BSAudioInit.html", "structRE_1_1BSAudioInit" ]
+    ] ],
+    [ "BSAudioListener.h", "BSAudioListener_8h.html", [
+      [ "BSAudioListener", "classRE_1_1BSAudioListener.html", "classRE_1_1BSAudioListener" ]
+    ] ],
     [ "BSAudioManager.h", "BSAudioManager_8h.html", [
       [ "BSAudioManager", "classRE_1_1BSAudioManager.html", "classRE_1_1BSAudioManager" ]
     ] ],
     [ "BSAudioManagerThread.h", "BSAudioManagerThread_8h.html", [
       [ "BSAudioManagerThread", "classRE_1_1BSAudioManagerThread.html", "classRE_1_1BSAudioManagerThread" ]
+    ] ],
+    [ "BSAudioMonitor.h", "BSAudioMonitor_8h.html", [
+      [ "Request", "classRE_1_1BSAudioMonitor_1_1Request.html", "classRE_1_1BSAudioMonitor_1_1Request" ],
+      [ "Receiver", "classRE_1_1BSAudioMonitor_1_1Receiver.html", "classRE_1_1BSAudioMonitor_1_1Receiver" ]
     ] ],
     [ "BSBatchRenderer.h", "BSBatchRenderer_8h.html", [
       [ "BSBatchRenderer", "classRE_1_1BSBatchRenderer.html", "classRE_1_1BSBatchRenderer" ]
@@ -796,7 +810,8 @@ var dir_6dd93d72cef20af32951c15928df247b =
     ] ],
     [ "BSISoundDescriptor.h", "BSISoundDescriptor_8h.html", [
       [ "BSISoundDescriptor", "classRE_1_1BSISoundDescriptor.html", "classRE_1_1BSISoundDescriptor" ],
-      [ "BSIPlaybackCharacteristics", "classRE_1_1BSISoundDescriptor_1_1BSIPlaybackCharacteristics.html", "classRE_1_1BSISoundDescriptor_1_1BSIPlaybackCharacteristics" ]
+      [ "BSIPlaybackCharacteristics", "classRE_1_1BSISoundDescriptor_1_1BSIPlaybackCharacteristics.html", "classRE_1_1BSISoundDescriptor_1_1BSIPlaybackCharacteristics" ],
+      [ "Resolution", "structRE_1_1BSISoundDescriptor_1_1Resolution.html", "structRE_1_1BSISoundDescriptor_1_1Resolution" ]
     ] ],
     [ "BSISoundOutputModel.h", "BSISoundOutputModel_8h.html", [
       [ "BSISoundOutputModel", "classRE_1_1BSISoundOutputModel.html", "classRE_1_1BSISoundOutputModel" ],
@@ -941,6 +956,11 @@ var dir_6dd93d72cef20af32951c15928df247b =
     [ "BSShaderProperty.h", "BSShaderProperty_8h.html", [
       [ "BSShaderProperty", "classRE_1_1BSShaderProperty.html", "classRE_1_1BSShaderProperty" ]
     ] ],
+    [ "BSSimpleList.h", "BSSimpleList_8h.html", [
+      [ "BSSimpleList", "classRE_1_1BSSimpleList.html", "classRE_1_1BSSimpleList" ],
+      [ "Node", "structRE_1_1BSSimpleList_1_1Node.html", "structRE_1_1BSSimpleList_1_1Node" ],
+      [ "iterator_base", "classRE_1_1BSSimpleList_1_1iterator__base.html", "classRE_1_1BSSimpleList_1_1iterator__base" ]
+    ] ],
     [ "BSSmallBlockAllocator.h", "BSSmallBlockAllocator_8h.html", [
       [ "FreeBlock", "structRE_1_1BSSmallBlockAllocatorUtil_1_1FreeBlock.html", "structRE_1_1BSSmallBlockAllocatorUtil_1_1FreeBlock" ],
       [ "BlockPage", "structRE_1_1BSSmallBlockAllocatorUtil_1_1BlockPage.html", "structRE_1_1BSSmallBlockAllocatorUtil_1_1BlockPage" ],
@@ -953,6 +973,11 @@ var dir_6dd93d72cef20af32951c15928df247b =
     [ "BSSoundHandle.h", "BSSoundHandle_8h.html", [
       [ "BSSoundHandle", "structRE_1_1BSSoundHandle.html", "structRE_1_1BSSoundHandle" ]
     ] ],
+    [ "BSSoundInfo.h", "BSSoundInfo_8h.html", [
+      [ "BSSoundInfo", "classRE_1_1BSSoundInfo.html", "classRE_1_1BSSoundInfo" ],
+      [ "FreeSoundInfoStack", "structRE_1_1FreeSoundInfoStack.html", "structRE_1_1FreeSoundInfoStack" ]
+    ] ],
+    [ "BSSoundMessage.h", "BSSoundMessage_8h.html", "BSSoundMessage_8h" ],
     [ "BSStorage.h", "BSStorage_8h.html", [
       [ "BSStorage", "classRE_1_1BSStorage.html", "classRE_1_1BSStorage" ],
       [ "UnkData", "structRE_1_1BSStorage_1_1UnkData.html", "structRE_1_1BSStorage_1_1UnkData" ]
@@ -1025,9 +1050,11 @@ var dir_6dd93d72cef20af32951c15928df247b =
       [ "BSTimer", "classRE_1_1BSTimer.html", "classRE_1_1BSTimer" ]
     ] ],
     [ "BSTList.h", "BSTList_8h.html", [
-      [ "BSSimpleList", "classRE_1_1BSSimpleList.html", "classRE_1_1BSSimpleList" ],
-      [ "Node", "structRE_1_1BSSimpleList_1_1Node.html", "structRE_1_1BSSimpleList_1_1Node" ],
-      [ "iterator_base", "classRE_1_1BSSimpleList_1_1iterator__base.html", "classRE_1_1BSSimpleList_1_1iterator__base" ]
+      [ "BSTListNode", "classRE_1_1BSTListNode.html", "classRE_1_1BSTListNode" ],
+      [ "BSTListHeapAllocator", "classRE_1_1BSTListHeapAllocator.html", "classRE_1_1BSTListHeapAllocator" ],
+      [ "BSTList", "classRE_1_1BSTList.html", "classRE_1_1BSTList" ],
+      [ "const_iterator", "structRE_1_1BSTList_1_1const__iterator.html", "structRE_1_1BSTList_1_1const__iterator" ],
+      [ "iterator", "structRE_1_1BSTList_1_1iterator.html", "structRE_1_1BSTList_1_1iterator" ]
     ] ],
     [ "BSTLocklessQueue.h", "BSTLocklessQueue_8h.html", [
       [ "BSTLocklessQueue", "structRE_1_1BSTLocklessQueue.html", [
@@ -1111,6 +1138,14 @@ var dir_6dd93d72cef20af32951c15928df247b =
     [ "BSWin32SystemUtility.h", "BSWin32SystemUtility_8h.html", "BSWin32SystemUtility_8h" ],
     [ "BSWin32VirtualKeyboardDevice.h", "BSWin32VirtualKeyboardDevice_8h.html", [
       [ "BSWin32VirtualKeyboardDevice", "classRE_1_1BSWin32VirtualKeyboardDevice.html", "classRE_1_1BSWin32VirtualKeyboardDevice" ]
+    ] ],
+    [ "BSXAudio2Audio.h", "BSXAudio2Audio_8h.html", [
+      [ "BSXAudio2Audio", "classRE_1_1BSXAudio2Audio.html", "classRE_1_1BSXAudio2Audio" ],
+      [ "MonitorAPO", "classRE_1_1MonitorAPO.html", "classRE_1_1MonitorAPO" ],
+      [ "XAudio2Monitor", "structRE_1_1XAudio2Monitor.html", "structRE_1_1XAudio2Monitor" ]
+    ] ],
+    [ "BSXAudio2AudioListener.h", "BSXAudio2AudioListener_8h.html", [
+      [ "BSXAudio2AudioListener", "classRE_1_1BSXAudio2AudioListener.html", "classRE_1_1BSXAudio2AudioListener" ]
     ] ],
     [ "BSXAudio2GameSound.h", "BSXAudio2GameSound_8h.html", [
       [ "BSXAudio2GameSound", "classRE_1_1BSXAudio2GameSound.html", "classRE_1_1BSXAudio2GameSound" ]

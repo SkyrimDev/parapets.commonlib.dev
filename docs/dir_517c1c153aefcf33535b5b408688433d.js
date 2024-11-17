@@ -1,5 +1,8 @@
 var dir_517c1c153aefcf33535b5b408688433d =
 [
+    [ "D3DTypes.h", "D3DTypes_8h.html", [
+      [ "D3DVECTOR", "structRE_1_1D3DVECTOR.html", "structRE_1_1D3DVECTOR" ]
+    ] ],
     [ "DecalData.h", "DecalData_8h.html", [
       [ "DECAL_DATA_DATA", "structRE_1_1DECAL__DATA__DATA.html", "structRE_1_1DECAL__DATA__DATA" ],
       [ "DecalData", "structRE_1_1DecalData.html", "structRE_1_1DecalData" ]

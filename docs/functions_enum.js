@@ -21,5 +21,6 @@ var functions_enum =
     [ "t", "functions_enum_t.html", null ],
     [ "u", "functions_enum_u.html", null ],
     [ "v", "functions_enum_v.html", null ],
-    [ "w", "functions_enum_w.html", null ]
+    [ "w", "functions_enum_w.html", null ],
+    [ "x", "functions_enum_x.html", null ]
 ];

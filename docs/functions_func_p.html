@@ -168,7 +168,7 @@ $(document).ready(function(){initNavTree('functions_func_p.html',''); initResiza
 : <a class="el" href="structSKSE_1_1PluginVersionData.html#a960272f2099a28b02b32ed6122618606">SKSE::PluginVersionData</a>
 </li>
 <li>pointer()
-: <a class="el" href="classREL_1_1Module.html#aaf8e3bdc20d8e652c97cf406702f4d05">REL::Module</a>
+: <a class="el" href="classREL_1_1Module.html#abcf76fc9d4b1e74bf0727fabd3a1df56">REL::Module</a>
 , <a class="el" href="classREL_1_1Segment.html#a295c4fbc557f918442cbf3d7d8f4fda5">REL::Segment</a>
 </li>
 <li>PointerInHeap()
@@ -269,6 +269,9 @@ $(document).ready(function(){initNavTree('functions_func_p.html',''); initResiza
 : <a class="el" href="classRE_1_1BSScript_1_1ErrorLogger.html#a1e74746b87adb051bc8a452625ed1e77">RE::BSScript::ErrorLogger</a>
 , <a class="el" href="classRE_1_1SkyrimScript_1_1Logger.html#a40a0a61e1b8e49657194800bd4f197a7">RE::SkyrimScript::Logger</a>
 </li>
+<li>PostGameSoundUpdates()
+: <a class="el" href="classRE_1_1BSAudio.html#a856164043a3b41af0667c9eaf18b642d">RE::BSAudio</a>
+</li>
 <li>PostLinkObject()
 : <a class="el" href="classRE_1_1BSGeometry.html#a9c4baf4014b1eff5bac2292772ac2981">RE::BSGeometry</a>
 , <a class="el" href="classRE_1_1BSLightingShaderProperty.html#a1407e852779042778b65d091286b96b6">RE::BSLightingShaderProperty</a>
@@ -301,6 +304,10 @@ $(document).ready(function(){initNavTree('functions_func_p.html',''); initResiza
 : <a class="el" href="classRE_1_1BookMenu.html#a54776bc3155cf74dd0e933a9ee8acea6">RE::BookMenu</a>
 , <a class="el" href="classRE_1_1IMenu.html#a6968946e8fde3af4f32f4a06a3e0c5e1">RE::IMenu</a>
 </li>
+<li>Prepare()
+: <a class="el" href="classRE_1_1BSGameSound.html#a7d330458d50d01703e3e42242b1ce824">RE::BSGameSound</a>
+, <a class="el" href="classRE_1_1BSXAudio2GameSound.html#a1139aa5f0d17dd3c7b5736cd710fcffb">RE::BSXAudio2GameSound</a>
+</li>
 <li>PrepareFileSavePath()
 : <a class="el" href="classRE_1_1BSSaveDataSystemUtility.html#ae1dd9ecd9cf0ee85aa2d4584b932ae7b">RE::BSSaveDataSystemUtility</a>
 , <a class="el" href="classRE_1_1BSWin32SaveDataSystemUtility.html#a7b0adb215fdc2df2cd83ad570164fd82">RE::BSWin32SaveDataSystemUtility</a>
@@ -313,6 +320,7 @@ $(document).ready(function(){initNavTree('functions_func_p.html',''); initResiza
 , <a class="el" href="classRE_1_1BSScript_1_1IObjectProcessor.html#ace84fe90c65d894a9dedee65b53e4799">RE::BSScript::IObjectProcessor</a>
 , <a class="el" href="classRE_1_1BSScript_1_1LinkerProcessor.html#a90021e1826d4eb5715372413f4264b54">RE::BSScript::LinkerProcessor</a>
 , <a class="el" href="classRE_1_1FxDelegateHandler_1_1CallbackProcessor.html#aa1aad8e11bde6aae331d5e225cb36894">RE::FxDelegateHandler::CallbackProcessor</a>
+, <a class="el" href="classRE_1_1MonitorAPO.html#abac351a9da0555fef7b2ed43ebb94e3a">RE::MonitorAPO</a>
 , <a class="el" href="classRE_1_1RemoveCallbackVisitor.html#a2c0c9501cc332b1e73ddeb1ec5f0f71c">RE::RemoveCallbackVisitor</a>
 </li>
 <li>Process1()
@@ -390,7 +398,7 @@ $(document).ready(function(){initNavTree('functions_func_p.html',''); initResiza
 , <a class="el" href="classRE_1_1TESNPC.html#a5a9be9b353825df66b7fb1974b0a6c79">RE::TESNPC</a>
 , <a class="el" href="classRE_1_1TESObjectREFR.html#affa002bd74d64ebbe8adadaf03ffd411">RE::TESObjectREFR</a>
 , <a class="el" href="classRE_1_1TrainingMenu.html#a6027d057c191f7c094649ebc4956a789">RE::TrainingMenu</a>
-, <a class="el" href="classRE_1_1UISaveLoadManager.html#aff0d91b51512bce83823d1dd544b0682">RE::UISaveLoadManager</a>
+, <a class="el" href="classRE_1_1UISaveLoadManager.html#a8ccea8e9d4597e128631f61771ecc5d2">RE::UISaveLoadManager</a>
 </li>
 <li>ProcessMessage()
 : <a class="el" href="classRE_1_1ActorValueMeter.html#a7b1e8e999bb04a5378e5b6437c227a5d">RE::ActorValueMeter</a>
@@ -466,11 +474,13 @@ $(document).ready(function(){initNavTree('functions_func_p.html',''); initResiza
 </li>
 <li>push_back()
 : <a class="el" href="classRE_1_1BSTArray.html#abc27757e41362a705eeccd9e43d0d48d">RE::BSTArray&lt; T, Allocator &gt;</a>
+, <a class="el" href="classRE_1_1BSTList.html#aed7853eacd39034818bf69d5f158e33b">RE::BSTList&lt; T, Allocator &gt;</a>
 , <a class="el" href="classRE_1_1GList.html#a9d986c22c34cfcda08f357810bc44fe5">RE::GList&lt; T &gt;</a>
 , <a class="el" href="classRE_1_1hkArrayBase.html#abf8fcf8a64dade91fb8884d7542ee8b5">RE::hkArrayBase&lt; T &gt;</a>
 </li>
 <li>push_front()
 : <a class="el" href="classRE_1_1BSSimpleList.html#adc234fbf44ca1944a5c2e75be6cfa6d3">RE::BSSimpleList&lt; T &gt;</a>
+, <a class="el" href="classRE_1_1BSTList.html#a3276e5d70a16b7be225aba83032434bd">RE::BSTList&lt; T, Allocator &gt;</a>
 , <a class="el" href="classRE_1_1GList.html#af8cb7cf8ce99c81cb9a52ab3cecfbfc6">RE::GList&lt; T &gt;</a>
 </li>
 <li>PushBack()

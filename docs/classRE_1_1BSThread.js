@@ -1,7 +1,7 @@
 var classRE_1_1BSThread =
 [
     [ "~BSThread", "classRE_1_1BSThread.html#a806fd417399e4d3d34add7c7df927b53", null ],
-    [ "Unk_01", "classRE_1_1BSThread.html#a3afb777296323e83016858c5bbfe9d73", null ],
+    [ "ThreadProc", "classRE_1_1BSThread.html#ac78b4893be9499af04a0da68f40aa1b7", null ],
     [ "Unk_02", "classRE_1_1BSThread.html#a151947c96daa0203a135b46895453785", null ],
     [ "initialized", "classRE_1_1BSThread.html#aaf02bfe05e62a5b43553d297b928497b", null ],
     [ "lock", "classRE_1_1BSThread.html#a80074076d4b5d2a0edc9e02819721de3", null ],

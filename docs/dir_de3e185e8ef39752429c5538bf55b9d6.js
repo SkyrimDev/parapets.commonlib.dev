@@ -195,6 +195,7 @@ var dir_de3e185e8ef39752429c5538bf55b9d6 =
     [ "IUIMessageData.h", "IUIMessageData_8h.html", [
       [ "IUIMessageData", "classRE_1_1IUIMessageData.html", "classRE_1_1IUIMessageData" ]
     ] ],
+    [ "IUnknown.h", "IUnknown_8h.html", "IUnknown_8h" ],
     [ "IVirtualMachine.h", "IVirtualMachine_8h.html", [
       [ "IVirtualMachine", "classRE_1_1BSScript_1_1IVirtualMachine.html", "classRE_1_1BSScript_1_1IVirtualMachine" ],
       [ "Awaitable", "structRE_1_1BSScript_1_1IVirtualMachine_1_1Awaitable.html", "structRE_1_1BSScript_1_1IVirtualMachine_1_1Awaitable" ],
@@ -209,7 +210,8 @@ var dir_de3e185e8ef39752429c5538bf55b9d6 =
     [ "IVMSaveLoadInterface.h", "IVMSaveLoadInterface_8h.html", [
       [ "IVMSaveLoadInterface", "classRE_1_1BSScript_1_1IVMSaveLoadInterface.html", "classRE_1_1BSScript_1_1IVMSaveLoadInterface" ]
     ] ],
-    [ "IXAudio2VoiceCallback.h", "IXAudio2VoiceCallback_8h.html", [
-      [ "IXAudio2VoiceCallback", "structRE_1_1IXAudio2VoiceCallback.html", "structRE_1_1IXAudio2VoiceCallback" ]
-    ] ]
+    [ "IXAudio2.h", "IXAudio2_8h.html", null ],
+    [ "IXAudio2EngineCallback.h", "IXAudio2EngineCallback_8h.html", "IXAudio2EngineCallback_8h" ],
+    [ "IXAudio2Voice.h", "IXAudio2Voice_8h.html", "IXAudio2Voice_8h" ],
+    [ "IXAudio2VoiceCallback.h", "IXAudio2VoiceCallback_8h.html", "IXAudio2VoiceCallback_8h" ]
 ];

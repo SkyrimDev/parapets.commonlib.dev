@@ -1,0 +1,6 @@
+var AudioDefs_8h =
+[
+    [ "tWAVEFORMATEX", "structRE_1_1tWAVEFORMATEX.html", "structRE_1_1tWAVEFORMATEX" ],
+    [ "WAVEFORMATEXTENSIBLE", "structRE_1_1WAVEFORMATEXTENSIBLE.html", "structRE_1_1WAVEFORMATEXTENSIBLE" ],
+    [ "WAVEFORMATEX", "AudioDefs_8h.html#a8642d154dcf2523a329a73b65e1870b3", null ]
+];

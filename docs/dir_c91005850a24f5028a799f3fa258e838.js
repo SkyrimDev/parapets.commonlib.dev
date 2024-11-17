@@ -113,6 +113,7 @@ var dir_c91005850a24f5028a799f3fa258e838 =
     [ "AttackBlockHandler.h", "AttackBlockHandler_8h.html", [
       [ "AttackBlockHandler", "structRE_1_1AttackBlockHandler.html", "structRE_1_1AttackBlockHandler" ]
     ] ],
+    [ "AudioDefs.h", "AudioDefs_8h.html", "AudioDefs_8h" ],
     [ "AutoMoveHandler.h", "AutoMoveHandler_8h.html", [
       [ "AutoMoveHandler", "structRE_1_1AutoMoveHandler.html", "structRE_1_1AutoMoveHandler" ]
     ] ],

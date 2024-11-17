@@ -91,16 +91,23 @@ $(document).ready(function(){initNavTree('IXAudio2VoiceCallback_8h_source.html',
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceRE.html">RE</a></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="structRE_1_1IXAudio2VoiceCallback.html">    5</a></span>&#160;    <span class="keyword">struct </span><a class="code" href="structRE_1_1IXAudio2VoiceCallback.html">IXAudio2VoiceCallback</a></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keyword">struct </span><span class="keyword">__declspec(novtable)</span> IXAudio2VoiceCallback</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    {</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="structRE_1_1IXAudio2VoiceCallback.html#a47e468607d98e695cb1d99e00840f808">    8</a></span>&#160;        <span class="keyword">inline</span> <span class="keyword">static</span> constexpr <span class="keyword">auto</span> <a class="code" href="structRE_1_1IXAudio2VoiceCallback.html#a47e468607d98e695cb1d99e00840f808">RTTI</a> = <a class="code" href="namespaceRE.html#a1d1924b97365c00596e63441807db96d">RTTI_IXAudio2VoiceCallback</a>;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    };</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keyword">inline</span> <span class="keyword">static</span> constexpr <span class="keyword">auto</span> RTTI = <a class="code" href="namespaceRE.html#a1d1924b97365c00596e63441807db96d">RTTI_IXAudio2VoiceCallback</a>;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="comment">// add</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> OnVoiceProcessingPassStart(std::uint32_t a_bytesRequired) = 0;  <span class="comment">// 00</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> OnVoiceProcessingPassEnd() = 0;                                 <span class="comment">// 01</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> OnStreamEnd() = 0;                                              <span class="comment">// 02</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> OnBufferStart(<span class="keywordtype">void</span>* a_bufferContext) = 0;                       <span class="comment">// 03</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> OnBufferEnd(<span class="keywordtype">void</span>* a_bufferContext) = 0;                         <span class="comment">// 04</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> OnLoopEnd(<span class="keywordtype">void</span>* a_bufferContext) = 0;                           <span class="comment">// 05</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> OnVoiceError(<span class="keywordtype">void</span>* a_bufferContext, std::int32_t a_error) = 0;  <span class="comment">// 06</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    };</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
 <div class="ttc" id="anamespaceRE_html"><div class="ttname"><a href="namespaceRE.html">RE</a></div><div class="ttdef"><b>Definition:</b> AbsorbEffect.h:6</div></div>
 <div class="ttc" id="anamespaceRE_html_a1d1924b97365c00596e63441807db96d"><div class="ttname"><a href="namespaceRE.html#a1d1924b97365c00596e63441807db96d">RE::RTTI_IXAudio2VoiceCallback</a></div><div class="ttdeci">constexpr REL::ID RTTI_IXAudio2VoiceCallback</div><div class="ttdef"><b>Definition:</b> Offsets_RTTI.h:5038</div></div>
-<div class="ttc" id="astructRE_1_1IXAudio2VoiceCallback_html"><div class="ttname"><a href="structRE_1_1IXAudio2VoiceCallback.html">RE::IXAudio2VoiceCallback</a></div><div class="ttdef"><b>Definition:</b> IXAudio2VoiceCallback.h:6</div></div>
-<div class="ttc" id="astructRE_1_1IXAudio2VoiceCallback_html_a47e468607d98e695cb1d99e00840f808"><div class="ttname"><a href="structRE_1_1IXAudio2VoiceCallback.html#a47e468607d98e695cb1d99e00840f808">RE::IXAudio2VoiceCallback::RTTI</a></div><div class="ttdeci">static constexpr auto RTTI</div><div class="ttdef"><b>Definition:</b> IXAudio2VoiceCallback.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
