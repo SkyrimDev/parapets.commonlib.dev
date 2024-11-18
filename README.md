@@ -6,7 +6,7 @@ https://github.com/Exit-9B/CommonLibSSE
 
 > Last Updated: TIMESTAMP_PLACEHOLDER
 >
-> Git revision: https://github.com/Exit-9B/CommonLibSSE/commit/C0MMIT_SHA_PLACEHOLDER
+> Git revision: https://github.com/Exit-9B/CommonLibSSE/commit/COMMIT_SHA_PLACEHOLDER
 
 # Parapets
 
