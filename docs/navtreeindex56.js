@@ -1,5 +1,11 @@
 var NAVTREEINDEX56 =
 {
+"RegistrationTraits_8h.html#a17e9035c5e4346df5ccc490995f4f69c":[3,0,0,0,2,0,1,6],
+"RegistrationTraits_8h.html#a1d850b53fa2f2a04dae098cf9d61197a":[3,0,0,0,2,0,1,10],
+"RegistrationTraits_8h.html#a31ab9cf0ccd9a4b660ab4012b3fc991e":[3,0,0,0,2,0,1,4],
+"RegistrationTraits_8h.html#a629c0b5617602a1ae73cad4e9c1adecd":[3,0,0,0,2,0,1,8],
+"RegistrationTraits_8h.html#a8280b0c14b142f169f4630b53b0f12ed":[3,0,0,0,2,0,1,9],
+"RegistrationTraits_8h.html#aa9a53e3656f819439f3e6af0a7d86e8b":[3,0,0,0,2,0,1,5],
 "RegistrationTraits_8h.html#ac22caeb378aaf81f407fdcf9cd4ca961":[3,0,0,0,2,0,1,11],
 "RegistrationTraits_8h.html#aea302d82628498dd27ca34634472a4d3":[3,0,0,0,2,0,1,12],
 "RegistrationTraits_8h_source.html":[3,0,0,0,2,0,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX56 =
 "TESActiveEffectApplyRemoveEvent_8h_source.html":[3,0,0,0,0,19,3],
 "TESActorBaseData_8h.html":[3,0,0,0,0,19,5],
 "TESActorBaseData_8h_source.html":[3,0,0,0,0,19,5],
-"TESActorBase_8h.html":[3,0,0,0,0,19,4],
-"TESActorBase_8h_source.html":[3,0,0,0,0,19,4],
-"TESAmmo_8h.html":[3,0,0,0,0,19,7],
-"TESAmmo_8h_source.html":[3,0,0,0,0,19,7],
-"TESAttackDamageForm_8h.html":[3,0,0,0,0,19,8],
-"TESAttackDamageForm_8h_source.html":[3,0,0,0,0,19,8],
-"TESBipedModelForm_8h.html":[3,0,0,0,0,19,9]
+"TESActorBase_8h.html":[3,0,0,0,0,19,4]
 };

@@ -988,11 +988,15 @@ var hierarchy =
       [ "RE::BGSMusicType", "classRE_1_1BGSMusicType.html", null ]
     ] ],
     [ "RE::BSIntrusiveRefCounted", "structRE_1_1BSIntrusiveRefCounted.html", [
+      [ "RE::BSAudioDataSrc< BSXAudio2DataSrc >", "classRE_1_1BSAudioDataSrc.html", [
+        [ "RE::BSXAudio2DataSrc", "classRE_1_1BSXAudio2DataSrc.html", null ]
+      ] ],
       [ "RE::BGSPackageDataNameMap", "structRE_1_1BGSPackageDataNameMap.html", null ],
       [ "RE::BSAnimationGraphChannel", "classRE_1_1BSAnimationGraphChannel.html", [
         [ "RE::BSTAnimationGraphDataChannel< T, Val, Channel >", "classRE_1_1BSTAnimationGraphDataChannel.html", null ]
       ] ],
       [ "RE::BSAnimationGraphManager", "classRE_1_1BSAnimationGraphManager.html", null ],
+      [ "RE::BSAudioDataSrc< T >", "classRE_1_1BSAudioDataSrc.html", null ],
       [ "RE::BSEffectShaderData", "classRE_1_1BSEffectShaderData.html", null ],
       [ "RE::BSNavmesh", "classRE_1_1BSNavmesh.html", [
         [ "RE::NavMesh", "classRE_1_1NavMesh.html", null ]
@@ -2651,8 +2655,8 @@ var hierarchy =
     [ "SKSE::stl::enumeration< FlagBDB, std::uint8_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
     [ "SKSE::stl::enumeration< FlagBDC, std::uint8_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
     [ "SKSE::stl::enumeration< FlagBDD, std::uint8_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
-    [ "SKSE::stl::enumeration< FLAGS, std::uint32_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
     [ "SKSE::stl::enumeration< Flags, std::uint32_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
+    [ "SKSE::stl::enumeration< FLAGS, std::uint32_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
     [ "SKSE::stl::enumeration< FormType, std::uint8_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
     [ "SKSE::stl::enumeration< FreezeState, std::uint32_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
     [ "SKSE::stl::enumeration< Function, std::uint8_t >", "classSKSE_1_1stl_1_1enumeration.html", null ],
@@ -4782,6 +4786,7 @@ var hierarchy =
         [ "RE::BSResource::LooseFileStream", "classRE_1_1BSResource_1_1LooseFileStream.html", null ]
       ] ]
     ] ],
+    [ "RE::BSXAudio2DataSrc::StreamPacket", "structRE_1_1BSXAudio2DataSrc_1_1StreamPacket.html", null ],
     [ "SKSE::stl::nttp::string< CharT, N >", "structSKSE_1_1stl_1_1nttp_1_1string.html", null ],
     [ "RE::BGSQuestInstanceText::StringData", "structRE_1_1BGSQuestInstanceText_1_1StringData.html", null ],
     [ "RE::BSScript::Internal::SuspendedStack", "structRE_1_1BSScript_1_1Internal_1_1SuspendedStack.html", null ],

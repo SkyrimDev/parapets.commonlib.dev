@@ -1,5 +1,11 @@
 var NAVTREEINDEX70 =
 {
+"classRE_1_1BGSSaveLoadChangesMap.html":[2,0,0,217],
+"classRE_1_1BGSSaveLoadChangesMap.html#a3d2d3e505e6c50c8f734b56ca6069e09":[2,0,0,217,0],
+"classRE_1_1BGSSaveLoadChangesMap.html#a9d2a098033490597525c86d38e87a240":[2,0,0,217,1],
+"classRE_1_1BGSSaveLoadFileEntry.html":[2,0,0,219],
+"classRE_1_1BGSSaveLoadFileEntry.html#a0a1ed9d6524088b231e772ff7dedf2c5":[2,0,0,219,4],
+"classRE_1_1BGSSaveLoadFileEntry.html#a0e1a8bda6f9bd84c07624e4bc324faac":[2,0,0,219,7],
 "classRE_1_1BGSSaveLoadFileEntry.html#a11ae243ae56ab242096e9ea331c9b1a5":[2,0,0,219,9],
 "classRE_1_1BGSSaveLoadFileEntry.html#a1d708ed84c26fc8812b23ba5a94e0c8c":[2,0,0,219,15],
 "classRE_1_1BGSSaveLoadFileEntry.html#a34a863fbf06b8b8d3ee4f9b8b2c7eaba":[2,0,0,219,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX70 =
 "classRE_1_1BGSSceneAction.html#a77cd4437cb0283fa072e1f6630fa9cb1":[2,0,0,223,2],
 "classRE_1_1BGSSceneAction.html#a77cd4437cb0283fa072e1f6630fa9cb1a15293cb5df7785c1dd152d5824524a65":[2,0,0,223,2,0],
 "classRE_1_1BGSSceneAction.html#a77cd4437cb0283fa072e1f6630fa9cb1abb0cb7a283263408d77d35d2e034bb77":[2,0,0,223,2,1],
-"classRE_1_1BGSSceneAction.html#a77cd4437cb0283fa072e1f6630fa9cb1adb391097fe27934ed9a1b52118e07005":[2,0,0,223,2,2],
-"classRE_1_1BGSSceneAction.html#a83a21d905f92ae25fd0ff0f417ff529a":[2,0,0,223,3],
-"classRE_1_1BGSSceneAction.html#a94a2f51139dc6b999cda5ca9ff79ef22":[2,0,0,223,27],
-"classRE_1_1BGSSceneAction.html#a95a5a5f5756388962199f4e6f2b15c02":[2,0,0,223,23],
-"classRE_1_1BGSSceneAction.html#a9a5c3cb58364133b6ecdc7759b58122d":[2,0,0,223,32],
-"classRE_1_1BGSSceneAction.html#a9ab658e6ba59b08cf8ea518647830f39":[2,0,0,223,17],
-"classRE_1_1BGSSceneAction.html#aa7c8a0871549a6df9d9e54069e545a25":[2,0,0,223,19]
+"classRE_1_1BGSSceneAction.html#a77cd4437cb0283fa072e1f6630fa9cb1adb391097fe27934ed9a1b52118e07005":[2,0,0,223,2,2]
 };

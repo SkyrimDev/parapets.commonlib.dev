@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"GFxShapeWithStyles_8h_source.html":[3,0,0,0,0,6,88],
+"GFxSpecialKeysState_8h.html":[3,0,0,0,0,6,89],
 "GFxSpecialKeysState_8h_source.html":[3,0,0,0,0,6,89],
 "GFxSpriteDef_8h.html":[3,0,0,0,0,6,91],
 "GFxSpriteDef_8h_source.html":[3,0,0,0,0,6,91],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "IFuncCallQuery_8h_source.html":[3,0,0,0,0,8,9],
 "IFunctionArguments_8h.html":[3,0,0,0,0,8,11],
 "IFunctionArguments_8h_source.html":[3,0,0,0,0,8,11],
-"IFunction_8h.html":[3,0,0,0,0,8,10],
-"IFunction_8h_source.html":[3,0,0,0,0,8,10],
-"IHandlerFunctor_8h.html":[3,0,0,0,0,8,12]
+"IFunction_8h.html":[3,0,0,0,0,8,10]
 };

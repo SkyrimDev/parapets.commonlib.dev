@@ -8,6 +8,7 @@ var namespaceRE =
     [ "BSAttachTechniques", "namespaceRE_1_1BSAttachTechniques.html", "namespaceRE_1_1BSAttachTechniques" ],
     [ "BSAudioMonitor", "namespaceRE_1_1BSAudioMonitor.html", "namespaceRE_1_1BSAudioMonitor" ],
     [ "BSCurrent", "namespaceRE_1_1BSCurrent.html", "namespaceRE_1_1BSCurrent" ],
+    [ "BSExternalAudioIO", "namespaceRE_1_1BSExternalAudioIO.html", null ],
     [ "BSGraphics", "namespaceRE_1_1BSGraphics.html", "namespaceRE_1_1BSGraphics" ],
     [ "BSJobs", "namespaceRE_1_1BSJobs.html", null ],
     [ "BSResource", "namespaceRE_1_1BSResource.html", "namespaceRE_1_1BSResource" ],
@@ -32,7 +33,6 @@ var namespaceRE =
         [ "kDone", "namespaceRE_1_1hkWorldOperation.html#aa190a247fef39a23e02e64f012562dcaa9e2024e27d037d51bb46ef86d2e0ea4d", null ]
       ] ]
     ] ],
-    [ "LipSynchAnimDB", "namespaceRE_1_1LipSynchAnimDB.html", null ],
     [ "literals", "namespaceRE_1_1literals.html", [
       [ "operator\"\"_gs", "namespaceRE_1_1literals.html#ae5cf2b22f121bed55b28a0a841e456c4", null ],
       [ "operator\"\"_ini", "namespaceRE_1_1literals.html#ac12a8c83ade603165af17d2b136fab5a", null ],
@@ -615,6 +615,8 @@ var namespaceRE =
     [ "MonitorAPO", "classRE_1_1MonitorAPO.html", "classRE_1_1MonitorAPO" ],
     [ "XAudio2Monitor", "structRE_1_1XAudio2Monitor.html", "structRE_1_1XAudio2Monitor" ],
     [ "BSXAudio2AudioListener", "classRE_1_1BSXAudio2AudioListener.html", "classRE_1_1BSXAudio2AudioListener" ],
+    [ "BSAudioDataSrc", "classRE_1_1BSAudioDataSrc.html", "classRE_1_1BSAudioDataSrc" ],
+    [ "BSXAudio2DataSrc", "classRE_1_1BSXAudio2DataSrc.html", "classRE_1_1BSXAudio2DataSrc" ],
     [ "BSXAudio2GameSound", "classRE_1_1BSXAudio2GameSound.html", "classRE_1_1BSXAudio2GameSound" ],
     [ "BSXFlags", "classRE_1_1BSXFlags.html", "classRE_1_1BSXFlags" ],
     [ "ButtonEvent", "classRE_1_1ButtonEvent.html", "classRE_1_1ButtonEvent" ],

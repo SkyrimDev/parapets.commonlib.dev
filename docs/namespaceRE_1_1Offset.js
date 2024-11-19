@@ -230,6 +230,10 @@ var namespaceRE_1_1Offset =
       [ "FindBSFurnitureMarkerNode", "namespaceRE_1_1Offset_1_1BSFurnitureMarkerNode.html#ab16972457df6bdbc90acf967f4600c15", null ],
       [ "FindBSFurnitureMarkerNode", "namespaceRE_1_1Offset_1_1BSFurnitureMarkerNode.html#a1313f0a17ba8e52d798bd76cfd17e0e2", null ]
     ] ],
+    [ "BSGameSound", "namespaceRE_1_1Offset_1_1BSGameSound.html", [
+      [ "SetOutputModel", "namespaceRE_1_1Offset_1_1BSGameSound.html#a6e574240a078aefe38d42cedbb04b050", null ],
+      [ "SetOutputModel", "namespaceRE_1_1Offset_1_1BSGameSound.html#abf828b5669ba4ee7789f39a0cefe3e29", null ]
+    ] ],
     [ "BSGraphics", "namespaceRE_1_1Offset_1_1BSGraphics.html", "namespaceRE_1_1Offset_1_1BSGraphics" ],
     [ "BSInputDeviceManager", "namespaceRE_1_1Offset_1_1BSInputDeviceManager.html", [
       [ "Singleton", "namespaceRE_1_1Offset_1_1BSInputDeviceManager.html#a43fe5ae5dad7ff676abf595360718c88", null ],
@@ -351,10 +355,12 @@ var namespaceRE_1_1Offset =
       [ "GetSingleton", "namespaceRE_1_1Offset_1_1BSWin32SystemUtility.html#a1b037cf2eba376c37c3606fe494e24d6", null ]
     ] ],
     [ "BSXAudio2GameSound", "namespaceRE_1_1Offset_1_1BSXAudio2GameSound.html", [
-      [ "pAudioImplementation", "namespaceRE_1_1Offset_1_1BSXAudio2GameSound.html#a9ab6f1af5bbb61f2750fb159bdb64fd4", null ],
+      [ "pAudioImplementation", "namespaceRE_1_1Offset_1_1BSXAudio2GameSound.html#a9ce2aa198469212947e2c5174b4a2c72", null ],
       [ "pAudioImplementation", "namespaceRE_1_1Offset_1_1BSXAudio2GameSound.html#ae23edda5936ab9393229dca3fb5880c8", null ],
-      [ "pXAudioListener", "namespaceRE_1_1Offset_1_1BSXAudio2GameSound.html#adc0d0bbbf0aa483469798de29bba82ee", null ],
-      [ "pXAudioListener", "namespaceRE_1_1Offset_1_1BSXAudio2GameSound.html#aefc6337880348b7c7934e07dab4d56bb", null ]
+      [ "pXAudioListener", "namespaceRE_1_1Offset_1_1BSXAudio2GameSound.html#ab5933751ce3d3224d696296aee6108b6", null ],
+      [ "pXAudioListener", "namespaceRE_1_1Offset_1_1BSXAudio2GameSound.html#aefc6337880348b7c7934e07dab4d56bb", null ],
+      [ "SeekInSamples", "namespaceRE_1_1Offset_1_1BSXAudio2GameSound.html#a501434c139bacbcbbd00f558f6786264", null ],
+      [ "SeekInSamples", "namespaceRE_1_1Offset_1_1BSXAudio2GameSound.html#af3b6ab14fabe2aa95ef502f5e0fef412", null ]
     ] ],
     [ "BucketTable", "namespaceRE_1_1Offset_1_1BucketTable.html", [
       [ "GetSingleton", "namespaceRE_1_1Offset_1_1BucketTable.html#a4af09c7bed641554528fbdd5eb1e7f44", null ],

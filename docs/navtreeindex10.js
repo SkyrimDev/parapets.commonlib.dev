@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"IFunction_8h_source.html":[3,0,0,0,0,8,10],
+"IHandlerFunctor_8h.html":[3,0,0,0,0,8,12],
 "IHandlerFunctor_8h.html#ade969d87388ea610170164b251353a96":[3,0,0,0,0,8,12,4],
 "IHandlerFunctor_8h_source.html":[3,0,0,0,0,8,12],
 "ILoader_8h.html":[3,0,0,0,0,8,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "ItemsPickpocketed_8h_source.html":[3,0,0,0,0,8,64],
 "JournalMenu_8h.html":[3,0,0,0,0,9,3],
 "JournalMenu_8h_source.html":[3,0,0,0,0,9,3],
-"JournalTab_8h.html":[3,0,0,0,0,9,4],
-"JournalTab_8h_source.html":[3,0,0,0,0,9,4],
-"Journal__QuestsTab_8h.html":[3,0,0,0,0,9,0]
+"JournalTab_8h.html":[3,0,0,0,0,9,4]
 };

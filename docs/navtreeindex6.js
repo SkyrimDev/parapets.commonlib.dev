@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"ExtraDataTypes_8h.html#add8039a0074a0db2297d671a6088c687acc9a588b3ce07a69f8427b8c463f451b":[3,0,0,0,0,4,43,0,84],
+"ExtraDataTypes_8h.html#add8039a0074a0db2297d671a6088c687ace791aaa473da49031a67712cc68f5b6":[3,0,0,0,0,4,43,0,31],
 "ExtraDataTypes_8h.html#add8039a0074a0db2297d671a6088c687acea56b1c4a3084461b9006c4f5985d63":[3,0,0,0,0,4,43,0,51],
 "ExtraDataTypes_8h.html#add8039a0074a0db2297d671a6088c687aceb4042ee26f573565519772e5718172":[3,0,0,0,0,4,43,0,162],
 "ExtraDataTypes_8h.html#add8039a0074a0db2297d671a6088c687ad106c37dbd1856d9fe91534892b84c6e":[3,0,0,0,0,4,43,0,46],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "ExtraOcclusionPlaneRefData_8h.html":[3,0,0,0,0,4,109],
 "ExtraOcclusionPlaneRefData_8h_source.html":[3,0,0,0,0,4,109],
 "ExtraOcclusionShape_8h.html":[3,0,0,0,0,4,110],
-"ExtraOcclusionShape_8h_source.html":[3,0,0,0,0,4,110],
-"ExtraOpenCloseActivateRef_8h.html":[3,0,0,0,0,4,111],
-"ExtraOpenCloseActivateRef_8h_source.html":[3,0,0,0,0,4,111]
+"ExtraOcclusionShape_8h_source.html":[3,0,0,0,0,4,110]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"FormTypes_8h.html#a5910781a8c2570b85386c4111dcfe4eeaab055e428d5ae3a121e3b6c2d292697d":[3,0,0,0,0,5,10,0,46],
+"FormTypes_8h.html#a5910781a8c2570b85386c4111dcfe4eeaae6e9b63e87076a8c0188b659ab93a28":[3,0,0,0,0,5,10,0,13],
 "FormTypes_8h.html#a5910781a8c2570b85386c4111dcfe4eeaae7968d26b598ce434958b0825b7a4ac":[3,0,0,0,0,5,10,0,50],
 "FormTypes_8h.html#a5910781a8c2570b85386c4111dcfe4eeaaea61e485dede7c94e32a4e2ee113f7c":[3,0,0,0,0,5,10,0,116],
 "FormTypes_8h.html#a5910781a8c2570b85386c4111dcfe4eeab2c345c90a2d96dbf399166679ff6dc9":[3,0,0,0,0,5,10,0,62],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "GFxShapeCharacterDef_8h_source.html":[3,0,0,0,0,6,86],
 "GFxShapeNoStyles_8h.html":[3,0,0,0,0,6,87],
 "GFxShapeNoStyles_8h_source.html":[3,0,0,0,0,6,87],
-"GFxShapeWithStyles_8h.html":[3,0,0,0,0,6,88],
-"GFxShapeWithStyles_8h_source.html":[3,0,0,0,0,6,88],
-"GFxSpecialKeysState_8h.html":[3,0,0,0,0,6,89]
+"GFxShapeWithStyles_8h.html":[3,0,0,0,0,6,88]
 };

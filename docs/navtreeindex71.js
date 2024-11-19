@@ -1,5 +1,11 @@
 var NAVTREEINDEX71 =
 {
+"classRE_1_1BGSSceneAction.html#a83a21d905f92ae25fd0ff0f417ff529a":[2,0,0,223,3],
+"classRE_1_1BGSSceneAction.html#a94a2f51139dc6b999cda5ca9ff79ef22":[2,0,0,223,27],
+"classRE_1_1BGSSceneAction.html#a95a5a5f5756388962199f4e6f2b15c02":[2,0,0,223,23],
+"classRE_1_1BGSSceneAction.html#a9a5c3cb58364133b6ecdc7759b58122d":[2,0,0,223,32],
+"classRE_1_1BGSSceneAction.html#a9ab658e6ba59b08cf8ea518647830f39":[2,0,0,223,17],
+"classRE_1_1BGSSceneAction.html#aa7c8a0871549a6df9d9e54069e545a25":[2,0,0,223,19],
 "classRE_1_1BGSSceneAction.html#aa915f477d85919a1be4db5201564c864":[2,0,0,223,11],
 "classRE_1_1BGSSceneAction.html#abcec027e5714cb5740dd2b6326cace1d":[2,0,0,223,20],
 "classRE_1_1BGSSceneAction.html#ac98d41ca84065073d9afef30a8f10f5e":[2,0,0,223,30],
@@ -226,10 +232,10 @@ var NAVTREEINDEX71 =
 "classRE_1_1BGSStaticCollection.html#a7e38591e55b0cc0594ea2d9cafd56e86":[2,0,0,236,2],
 "classRE_1_1BGSStaticCollection.html#a9ad35e4d2af689f02f651e41c583480c":[2,0,0,236,3],
 "classRE_1_1BGSStaticCollection.html#acef81fdd69f43a321a3fa268e9ae1c13":[2,0,0,236,6],
-"classRE_1_1BGSStoryEvent.html":[2,0,0,1487],
-"classRE_1_1BGSStoryEvent.html#a4e0e9393d77084d4083fed2ee8839b3d":[2,0,0,1487,0],
-"classRE_1_1BGSStoryEvent.html#af1d00c771eea1b47e56aafccde2378a0":[2,0,0,1487,2],
-"classRE_1_1BGSStoryEvent.html#afc9f1547c7e39b2dde748cb9f35506f1":[2,0,0,1487,1],
+"classRE_1_1BGSStoryEvent.html":[2,0,0,1489],
+"classRE_1_1BGSStoryEvent.html#a4e0e9393d77084d4083fed2ee8839b3d":[2,0,0,1489,0],
+"classRE_1_1BGSStoryEvent.html#af1d00c771eea1b47e56aafccde2378a0":[2,0,0,1489,2],
+"classRE_1_1BGSStoryEvent.html#afc9f1547c7e39b2dde748cb9f35506f1":[2,0,0,1489,1],
 "classRE_1_1BGSStoryEventManager.html":[2,0,0,237],
 "classRE_1_1BGSStoryEventManager.html#a3c2a6cc069695b73efd264de38998305":[2,0,0,237,1],
 "classRE_1_1BGSStoryEventManager.html#a4fb1fb4865c388c3673fbcc43c2a8ede":[2,0,0,237,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX71 =
 "classRE_1_1BGSStoryManagerBranchNode.html#a5b5cce23e4841765b350067161048ff3":[2,0,0,238,3],
 "classRE_1_1BGSStoryManagerBranchNode.html#a9aafa99414690e0d453432ea6061334f":[2,0,0,238,4],
 "classRE_1_1BGSStoryManagerBranchNode.html#aaa39d6d08ef03ff52ce3b0af175b97d5":[2,0,0,238,9],
-"classRE_1_1BGSStoryManagerBranchNode.html#ab7244dc3fbfedd3ee0d2167760cbc665":[2,0,0,238,5],
-"classRE_1_1BGSStoryManagerBranchNode.html#abdb14c6ca640d07f5ddd8fb3c45353b6":[2,0,0,238,2],
-"classRE_1_1BGSStoryManagerBranchNode.html#adea29f829a3d531b9e538d6522d15ff2":[2,0,0,238,7],
-"classRE_1_1BGSStoryManagerBranchNode.html#aff8bb8fc6fae85a8d3c62223331e643b":[2,0,0,238,1],
-"classRE_1_1BGSStoryManagerEventNode.html":[2,0,0,241],
-"classRE_1_1BGSStoryManagerEventNode.html#a23305f5e6dc9cd353960dbfb28e25eaf":[2,0,0,241,3],
-"classRE_1_1BGSStoryManagerEventNode.html#a4f605e2edfcac66e11da765b5cef43f6":[2,0,0,241,2]
+"classRE_1_1BGSStoryManagerBranchNode.html#ab7244dc3fbfedd3ee0d2167760cbc665":[2,0,0,238,5]
 };

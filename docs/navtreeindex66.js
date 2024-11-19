@@ -1,5 +1,11 @@
 var NAVTREEINDEX66 =
 {
+"classRE_1_1BGSConstructibleObject.html#afaa5e6ae7798f7d5d8d2c934ba183558":[2,0,0,105,5],
+"classRE_1_1BGSConstructibleObject.html#afdc2dcba19de96f6295bdd7514aae189":[2,0,0,105,8],
+"classRE_1_1BGSCraftItemEvent.html":[2,0,0,106],
+"classRE_1_1BGSCraftItemEvent.html#a32534e2b194d87b073d153cb843f0f74":[2,0,0,106,3],
+"classRE_1_1BGSCraftItemEvent.html#a8bafd2ff7fbddc8d11f7013eda5bb598":[2,0,0,106,0],
+"classRE_1_1BGSCraftItemEvent.html#a8da6f2e4a0a0844d23685a018eba1577":[2,0,0,106,2],
 "classRE_1_1BGSCraftItemEvent.html#ac8e4e81e21016cb0402818fc4ac86b5e":[2,0,0,106,1],
 "classRE_1_1BGSCraftItemEvent.html#ae535e7909b5a57f54634cd6c94cf528f":[2,0,0,106,4],
 "classRE_1_1BGSCraftItemEvent.html#af096577410eabd0545067e81235db745":[2,0,0,106,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX66 =
 "classRE_1_1BGSFormChanges.html":[2,0,0,144],
 "classRE_1_1BGSFormChanges.html#aa05ad68c4af8040a478c96c480086f64":[2,0,0,144,0],
 "classRE_1_1BGSFormChanges.html#aa7b8b633011e8c054c22b8bfe714458b":[2,0,0,144,1],
-"classRE_1_1BGSFormChanges.html#aaf5c54fd35ef2320087d173103ae32b0":[2,0,0,144,2],
-"classRE_1_1BGSHazard.html":[2,0,0,146],
-"classRE_1_1BGSHazard.html#a25cc800205703adef662d5e441e31d38":[2,0,0,146,4],
-"classRE_1_1BGSHazard.html#a3cabe532f8d60861915ac5fabb8f2bc4":[2,0,0,146,2],
-"classRE_1_1BGSHazard.html#a59226b21f8b12256f6bf4a4f57ffecf5":[2,0,0,146,1],
-"classRE_1_1BGSHazard.html#a87a73555dec02dfe32309b303b1c3334":[2,0,0,146,7],
-"classRE_1_1BGSHazard.html#a8e4f5f557712392e1567478ab64738b3":[2,0,0,146,6]
+"classRE_1_1BGSFormChanges.html#aaf5c54fd35ef2320087d173103ae32b0":[2,0,0,144,2]
 };

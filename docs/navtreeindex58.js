@@ -1,5 +1,11 @@
 var NAVTREEINDEX58 =
 {
+"TESProduceForm_8h_source.html":[3,0,0,0,0,19,89],
+"TESQualityForm_8h.html":[3,0,0,0,0,19,90],
+"TESQualityForm_8h_source.html":[3,0,0,0,0,19,90],
+"TESQuestInitEvent_8h.html":[3,0,0,0,0,19,92],
+"TESQuestInitEvent_8h_source.html":[3,0,0,0,0,19,92],
+"TESQuestStageItem_8h.html":[3,0,0,0,0,19,93],
 "TESQuestStageItem_8h_source.html":[3,0,0,0,0,19,93],
 "TESQuest_8h.html":[3,0,0,0,0,19,91],
 "TESQuest_8h.html#a69ce8f6b54e6548bbaa9d02f7d4ac885":[3,0,0,0,0,19,91,13],
@@ -243,11 +249,5 @@ var NAVTREEINDEX58 =
 "VREvent_8h.html#af770091be3be1cdb669457c38dd4b664a691ac7c300ebdf85bf77d9225804e614":[3,0,0,0,3,6,27,40],
 "VREvent_8h.html#af770091be3be1cdb669457c38dd4b664a6b14ec9803b747f40c840d5dd8d0636a":[3,0,0,0,3,6,27,10],
 "VREvent_8h.html#af770091be3be1cdb669457c38dd4b664a6c1a915eb4c4f522593315ba7c243bbd":[3,0,0,0,3,6,27,102],
-"VREvent_8h.html#af770091be3be1cdb669457c38dd4b664a6d4ab093407f9cf061fc4e43585251cb":[3,0,0,0,3,6,27,88],
-"VREvent_8h.html#af770091be3be1cdb669457c38dd4b664a6d855c8434ac32ffb6b42923b7eb2f88":[3,0,0,0,3,6,27,0],
-"VREvent_8h.html#af770091be3be1cdb669457c38dd4b664a6da2ea22fc25c892f1920e916197a153":[3,0,0,0,3,6,27,120],
-"VREvent_8h.html#af770091be3be1cdb669457c38dd4b664a705ebe874cf02b93145d1cd27c2ac64c":[3,0,0,0,3,6,27,49],
-"VREvent_8h.html#af770091be3be1cdb669457c38dd4b664a78c9104ec02a3d3b11612a60b76d6f0b":[3,0,0,0,3,6,27,128],
-"VREvent_8h.html#af770091be3be1cdb669457c38dd4b664a78f51fba2e448c88f5a07da05c0d12a8":[3,0,0,0,3,6,27,41],
-"VREvent_8h.html#af770091be3be1cdb669457c38dd4b664a7cd158425503e0aaa1fa3e7f7a6afa1f":[3,0,0,0,3,6,27,55]
+"VREvent_8h.html#af770091be3be1cdb669457c38dd4b664a6d4ab093407f9cf061fc4e43585251cb":[3,0,0,0,3,6,27,88]
 };

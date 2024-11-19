@@ -110,6 +110,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>Samples
 : <a class="el" href="structRE_1_1WAVEFORMATEXTENSIBLE.html#a52c1d844e7a518e0b6dc92b06d6c9cf6">RE::WAVEFORMATEXTENSIBLE</a>
 </li>
+<li>samplesPlayed
+: <a class="el" href="classRE_1_1BSXAudio2GameSound.html#aea4835a357dc53cd8192ab68813c49e6">RE::BSXAudio2GameSound</a>
+</li>
 <li>SamplesPlayed
 : <a class="el" href="structRE_1_1XAUDIO2__VOICE__STATE.html#ab7140fed299f42cff52690576f6d547f">RE::XAUDIO2_VOICE_STATE</a>
 </li>
@@ -467,19 +470,28 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>seek()
 : <a class="el" href="classRE_1_1BSFile.html#abb49b8b7af1b0c2e8023c886553105c2">RE::BSFile</a>
-, <a class="el" href="classRE_1_1BSResourceNiBinaryStream.html#abc4a2d661865b671734f2d42d88b2b2c">RE::BSResourceNiBinaryStream</a>
+</li>
+<li>Seek()
+: <a class="el" href="classRE_1_1BSGameSound.html#a75964de94abe407897a6bbb4828861c1">RE::BSGameSound</a>
+</li>
+<li>seek()
+: <a class="el" href="classRE_1_1BSResourceNiBinaryStream.html#abc4a2d661865b671734f2d42d88b2b2c">RE::BSResourceNiBinaryStream</a>
 </li>
 <li>Seek()
 : <a class="el" href="classRE_1_1BSStorage.html#aef3e49bd658fa769f936a4ce0343f6e9">RE::BSStorage</a>
 , <a class="el" href="classRE_1_1BSSystemFileStorage.html#acc055f917798391dd17efd40bf4a4cef">RE::BSSystemFileStorage</a>
+, <a class="el" href="classRE_1_1BSXAudio2GameSound.html#a72f512a3c1d21f4030f5f7451e723a5d">RE::BSXAudio2GameSound</a>
 </li>
 <li>seek()
 : <a class="el" href="classRE_1_1NiBinaryStream.html#a2524775c417d886747bb32ec02f13665">RE::NiBinaryStream</a>
-, <a class="el" href="classRE_1_1NiFile.html#a528d8852169bc0738a4c33f036fda8e5">RE::NiFile</a>
+, <a class="el" href="classRE_1_1NiFile.html#a3b17b510183ac7f0b96ae7b5a73784cc">RE::NiFile</a>
 </li>
 <li>Seek()
 : <a class="el" href="classRE_1_1SkyrimScript_1_1Store.html#aa016dca3521f19480d43479afd2c68fe">RE::SkyrimScript::Store</a>
 , <a class="el" href="classRE_1_1TESFile.html#afb5a4a47130bd64620310191d2077d58">RE::TESFile</a>
+</li>
+<li>SeekInSamples()
+: <a class="el" href="classRE_1_1BSXAudio2GameSound.html#abc65aae831274e6da57b945d653d7083">RE::BSXAudio2GameSound</a>
 </li>
 <li>SeekNextSubrecord()
 : <a class="el" href="classRE_1_1TESFile.html#a1bcd61dc1bc76d01512e00f82d807ae1">RE::TESFile</a>
@@ -494,7 +506,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="classREL_1_1Module.html#a4e0fcd01598e583b692bd0a67059e6f8">REL::Module</a>
 </li>
 <li>Segment()
-: <a class="el" href="classREL_1_1Segment.html#a9c247151623ea181ed8d1cddb9b2cda8">REL::Segment</a>
+: <a class="el" href="classREL_1_1Segment.html#ae1ec8621d65e48c67e7f960c04cc999e">REL::Segment</a>
 </li>
 <li>selected
 : <a class="el" href="classRE_1_1CraftingSubMenus_1_1EnchantConstructMenu_1_1CategoryListEntry.html#a7150554e8aa7df133674ce8e4d2f84ab">RE::CraftingSubMenus::EnchantConstructMenu::CategoryListEntry</a>
@@ -766,6 +778,10 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>SetAt2()
 : <a class="el" href="classRE_1_1NiNode.html#acf67c2607d16fd03d42e7a6fada3b92b">RE::NiNode</a>
 </li>
+<li>SetAttenuationCurve()
+: <a class="el" href="classRE_1_1BSGameSound.html#a3d4bf8bbbb8e118236e2e54f0688f717">RE::BSGameSound</a>
+, <a class="el" href="classRE_1_1BSXAudio2GameSound.html#a16cdba5b2026956a75429bbcde1edb48">RE::BSXAudio2GameSound</a>
+</li>
 <li>SetAudioImplementation()
 : <a class="el" href="classRE_1_1BSXAudio2GameSound.html#ae782a9fb1fe78a6d99a29ba3714e6ac2">RE::BSXAudio2GameSound</a>
 </li>
@@ -819,7 +835,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>SetCallableFromTasklets()
 : <a class="el" href="classRE_1_1BSScript_1_1IFunction.html#abf7bfb6194ea4d290ae633fa650e38c1">RE::BSScript::IFunction</a>
 , <a class="el" href="classRE_1_1BSScript_1_1Internal_1_1ScriptFunction.html#a8ed6782ba9b175f1507b07e8ad37c2f5">RE::BSScript::Internal::ScriptFunction</a>
-, <a class="el" href="classRE_1_1BSScript_1_1IVirtualMachine.html#a19d87f2d8010f17b59b5b84433b90699">RE::BSScript::IVirtualMachine</a>
+, <a class="el" href="classRE_1_1BSScript_1_1IVirtualMachine.html#ad97ec5e48d28cf628109bcf5af813645">RE::BSScript::IVirtualMachine</a>
 , <a class="el" href="classRE_1_1BSScript_1_1NF__util_1_1NativeFunctionBase.html#adda3490404cf3d2e4b2b41b7a2ed1dd0">RE::BSScript::NF_util::NativeFunctionBase</a>
 </li>
 <li>SetCallableFromTasklets1()
@@ -1009,6 +1025,10 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>SetElement()
 : <a class="el" href="classRE_1_1GFxValue_1_1ObjectInterface.html#a4942c7af0c62b8d8c2008b1bd5050c15">RE::GFxValue::ObjectInterface</a>
 , <a class="el" href="classRE_1_1GFxValue.html#ab530f84f7705aa21048a268b68ea6e51">RE::GFxValue</a>
+</li>
+<li>SetEmitterPositionImpl()
+: <a class="el" href="classRE_1_1BSGameSound.html#ad819145cd2f873fb5fa64365ad9361a8">RE::BSGameSound</a>
+, <a class="el" href="classRE_1_1BSXAudio2GameSound.html#a12898a10f029393ff9655025f64e9db0">RE::BSXAudio2GameSound</a>
 </li>
 <li>SetEnabled()
 : <a class="el" href="classRE_1_1TESQuest.html#a23ff7d15c98171aaf0580da7f52b9783">RE::TESQuest</a>
@@ -1342,6 +1362,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>SetOpenState()
 : <a class="el" href="classRE_1_1BGSOpenCloseForm.html#ac2a67556f122021cf11d735441a3212d">RE::BGSOpenCloseForm</a>
 </li>
+<li>SetOutputModel()
+: <a class="el" href="classRE_1_1BSGameSound.html#a8323df6542e174e8ca319cf472a14cc6">RE::BSGameSound</a>
+</li>
 <li>SetOverlayAlpha()
 : <a class="el" href="classvr_1_1IVROverlay.html#ac8e6e01876f65c832d96b597029f0a6b">vr::IVROverlay</a>
 </li>
@@ -1540,7 +1563,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 , <a class="el" href="structRE_1_1BSScript_1_1ILoader.html#abf76b0b3780c7cb14d91d132cb61c14f">RE::BSScript::ILoader</a>
 </li>
 <li>SetSelectedRef()
-: <a class="el" href="classRE_1_1Console.html#ae6e51fe8ccb18fe8e520379f5bff9349">RE::Console</a>
+: <a class="el" href="classRE_1_1Console.html#a88f517e3abfba0c7b871e506516caf46">RE::Console</a>
 </li>
 <li>SetSelectedRef_Impl()
 : <a class="el" href="classRE_1_1Console.html#a23325877a424bd3dce57fc2e5a60f797">RE::Console</a>
@@ -1569,6 +1592,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>SetSlotMask()
 : <a class="el" href="classRE_1_1BGSBipedObjectForm.html#a80ba0ef9f3d9d3cd18c4999fdf7cc3d5">RE::BGSBipedObjectForm</a>
+</li>
+<li>SetSoundFinished()
+: <a class="el" href="classRE_1_1BSGameSound.html#a5ed052bf49d283ee62dea7cf079606aa">RE::BSGameSound</a>
 </li>
 <li>SetSpeakingDone()
 : <a class="el" href="classRE_1_1Actor.html#a6526de266e15a931f1ff4c58324cd69f">RE::Actor</a>
@@ -1757,6 +1783,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 , <a class="el" href="classRE_1_1GFxMovieRoot.html#aeaa20a2b88a4b0b38500379de9588a76">RE::GFxMovieRoot</a>
 , <a class="el" href="classRE_1_1GFxValue_1_1DisplayInfo.html#a768718c116f87c9d2f516cea9752cc52">RE::GFxValue::DisplayInfo</a>
 , <a class="el" href="classRE_1_1MapMarkerData.html#a77eb0a53831b0e2a624dffb09977b6f6">RE::MapMarkerData</a>
+</li>
+<li>SetVolume()
+: <a class="el" href="classRE_1_1BSGameSound.html#a039a79e0d1fa93aea736a1769ccf77fa">RE::BSGameSound</a>
 </li>
 <li>SetVolumeImpl()
 : <a class="el" href="classRE_1_1BSGameSound.html#a2724530c577dc60caca1106fc47d8ae5">RE::BSGameSound</a>
@@ -2131,6 +2160,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 , <a class="el" href="classRE_1_1BSTScatterTable.html#a54dafe203d161249af15b2889693d91f">RE::BSTScatterTable&lt; Hash, KeyEqual, Traits, Allocator &gt;</a>
 , <a class="el" href="classRE_1_1BSTSmallSharedArray.html#a389bb6ca701c17058f4c0a6e62f2ddbb">RE::BSTSmallSharedArray&lt; T &gt;</a>
 , <a class="el" href="structRE_1_1BSVolumetricLightingRenderData_1_1Density.html#a21b3b33c381a430e4e548efb66017987">RE::BSVolumetricLightingRenderData::Density</a>
+, <a class="el" href="structRE_1_1BSXAudio2DataSrc_1_1StreamPacket.html#a1ab2ea309451b4af7bf2964b2b237a66">RE::BSXAudio2DataSrc::StreamPacket</a>
 </li>
 <li>Size()
 : <a class="el" href="classRE_1_1CompactingStore_1_1Store.html#af4ab4462746e7e7597c155da9192e8b7">RE::CompactingStore::Store</a>
@@ -2315,11 +2345,11 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>skinToBone
 : <a class="el" href="classRE_1_1NiSkinData_1_1BoneData.html#abd9f5a5c5167ed309246be930eaaf2d3">RE::NiSkinData::BoneData</a>
 </li>
-<li>skinTone
-: <a class="el" href="structRE_1_1TESRace_1_1FaceRelatedData_1_1TintAsset_1_1TintLayer.html#ae4e07fc22497475134cb0e9d82f7500d">RE::TESRace::FaceRelatedData::TintAsset::TintLayer</a>
-</li>
 <li>SkinTone
 : <a class="el" href="structRE_1_1TESRace_1_1FaceRelatedData_1_1TintAsset_1_1TintLayer.html#a324bb2eaaa4cddf711739dc2e820e108">RE::TESRace::FaceRelatedData::TintAsset::TintLayer</a>
+</li>
+<li>skinTone
+: <a class="el" href="structRE_1_1TESRace_1_1FaceRelatedData_1_1TintAsset_1_1TintLayer.html#ae4e07fc22497475134cb0e9d82f7500d">RE::TESRace::FaceRelatedData::TintAsset::TintLayer</a>
 </li>
 <li>skinToWorldWorldToSkinMatrix
 : <a class="el" href="classRE_1_1NiSkinInstance.html#ac5e37309b85447ab390b46235861e2bf">RE::NiSkinInstance</a>
@@ -2410,12 +2440,10 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>slot
 : <a class="el" href="structRE_1_1BSDismemberSkinInstance_1_1Data.html#a24c9864f76892e73f2f5fb1befe5c299">RE::BSDismemberSkinInstance::Data</a>
+, <a class="el" href="structSKSE_1_1ActionEvent.html#a8066801066bc78f8c5850c168919801d">SKSE::ActionEvent</a>
 </li>
 <li>Slot
 : <a class="el" href="structSKSE_1_1ActionEvent.html#af006593f59023c1273a62b87d921b02c">SKSE::ActionEvent</a>
-</li>
-<li>slot
-: <a class="el" href="structSKSE_1_1ActionEvent.html#a8066801066bc78f8c5850c168919801d">SKSE::ActionEvent</a>
 </li>
 <li>slowObjectVelocityMultiplier
 : <a class="el" href="structRE_1_1hkpSolverInfo_1_1DeactivationInfo.html#af3615d8f4a10fb5745b88bfeb1bc5832">RE::hkpSolverInfo::DeactivationInfo</a>
@@ -2606,8 +2634,12 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 , <a class="el" href="classRE_1_1TESRegionDataSound.html#a85c2be5b84c786bc37e5bd138330c6fe">RE::TESRegionDataSound</a>
 , <a class="el" href="classRE_1_1TESWeather.html#a7b8aa9e89ae1a2fc982f34f1236991ed">RE::TESWeather</a>
 </li>
+<li>soundType
+: <a class="el" href="classRE_1_1BSGameSound.html#a5e0a14cb5bd015564611b5c9e4af298d">RE::BSGameSound</a>
+</li>
 <li>SoundType
-: <a class="el" href="classRE_1_1TESWeather.html#a8dc76ff3818ef0ebd557385d034873d4">RE::TESWeather</a>
+: <a class="el" href="classRE_1_1BSGameSound.html#aeb75679cc2bf5f614917f75df8750db5">RE::BSGameSound</a>
+, <a class="el" href="classRE_1_1TESWeather.html#a8dc76ff3818ef0ebd557385d034873d4">RE::TESWeather</a>
 </li>
 <li>source
 : <a class="el" href="classRE_1_1ActiveEffect.html#af751662db17f6d1cd284ae4c6c8eda3e">RE::ActiveEffect</a>
@@ -2619,8 +2651,8 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>sourceAmmo
 : <a class="el" href="classRE_1_1Projectile_1_1LaunchData.html#a3b979a1ea25ef7895141c401145ac2c1">RE::Projectile::LaunchData</a>
 </li>
-<li>sourceChannels
-: <a class="el" href="classRE_1_1BSXAudio2GameSound.html#a0689d09b673f2db1ccb8683c4bd04f81">RE::BSXAudio2GameSound</a>
+<li>sourceBytes
+: <a class="el" href="classRE_1_1BSXAudio2DataSrc.html#a52649429a0a4523bd0c2b00132681b2a">RE::BSXAudio2DataSrc</a>
 </li>
 <li>sourceFileName
 : <a class="el" href="classRE_1_1BSScript_1_1Internal_1_1ScriptFunction.html#a4314e0cf2476bfb207518b574860451d">RE::BSScript::Internal::ScriptFunction</a>
@@ -2642,6 +2674,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>SourceType
 : <a class="el" href="structRE_1_1GFxResourceSource.html#a055b8a72c86977823a209b7c272e0395">RE::GFxResourceSource</a>
+</li>
+<li>sourceVoice
+: <a class="el" href="classRE_1_1BSXAudio2GameSound.html#a68f40a926ed6bcaf3c670c9c6b712bf2">RE::BSXAudio2GameSound</a>
 </li>
 <li>sourceWeapon
 : <a class="el" href="classRE_1_1Projectile_1_1LaunchData.html#a16c215f67126aa1f4e39730229fac096">RE::Projectile::LaunchData</a>
@@ -2817,7 +2852,8 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 : <a class="el" href="classRE_1_1NiPoint3.html#aff9cb72c36686fcabdf55c287b2c195f">RE::NiPoint3</a>
 </li>
 <li>src
-: <a class="el" href="structRE_1_1GTexture_1_1UpdateRect.html#abb58719a990808b9a102b71cc486b98a">RE::GTexture::UpdateRect</a>
+: <a class="el" href="classRE_1_1BSXAudio2GameSound.html#ab27bc6af51ecc5e00fc7425e70087cfd">RE::BSXAudio2GameSound</a>
+, <a class="el" href="structRE_1_1GTexture_1_1UpdateRect.html#abb58719a990808b9a102b71cc486b98a">RE::GTexture::UpdateRect</a>
 </li>
 <li>srcBlend
 : <a class="el" href="classRE_1_1BSEffectShaderData.html#ad3b86cdc605d09db13768cf227b8488b">RE::BSEffectShaderData</a>
@@ -2935,11 +2971,11 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>stackTraceId
 : <a class="el" href="classRE_1_1hkMultiThreadCheck.html#abdee4ae9ff0c3d0e781430b4644a6d20">RE::hkMultiThreadCheck</a>
 </li>
-<li>StackType
-: <a class="el" href="classRE_1_1BSScript_1_1Stack.html#a55b434c251f9a77ac9e19f0a1a1e7f84">RE::BSScript::Stack</a>
-</li>
 <li>stackType
 : <a class="el" href="classRE_1_1BSScript_1_1Stack.html#afef20feda21acdecd36e8bc9f04d2465">RE::BSScript::Stack</a>
+</li>
+<li>StackType
+: <a class="el" href="classRE_1_1BSScript_1_1Stack.html#a55b434c251f9a77ac9e19f0a1a1e7f84">RE::BSScript::Stack</a>
 </li>
 <li>staffScoreMult
 : <a class="el" href="structRE_1_1CombatStyleGeneralData.html#a9122153e51fa04a13b0f88155bcb0dda">RE::CombatStyleGeneralData</a>
@@ -3014,6 +3050,10 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>Start()
 : <a class="el" href="classRE_1_1TESQuest.html#aed1b5a6b470aad796d22f976ed0e5b34">RE::TESQuest</a>
 </li>
+<li>StartAsyncOpen()
+: <a class="el" href="classRE_1_1BSGameSound.html#a4657f41bef833c4c4c86b55035d4c1ba">RE::BSGameSound</a>
+, <a class="el" href="classRE_1_1BSXAudio2GameSound.html#a9f69c02b2d5ea44b502b22d53b6d6f83">RE::BSXAudio2GameSound</a>
+</li>
 <li>startConditions
 : <a class="el" href="classRE_1_1BGSScenePhase.html#a790edc751f6261f43d1d8f6eb4695eb4">RE::BGSScenePhase</a>
 </li>
@@ -3086,11 +3126,11 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>startStateID
 : <a class="el" href="classRE_1_1hkbStateMachine.html#a4dc2ca9a88ae3604cc3021fdc373e2e9">RE::hkbStateMachine</a>
 </li>
-<li>startStateMode
-: <a class="el" href="classRE_1_1hkbStateMachine.html#a544767d16aa83d312e5df7561e321547">RE::hkbStateMachine</a>
-</li>
 <li>StartStateMode
 : <a class="el" href="classRE_1_1hkbStateMachine.html#ab96abb27672403c624eb8fbb48282ff8">RE::hkbStateMachine</a>
+</li>
+<li>startStateMode
+: <a class="el" href="classRE_1_1hkbStateMachine.html#a544767d16aa83d312e5df7561e321547">RE::hkbStateMachine</a>
 </li>
 <li>startTangent
 : <a class="el" href="classRE_1_1ExtraRefrPath.html#a42765afe96805b032e4037f43918c675">RE::ExtraRefrPath</a>
@@ -3122,19 +3162,17 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 , <a class="el" href="classRE_1_1GEvent.html#a13ce81fa8e09e2f5c5d7aff7bd883a66">RE::GEvent</a>
 , <a class="el" href="classRE_1_1GFxResourceLib_1_1ResourceSlot.html#a16d2d6ecdd8e12b6cd8aefe9285f6d09">RE::GFxResourceLib::ResourceSlot</a>
 , <a class="el" href="classRE_1_1Inventory3DManager.html#acec309ea10828d8d72a9546f0be7d0ff">RE::Inventory3DManager</a>
-, <a class="el" href="classRE_1_1MagicCaster.html#ac5ed0563a80ea1b3363b7e586d08812f">RE::MagicCaster</a>
 </li>
 <li>State
 : <a class="el" href="classRE_1_1MagicCaster.html#ad1fc5886d1d341228a14caac182fa6ea">RE::MagicCaster</a>
 </li>
 <li>state
-: <a class="el" href="classRE_1_1NiControllerSequence.html#a3905f614b6a7a32c160b95247ba9b333">RE::NiControllerSequence</a>
+: <a class="el" href="classRE_1_1MagicCaster.html#ac5ed0563a80ea1b3363b7e586d08812f">RE::MagicCaster</a>
+, <a class="el" href="classRE_1_1NiControllerSequence.html#a3905f614b6a7a32c160b95247ba9b333">RE::NiControllerSequence</a>
+, <a class="el" href="structRE_1_1StatsMenu_1_1UnkData.html#a742f76b2458941862a0018d8721a98ed">RE::StatsMenu::UnkData</a>
 </li>
 <li>State
 : <a class="el" href="structRE_1_1StatsMenu_1_1UnkData.html#a0d849c64b11c5999a28eea0488d20f40">RE::StatsMenu::UnkData</a>
-</li>
-<li>state
-: <a class="el" href="structRE_1_1StatsMenu_1_1UnkData.html#a742f76b2458941862a0018d8721a98ed">RE::StatsMenu::UnkData</a>
 </li>
 <li>stateBagImpl
 : <a class="el" href="classRE_1_1GFxLoaderImpl.html#a192e7762878dda344d56c6910e16a4d5">RE::GFxLoaderImpl</a>
@@ -3175,11 +3213,11 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>stateTextures
 : <a class="el" href="classRE_1_1Moon.html#a04a18543675e4be28d1ecf50d6f478e7">RE::Moon</a>
 </li>
-<li>StateType
-: <a class="el" href="classRE_1_1GFxState.html#ad16b7ef3516a02b21c1eb480199ec95c">RE::GFxState</a>
-</li>
 <li>stateType
 : <a class="el" href="classRE_1_1GFxState.html#a1ba844a49ae3583576ef3b8f5eb0145c">RE::GFxState</a>
+</li>
+<li>StateType
+: <a class="el" href="classRE_1_1GFxState.html#ad16b7ef3516a02b21c1eb480199ec95c">RE::GFxState</a>
 </li>
 <li>stateWaitCondition
 : <a class="el" href="classRE_1_1GEvent.html#af3db5dd45de210af9c613cb18f4ac0d7">RE::GEvent</a>
@@ -3300,6 +3338,10 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>StopCombatAndAlarmOnActor()
 : <a class="el" href="classRE_1_1ProcessLists.html#ae839f38c3a22ca0802468482cb585252">RE::ProcessLists</a>
 </li>
+<li>StopImpl()
+: <a class="el" href="classRE_1_1BSGameSound.html#ab6973856852133da8f3af445484d8a8f">RE::BSGameSound</a>
+, <a class="el" href="classRE_1_1BSXAudio2GameSound.html#a0ab9bed1ffd3f1b188d0f3df951c2127">RE::BSXAudio2GameSound</a>
+</li>
 <li>StopMouseRotation()
 : <a class="el" href="classRE_1_1Inventory3DManager.html#a4f01d9837153e984b15b4fae98a5e114">RE::Inventory3DManager</a>
 </li>
@@ -3350,8 +3392,11 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>strArg
 : <a class="el" href="structSKSE_1_1ModCallbackEvent.html#ac86df4dac517b07dc3f34bc27e092e5b">SKSE::ModCallbackEvent</a>
 </li>
+<li>stream
+: <a class="el" href="classRE_1_1BSAudioDataSrc.html#a8ceffbcea551874b62f10cd849e8e41f">RE::BSAudioDataSrc&lt; T &gt;</a>
+</li>
 <li>Stream()
-: <a class="el" href="classRE_1_1BSResource_1_1Stream.html#a18c3c0b0582a1e89125be79b31ae5070">RE::BSResource::Stream</a>
+: <a class="el" href="classRE_1_1BSResource_1_1Stream.html#a3a9af1d0f2bdf6941c51d398c421d3f1">RE::BSResource::Stream</a>
 </li>
 <li>stream
 : <a class="el" href="classRE_1_1BSResourceNiBinaryStream.html#a608bad0dc43b2d0f70d31f8c2f35a82b">RE::BSResourceNiBinaryStream</a>
@@ -3359,7 +3404,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 , <a class="el" href="classRE_1_1SkyrimScript_1_1Store.html#af3e5e5761f8e7c9244bec589f2939ebf">RE::SkyrimScript::Store</a>
 </li>
 <li>StreamBase()
-: <a class="el" href="classRE_1_1BSResource_1_1StreamBase.html#aa1b86a93d67a23cd49b5888a502cf05d">RE::BSResource::StreamBase</a>
+: <a class="el" href="classRE_1_1BSResource_1_1StreamBase.html#a559d15e9cc580f4d339ee8fa84b9392d">RE::BSResource::StreamBase</a>
 </li>
 <li>StreamCanSkip()
 : <a class="el" href="classRE_1_1NiObject.html#a80be1fa6b7cebcf73e2b915ff38060a9">RE::NiObject</a>
@@ -3372,6 +3417,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 </li>
 <li>streamingThreshold
 : <a class="el" href="structRE_1_1BSAudioInit.html#a0098ffa6adf83b2a3c760734fa3b0ddc">RE::BSAudioInit</a>
+</li>
+<li>streamPackets
+: <a class="el" href="classRE_1_1BSXAudio2GameSound.html#a6666b726c1ca1bba6cb65463a689b5a6">RE::BSXAudio2GameSound</a>
 </li>
 <li>streamPos
 : <a class="el" href="classRE_1_1BSResourceNiBinaryStream.html#a17418fa04f4e9186019e135a64a7aba9">RE::BSResourceNiBinaryStream</a>
@@ -3538,11 +3586,11 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>supportBody
 : <a class="el" href="classRE_1_1bhkCharacterController.html#a175104a571edb76c223d09af185ccc44">RE::bhkCharacterController</a>
 </li>
-<li>supportedState
-: <a class="el" href="structRE_1_1hkpSurfaceInfo.html#aa7adc826f03279ab720df01eb4cb185f">RE::hkpSurfaceInfo</a>
-</li>
 <li>SupportedState
 : <a class="el" href="structRE_1_1hkpSurfaceInfo.html#a104130d5a260f882734c67cc6db7e887">RE::hkpSurfaceInfo</a>
+</li>
+<li>supportedState
+: <a class="el" href="structRE_1_1hkpSurfaceInfo.html#aa7adc826f03279ab720df01eb4cb185f">RE::hkpSurfaceInfo</a>
 </li>
 <li>supportEmail
 : <a class="el" href="structSKSE_1_1PluginVersionData.html#ae1bfd6b6ed4a259a04a1c34f65596509">SKSE::PluginVersionData</a>
@@ -3613,6 +3661,10 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>SynchronizePoseInterpolator()
 : <a class="el" href="classRE_1_1NiInterpController.html#a9a503fcb2e12f7735c0c19c11cf089f6">RE::NiInterpController</a>
 , <a class="el" href="classRE_1_1NiMultiTargetTransformController.html#a919245744fe5d92c2d96b8646fe7cb6f">RE::NiMultiTargetTransformController</a>
+</li>
+<li>SyncOpen()
+: <a class="el" href="classRE_1_1BSGameSound.html#afec64f8be0e0a00173a6dd99163b4e89">RE::BSGameSound</a>
+, <a class="el" href="classRE_1_1BSXAudio2GameSound.html#a479ee9b35e80c9cff59fa6e6921babf4">RE::BSXAudio2GameSound</a>
 </li>
 <li>syncPositionQueue
 : <a class="el" href="classRE_1_1ProcessLists.html#a7911f01a769cff1197a03017f676339e">RE::ProcessLists</a>

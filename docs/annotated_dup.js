@@ -767,6 +767,8 @@ var annotated_dup =
       [ "MonitorAPO", "classRE_1_1MonitorAPO.html", "classRE_1_1MonitorAPO" ],
       [ "XAudio2Monitor", "structRE_1_1XAudio2Monitor.html", "structRE_1_1XAudio2Monitor" ],
       [ "BSXAudio2AudioListener", "classRE_1_1BSXAudio2AudioListener.html", "classRE_1_1BSXAudio2AudioListener" ],
+      [ "BSAudioDataSrc", "classRE_1_1BSAudioDataSrc.html", "classRE_1_1BSAudioDataSrc" ],
+      [ "BSXAudio2DataSrc", "classRE_1_1BSXAudio2DataSrc.html", "classRE_1_1BSXAudio2DataSrc" ],
       [ "BSXAudio2GameSound", "classRE_1_1BSXAudio2GameSound.html", "classRE_1_1BSXAudio2GameSound" ],
       [ "BSXFlags", "classRE_1_1BSXFlags.html", "classRE_1_1BSXFlags" ],
       [ "ButtonEvent", "classRE_1_1ButtonEvent.html", "classRE_1_1ButtonEvent" ],

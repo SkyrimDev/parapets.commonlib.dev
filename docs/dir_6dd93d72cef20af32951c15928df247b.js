@@ -1147,6 +1147,11 @@ var dir_6dd93d72cef20af32951c15928df247b =
     [ "BSXAudio2AudioListener.h", "BSXAudio2AudioListener_8h.html", [
       [ "BSXAudio2AudioListener", "classRE_1_1BSXAudio2AudioListener.html", "classRE_1_1BSXAudio2AudioListener" ]
     ] ],
+    [ "BSXAudio2DataSrc.h", "BSXAudio2DataSrc_8h.html", [
+      [ "BSAudioDataSrc", "classRE_1_1BSAudioDataSrc.html", "classRE_1_1BSAudioDataSrc" ],
+      [ "BSXAudio2DataSrc", "classRE_1_1BSXAudio2DataSrc.html", "classRE_1_1BSXAudio2DataSrc" ],
+      [ "StreamPacket", "structRE_1_1BSXAudio2DataSrc_1_1StreamPacket.html", "structRE_1_1BSXAudio2DataSrc_1_1StreamPacket" ]
+    ] ],
     [ "BSXAudio2GameSound.h", "BSXAudio2GameSound_8h.html", [
       [ "BSXAudio2GameSound", "classRE_1_1BSXAudio2GameSound.html", "classRE_1_1BSXAudio2GameSound" ]
     ] ],

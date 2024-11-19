@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"CollisionLayers_8h.html#abe208acf7e9ccb4fe54807f3b5519f16ad0e76de7cd2c967f7dd2450d099d7769":[3,0,0,0,0,2,8,0,41],
+"CollisionLayers_8h.html#abe208acf7e9ccb4fe54807f3b5519f16ad262a2fdfc417b230d00b14d4f6ccc7f":[3,0,0,0,0,2,8,0,23],
 "CollisionLayers_8h.html#abe208acf7e9ccb4fe54807f3b5519f16ad346638879fc02d63fa4ebc1c4850e0b":[3,0,0,0,0,2,8,0,20],
 "CollisionLayers_8h.html#abe208acf7e9ccb4fe54807f3b5519f16ad5d5d68417815ad43a46f41f0c726bef":[3,0,0,0,0,2,8,0,7],
 "CollisionLayers_8h.html#abe208acf7e9ccb4fe54807f3b5519f16ad614a98b9c3929c9d88f00532e881aff":[3,0,0,0,0,2,8,0,33],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "EnchantConstructMenu_8h.html":[3,0,0,0,0,4,3],
 "EnchantConstructMenu_8h_source.html":[3,0,0,0,0,4,3],
 "EnchantmentItem_8h.html":[3,0,0,0,0,4,4],
-"EnchantmentItem_8h_source.html":[3,0,0,0,0,4,4],
-"ErrorCodes_8h.html":[3,0,0,0,0,4,5],
-"ErrorCodes_8h.html#ac5488a3c3b5b8819ac5c724ab8943aea":[3,0,0,0,0,4,5,0]
+"EnchantmentItem_8h_source.html":[3,0,0,0,0,4,4]
 };
